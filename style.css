@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --green:green;
+}
+
+/* Landing page section */
+.landing-page{
+    background:  url('/images/shelf1.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%; 
+
+}
+
+.newest-arrival{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.newest-arrival h1{
+    padding-top:2em;
+}
+
+.best-sellers{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20em;
+    background: var(--green);
+    margin-top: 3em;
+}
+
+.quote img{
+   position: relative;
+   left: 9.45em;
+   width: 40%;
+    
+}
+
+.quote p{
+   position: relative;
+   top: 6.5em; 
+   left: 4em;
+   text-align: justify;
+   width: 50%;
+   font-size: 1.2em;
+   color: white;
+}
+
+/* Fiction Section */
+
+.fiction{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+/* BUSINESS SECTION */
+
+.business{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+/* GENERAL SECTION */
+
+.general{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4em;
+
+}
+
+/* ELS SAMPLE IN LANDING PAGE */
+.ELS-first-page{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4em;
+}
+
+/* Computer section with the row and available styling for each page, most page styling are tied to the CSS style below */
+.computer-science{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.available-books p, h3{
+ text-align: left;
+}
+
+.available-books p{
+    color:var(--green);
+    font-weight: bolder;
+}
+.available-books h3{
+ margin-top: 2em;
+}
+
+.available-books button{
+    margin: 0.5em 8em 0 0;
+    outline: none;
+    border: none;
+    padding: 0.5em 1em;
+    background: var(--green);
+    color: white;
+    transition: 300ms ease-in-out;
+
+}
+
+.available-books button:hover{
+    transform: scale(0.95);
+}
+
+/* Agric Section */
+.agric-science{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ELECTRIC SECTION */
+.electrical-engine{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ECONOMICS SECTION */
+.economics{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ELS SECTION */
+.els{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    .available-books button{
+        white-space: nowrap;
+    }
+}
+
+/* REQUEST FOR A BOOK SECTION */
+
+
+.book-request form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1em;
+    margin: 7em 0 0 12em;
+}
+
+form input{
+    height: 2.5em;
+}
+
+.book-request button{
+    position: relative;
+    top: 2em;
+    left: 14em;
+    border: none;
+    padding: 1em 2em;
+    background: var(--green);
+    color: white;
+    font-weight: bold;
+    transition: 300ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(0.95);
+}
+
+/* CART PAGE SECTION */
+
+.cart-page{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 5em 14em;
+}
+
+.cart-page table{
+    &:first-child{
+        width: 50%;
+        text-align: justify;  
+    }
+
+    &:last-child{
+        width: 30%;
+        text-align: justify;
+
+        td{
+            &:last-child{
+                text-align: right;  
+            }
+        }
+
+        tr.row4 td, th{
+         border-bottom: 1px solid rgba(128, 128, 128, 0.372);
+         padding-bottom: 1em;
+             
+        }
+
+    }
+
+    
+}
+
+.cart-page, table, th, td{
+    padding: 0.5em 0;
+}
+
+.payment-method{
+   display: flex;
+   flex-direction: column;
+   max-width: 20%;
+   position: relative;
+   left: 51em;
+   top: -2em;
+}
+
