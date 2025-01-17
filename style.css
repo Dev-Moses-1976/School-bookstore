@@ -6,18 +6,54 @@
 }
 
 :root{
-    --green:green;
+    --green: green;
+    --gray: rgba(64, 64, 64, 1);
 }
 
 /* Landing page section */
 .landing-page{
-    background:  url('/images/shelf1.jpg.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255,255,255,0.8), rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url('/images/shelf1.jpg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
     width: 100%; 
 
+    h1{
+        position: relative;
+        top: 1em;
+        left: 1em;
+        font-size: 5em;
+        max-width: 50%;
+        font-size: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: RGB(58, 58, 60);
+    }
+
+    span{
+        color: RGB(0, 52, 0);
+    }
+
+    button{
+        outline: none;
+        border: none;
+        padding: 3em 14em;
+        background: var(--green);
+        max-width: 50%;
+        position: relative;
+        top: 13em;
+        right: 2em;
+        border-radius: 1.6em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        white-space: nowrap;
+    }
+    
+    button p{
+        font-size: 5em;
+    }
 }
+
+
 
 .newest-arrival{
     width: 100%;
@@ -63,7 +99,18 @@
    color: white;
 }
 
-/* Fiction Section */
+/* ROW FOR EACH OF THE SECTIONS IN THE MAIN PAGE */
+
+.main-row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+/* Fiction Section in the main page */
 
 .fiction{
     width: 100%;
@@ -73,7 +120,7 @@
 
 }
 
-/* BUSINESS SECTION */
+/* BUSINESS SECTION IN THE MAIN PAGE */
 
 .business{
     width: 100%;
@@ -83,7 +130,7 @@
 
 }
 
-/* GENERAL SECTION */
+/* GENERAL SECTION IN THE MAIN PAGE*/
 
 .general{
     width: 100%;
@@ -93,7 +140,7 @@
 
 }
 
-/* ELS SAMPLE IN LANDING PAGE */
+/* ELS SAMPLE IN MAIN PAGE */
 .ELS-first-page{
     width: 100%;
     margin: auto;
@@ -111,12 +158,13 @@
 
 .row{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     align-items: center;
     justify-content: center;
     gap: 1em;
     margin-top: 2em;
 }
+
 
 .available-books p, h3{
  text-align: left;
@@ -145,41 +193,64 @@
     transform: scale(0.95);
 }
 
-/* Agric Section */
+/* AGRIC DEPARTMENT STYLING */
 .agric-science{
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-/* ELECTRIC SECTION */
+/* ELECTRIC DEPARTMENT STYLING */
 .electrical-engine{
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-/* ECONOMICS SECTION */
+/* ECONOMICS DEPARTMENT STYLING */
 .economics{
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-/* ELS SECTION */
+/* ELS DEPARTMENT PAGE STYLING */
 .els{
     width: 80%;
     margin: auto;
     text-align: center;
+}
 
-    .available-books button{
-        white-space: nowrap;
-    }
+/* FICTION CATEGORY PAGE STYLING */
+.fiction-cat{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* NON-FICTION CATEGORY PAGE STYLING */
+.non-fiction-cat{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* BUSINESS PAGE STYLING */
+.business-page{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.general-courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
 }
 
 /* REQUEST FOR A BOOK SECTION */
-
-
 .book-request form {
     display: flex;
     flex-direction: column;
@@ -257,3 +328,66 @@ button:hover{
    top: -2em;
 }
 
+/* sidebar styling */
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--green);
+    color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 2;
+}
+
+.open-btn {
+    position: relative;
+    left: 10em;
+    top: -1em;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: black;
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);   
+}
+
+/* Category and home in each of the different departmental pages styling */
+.category{
+    margin-left: 9em;
+    display: flex;
+    gap: 42em;
+    padding:3em;
+}
+
+.category a{
+    text-decoration: none;
+    color:var(--gray);
+    font-size: larger;
+}
+
+.category a:hover{
+    text-decoration: underline;
+}
+
+.category p{
+    font-size: 1em;
+    font-weight: bolder;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.category #sort-by{
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    padding: 0.5em 1.5em;
+    
+}
+
+#sort-by:focus{
+    outline: none;
+}
