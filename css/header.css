@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family:  sans-serif;
+}
+
+
+:root{
+    --green:  rgba(3, 65, 0, 0.957);
+    --gray: rgba(64, 64, 64, 1);
+    
+}
+
+html,body{
+    width: 100%;
+    max-width: 120em;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+
+/* Header styling */
+.first-content{
+    background:var(--green) ;
+    display: flex;
+    gap: 25em;
+    margin-top: 0.5em;
+    color: white;
+    padding: 0.8em 0 0.8em 8em;
+  
+}
+
+.first-content p{
+    position: relative;
+    top: 0.6em;
+}
+
+/* FOR THE SECOND PART WHERE WE HAVE OUR LOGO */
+
+.second-content{
+    display: flex;
+    gap: 20em;
+    margin-left: 8em;
+    
+}
+
+.second-content input{
+    position: relative;
+    top: -8em;
+    left: 2em;
+    height: 2em;
+    width: 22em;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+.second-content .part2{
+    display: flex;
+    position: relative;
+    top: 2em;
+    color: gray;
+    gap: 0.5em;
+    
+}
+
+.second-content img{
+    width: 12em;
+    height: 12em;
+}
+
+
+.part2 button{
+    border: 1px solid var(--gray);
+    height: 2.5em;
+    padding: 0.5em 1em;
+    outline: none;
+    border-radius: 1.6em;
+    transition: 300ms ease-in-out;
+    color: var(--gray);
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.part2 button:hover{
+    transform: scale(1.1);
+}
+
+header nav{
+    display: flex;
+    margin-left:20.1em;
+    margin-top:-5em ;
+   
+}
+
+nav a{
+    padding-left: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    z-index: 1; 
+    margin-left: 0.5em;
+}
+
+.dropdown-content a{
+  /* float: none; */
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

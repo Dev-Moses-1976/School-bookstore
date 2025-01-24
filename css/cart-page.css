@@ -1,0 +1,46 @@
+.cart-page{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 5em 14em;
+}
+
+.cart-page table{
+    &:first-child{
+        width: 50%;
+        text-align: justify;  
+    }
+
+    &:last-child{
+        width: 30%;
+        text-align: justify;
+
+        td{
+            &:last-child{
+                text-align: right;  
+            }
+        }
+
+        tr.row4 td, th{
+         border-bottom: 1px solid rgba(128, 128, 128, 0.372);
+         padding-bottom: 1em;
+             
+        }
+
+    }
+
+    
+}
+
+.cart-page, table, th, td{
+    padding: 0.5em 0;
+}
+
+.payment-method{
+   display: flex;
+   flex-direction: column;
+   max-width: 20%;
+   position: relative;
+   left: 51em;
+   top: -2em;
+}

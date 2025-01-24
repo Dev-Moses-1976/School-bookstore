@@ -1,0 +1,76 @@
+.book-request form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1em;
+    margin: 7em 0 0 12em;
+}
+
+form input{
+    height: 2.5em;
+}
+
+.book-request button{
+    position: relative;
+    top: 2em;
+    left: 14em;
+    border: none;
+    padding: 1em 2em;
+    background: var(--green);
+    color: white;
+    font-weight: bold;
+    transition: 300ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(0.95);
+}
+
+/* CART PAGE SECTION */
+
+.cart-page{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 5em 14em;
+}
+
+.cart-page table{
+    &:first-child{
+        width: 50%;
+        text-align: justify;  
+    }
+
+    &:last-child{
+        width: 30%;
+        text-align: justify;
+
+        td{
+            &:last-child{
+                text-align: right;  
+            }
+        }
+
+        tr.row4 td, th{
+         border-bottom: 1px solid rgba(128, 128, 128, 0.372);
+         padding-bottom: 1em;
+             
+        }
+
+    }
+
+    
+}
+
+.cart-page, table, th, td{
+    padding: 0.5em 0;
+}
+
+.payment-method{
+   display: flex;
+   flex-direction: column;
+   max-width: 20%;
+   position: relative;
+   left: 51em;
+   top: -2em;
+}
