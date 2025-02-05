@@ -1,0 +1,134 @@
+[ {
+    "id": 1,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Enchanted Forest",
+    "price": 3500,
+    "button": "ADD TO CART",
+    "author": "Lena Evergreen",
+    "cover-type": "Hardcover",
+    "pages": 320,
+    "description": "A magical tale about a young girl who stumbles upon an enchanted forest filled with talking animals and hidden mysteries. As she embarks on a journey to uncover the forest's secrets, she discovers her true strength and destiny."
+  },
+
+ {
+    "id": 2,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Echoes of Time",
+    "price": 4200,
+    "button": "ADD TO CART",
+    "author": "Nathan Blake",
+    "cover-type": "Paperback",
+    "pages": 280,
+    "description": "A gripping sci-fi novel about a scientist who accidentally discovers a way to communicate with his past self. As he manipulates time to fix mistakes, he realizes that every change has unexpected consequences."
+  },
+
+
+ {
+    "id": 3,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Hidden Kingdom",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "Sophia Miller",
+    "cover-type": "Hardcover",
+    "pages": 350,
+    "description": "A thrilling adventure story about a young prince who must reclaim his stolen throne and discover the ancient secrets of his kingdom before it's too late."
+  },
+
+
+  {
+    "id": 4,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Lost in the Stars",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "Daniel Rhodes",
+    "cover-type": "Paperback",
+    "pages": 310,
+    "description": "A mesmerizing science-fiction story of a stranded astronaut who must navigate an unknown galaxy to find a way back home."
+  },
+
+
+
+  {
+    "id": 5,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Whispers of the Wind",
+    "price": 3200,
+    "button": "ADD TO CART",
+    "author": "Lillian Carter",
+    "cover-type": "Paperback",
+    "pages": 340,
+    "description": "A young woman embarks on an unexpected adventure after discovering a mysterious letter hidden in her grandmother's attic. With secrets unfolding, she must choose between her past and an uncertain future."
+  },
+  
+  {
+    "id": 6,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Beneath the Crimson Moon",
+    "price": 4000,
+    "button": "ADD TO CART",
+    "author": "Nathaniel Harper",
+    "cover-type": "Hardcover",
+    "pages": 380,
+    "description": "A historical drama set in the 19th century, following two lovers separated by war and fate. Against all odds, they struggle to reunite in a world filled with betrayal and hope."
+  },
+  
+  {
+    "id": 7,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Glass Castle",
+    "price": 3500,
+    "button": "ADD TO CART",
+    "author": "Sophia Bennett",
+    "cover-type": "Paperback",
+    "pages": 320,
+    "description": "An artist discovers a hidden realm where time and reality are illusions. She must decipher the secrets of the glass castle before it vanishes forever, along with everyone she loves."
+  },
+  
+  {
+    "id": 8,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Shattered Illusions",
+    "price": 3700,
+    "button": "ADD TO CART",
+    "author": "Daniel Reed",
+    "cover-type": "Hardcover",
+    "pages": 360,
+    "description": "A psychological thriller that takes readers into the mind of a detective unraveling the truth behind a series of mysterious disappearances in a seemingly peaceful town."
+  },
+  
+  {
+    "id": 9,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Silent Echo",
+    "price": 3100,
+    "button": "ADD TO CART",
+    "author": "Rebecca Stone",
+    "cover-type": "Paperback",
+    "pages": 280,
+    "description": "A girl discovers an old music box that unlocks memories of a life she never lived. As reality blurs, she must find the connection between past and present before time runs out."
+  },
+  
+  {
+    "id": 10,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Moonlit Shadows",
+    "price": 3600,
+    "button": "ADD TO CART",
+    "author": "Ethan Parker",
+    "cover-type": "Hardcover",
+    "pages": 390,
+    "description": "An eerie town where the shadows whisper secrets and the moonlight reveals hidden truths. One detective must uncover the mystery before the town's darkness consumes him."
+  }
+]

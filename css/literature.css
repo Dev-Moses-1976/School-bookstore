@@ -10,7 +10,7 @@
     --gray: rgba(64, 64, 64, 1);
   }
   
-  .non-fiction-cat{
+  .literature {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -111,7 +111,7 @@
     overflow: hidden;
   }
   
-  
+ 
   
   @media (max-width: 600px) {
     .category {
@@ -126,7 +126,7 @@
       right: 5em;
     }
   
-    .non-fiction-cat {
+    .literature {
       position: relative;
       left: 2em;
     }
@@ -166,7 +166,7 @@
   
   @media (min-width: 600px) and (max-width: 1024px) {
   
-      .non-fiction-cat{
+      .literature{
           align-items: center;
           justify-content: center;
           margin-left: 8em;

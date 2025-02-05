@@ -1,0 +1,132 @@
+[ {
+    "id": 1,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Entrepreneur’s Handbook",
+    "price": 6000,
+    "button": "ADD TO CART",
+    "author": "Linda Carter",
+    "cover-type": "Hardcover",
+    "pages": 400,
+    "description": "A step-by-step guide for aspiring entrepreneurs, covering everything from idea generation to scaling a successful business. Filled with case studies and actionable strategies, this book is a must-have for business-minded individuals."
+  },
+
+   {
+    "id": 2,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Mastering Negotiation",
+    "price": 5200,
+    "button": "ADD TO CART",
+    "author": "David Spencer",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "This book provides insights into the art of negotiation, teaching readers how to confidently close deals, handle conflicts, and build strong professional relationships."
+  },
+
+   {
+    "id": 3,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Art of Leadership",
+    "price": 5600,
+    "button": "ADD TO CART",
+    "author": "John Maxwell",
+    "cover-type": "Hardcover",
+    "pages": 380,
+    "description": "An essential guide on effective leadership strategies, including communication, vision setting, and inspiring teams to achieve their highest potential."
+  },
+
+
+  {
+    "id": 4,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Lean Startup",
+    "price": 6000,
+    "button": "ADD TO CART",
+    "author": "Eric Ries",
+    "cover-type": "Hardcover",
+    "pages": 336,
+    "description": "The Lean Startup presents a systematic, scientific approach for startups to test ideas, iterate quickly, and create successful businesses without wasting time and resources."
+  },
+ 
+  {
+    "id": 5,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Good to Great",
+    "price": 5500,
+    "button": "ADD TO CART",
+    "author": "Jim Collins",
+    "cover-type": "Paperback",
+    "pages": 320,
+    "description": "A deep dive into why some companies become great while others fail, backed by years of research and case studies from industry leaders."
+  },
+ 
+  {
+    "id": 6,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Zero to One",
+    "price": 5000,
+    "button": "ADD TO CART",
+    "author": "Peter Thiel",
+    "cover-type": "Hardcover",
+    "pages": 224,
+    "description": "A unique perspective on how to create groundbreaking startups and innovate in ways that truly push industries forward, written by PayPal’s co-founder."
+  },
+ 
+  {
+    "id": 7,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The 4-Hour Workweek",
+    "price": 5200,
+    "button": "ADD TO CART",
+    "author": "Timothy Ferriss",
+    "cover-type": "Paperback",
+    "pages": 308,
+    "description": "Tim Ferriss challenges traditional work-life balance with methods to work less, automate income, and live a more fulfilling life through smart business strategies."
+  },
+ 
+  {
+    "id": 8,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Atomic Habits",
+    "price": 5300,
+    "button": "ADD TO CART",
+    "author": "James Clear",
+    "cover-type": "Hardcover",
+    "pages": 320,
+    "description": "A practical guide on how small habits can lead to massive personal and professional growth, backed by psychology and real-world examples."
+  },
+ 
+  {
+    "id": 9,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Blue Ocean Strategy",
+    "price": 5800,
+    "button": "ADD TO CART",
+    "author": "W. Chan Kim & Renée Mauborgne",
+    "cover-type": "Paperback",
+    "pages": 400,
+    "description": "A strategic framework to create uncontested market spaces and render competition irrelevant by offering unique value to customers."
+  },
+ 
+  {
+    "id": 10,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Psychology of Money",
+    "price": 4900,
+    "button": "ADD TO CART",
+    "author": "Morgan Housel",
+    "cover-type": "Hardcover",
+    "pages": 256,
+    "description": "Explores how personal behavior influences financial success, emphasizing that managing money is more about psychology than mathematics."
+  }
+ 
+]

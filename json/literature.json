@@ -1,0 +1,131 @@
+[
+    {
+    "id": 1,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Shadows and Light",
+    "price": 4500,
+    "button": "ADD TO CART",
+    "author": "Eleanor Whitmore",
+    "cover-type": "Hardcover",
+    "pages": 340,
+    "description": "A poetic and lyrical novel that explores the duality of human nature, love, and loss. The story unfolds through interconnected short stories and profound reflections."
+  },
+  
+  {
+    "id": 2,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Last Poet",
+    "price": 3700,
+    "button": "ADD TO CART",
+    "author": "Marcus Tillman",
+    "cover-type": "Paperback",
+    "pages": 270,
+    "description": "A powerful collection of prose and poetry that captures the essence of time, emotions, and the struggle of an artist trying to find his voice in a chaotic world."
+  },
+ 
+    {
+    "id": 3,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Echoes of the Past",
+    "price": 4100,
+    "button": "ADD TO CART",
+    "author": "Henry Lawson",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "A deeply emotional novel that weaves historical events with personal struggles, love, and redemption."
+  },
+
+
+  
+
+ {
+    "id": 4,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Silent Echo",
+    "price": 4500,
+    "button": "ADD TO CART",
+    "author": "Isabella Thornton",
+    "cover-type": "Hardcover",
+    "pages": 320,
+    "description": "A poignant novel that explores love, loss, and the lingering echoes of the past. This masterpiece tells the story of a woman uncovering letters from her ancestors, revealing long-hidden family secrets."
+  },
+  
+  {
+    "id": 5,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Winds of Change",
+    "price": 3800,
+    "button": "ADD TO CART",
+    "author": "Jonathan Hart",
+    "cover-type": "Paperback",
+    "pages": 280,
+    "description": "Set in the 19th century, this historical fiction follows a young journalist as he documents the social upheaval of his time, learning the price of truth and the cost of change."
+  },
+  {
+    "id": 6,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Beneath the Willow Tree",
+    "price": 4200,
+    "button": "ADD TO CART",
+    "author": "Margaret Rowe",
+    "cover-type": "Hardcover",
+    "pages": 350,
+    "description": "A heartfelt story about childhood friendship, nostalgia, and the passage of time. Two friends reunite after decades apart, only to find that memories don’t always align with reality."
+  },
+
+  {
+    "id": 7,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Forgotten Verses",
+    "price": 4000,
+    "button": "ADD TO CART",
+    "author": "Elijah Ford",
+    "cover-type": "Paperback",
+    "pages": 300,
+    "description": "A literary masterpiece that weaves poetry into prose, telling the story of a poet whose unpublished works resurface years after his mysterious disappearance."
+  },
+  
+  {
+    "id": 8,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Fading Footsteps",
+    "price": 4700,
+    "button": "ADD TO CART",
+    "author": "Caroline Everett",
+    "cover-type": "Hardcover",
+    "pages": 360,
+    "description": "A beautifully written tale about a woman retracing her grandfather’s steps through war-torn Europe, uncovering the sacrifices he made for love and country."
+  },
+  {
+    "id": 9,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Letters to the Unknown",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "Nicholas Bennett",
+    "cover-type": "Paperback",
+    "pages": 310,
+    "description": "This novel follows the journey of a writer who starts responding to letters left in an old mailbox, only to find himself deeply connected to a stranger’s untold story."
+  },
+  {
+    "id": 10,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Last Candle",
+    "price": 4100,
+    "button": "ADD TO CART",
+    "author": "Lucinda Morris",
+    "cover-type": "Hardcover",
+    "pages": 280,
+    "description": "An atmospheric novel set in a post-war town, exploring themes of hope, resilience, and the bonds of family that endure through time."
+  }
+]

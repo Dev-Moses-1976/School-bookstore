@@ -1,0 +1,132 @@
+[ {
+    "id": 1,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agric",
+    "title": "Sustainable Farming",
+    "price": 5400,
+    "button": "ADD TO CART",
+    "author": "Dr. Emily Carter",
+    "cover-type": "Hardcover",
+    "pages": 380,
+    "description": "A comprehensive guide to modern sustainable farming techniques, covering soil health, organic practices, and innovative agricultural solutions to increase yield while preserving the environment."
+  },
+  
+  {
+    "id": 2,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agric",
+    "title": "The Future of Agriculture",
+    "price": 4600,
+    "button": "ADD TO CART",
+    "author": "Michael Greenfield",
+    "cover-type": "Paperback",
+    "pages": 320,
+    "description": "This book delves into the advancements in agricultural technology, from precision farming to AI-driven solutions, and explores how farmers can adapt to new challenges in food production."
+  },
+   
+
+  {
+    "id": 3,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agric",
+    "title": "Organic Farming Essentials",
+    "price": 4300,
+    "button": "ADD TO CART",
+    "author": "Dr. Martha Blake",
+    "cover-type": "Hardcover",
+    "pages": 340,
+    "description": "This book teaches practical methods of organic farming, from composting techniques to crop rotation, for sustainable food production."
+  },
+
+
+  {
+    "id": 4,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Modern Crop Science",
+    "price": 5000,
+    "button": "ADD TO CART",
+    "author": "Dr. James Holland",
+    "cover-type": "Hardcover",
+    "pages": 350,
+    "description": "This book explores modern advancements in crop science, including hybrid seed technology, pest resistance, and sustainable farming techniques that enhance yield and productivity."
+  },
+  
+  {
+    "id": 5,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Soil Health and Fertility",
+    "price": 4200,
+    "button": "ADD TO CART",
+    "author": "Maria Peterson",
+    "cover-type": "Paperback",
+    "pages": 300,
+    "description": "A practical guide for farmers and agriculturists on maintaining soil fertility, improving nutrient balance, and ensuring long-term sustainability in farming."
+  },
+  
+  {
+    "id": 6,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Precision Agriculture: The Future of Farming",
+    "price": 4800,
+    "button": "ADD TO CART",
+    "author": "Daniel Carter",
+    "cover-type": "Hardcover",
+    "pages": 370,
+    "description": "An in-depth look at precision agriculture and how data-driven techniques such as GPS, AI, and sensors are revolutionizing farming practices."
+  },
+  
+  {
+    "id": 7,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "The Science of Plant Breeding",
+    "price": 4500,
+    "button": "ADD TO CART",
+    "author": "Elena Garcia",
+    "cover-type": "Paperback",
+    "pages": 320,
+    "description": "This book provides an overview of the science behind plant breeding, focusing on genetic modification, crossbreeding, and techniques used to develop resilient crops."
+  },
+  
+  {
+    "id": 8,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Dairy Farming for Beginners",
+    "price": 4000,
+    "button": "ADD TO CART",
+    "author": "Samuel White",
+    "cover-type": "Hardcover",
+    "pages": 290,
+    "description": "A beginner-friendly guide to dairy farming, covering topics such as cattle selection, milk production, disease control, and marketing dairy products."
+  },
+  
+  {
+    "id": 9,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Agroforestry: A Sustainable Approach",
+    "price": 4600,
+    "button": "ADD TO CART",
+    "author": "Nina Carter",
+    "cover-type": "Paperback",
+    "pages": 330,
+    "description": "This book explores the benefits of integrating trees and shrubs into traditional farming systems, promoting biodiversity, soil conservation, and economic sustainability."
+  },
+  
+  {
+    "id": 10,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Climate-Smart Agriculture",
+    "price": 5100,
+    "button": "ADD TO CART",
+    "author": "Dr. Alan Thompson",
+    "cover-type": "Hardcover",
+    "pages": 380,
+    "description": "A guide to adapting agricultural practices to climate change, with strategies for water conservation, soil resilience, and reducing carbon footprints in farming."
+  }
+]

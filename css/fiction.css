@@ -1,45 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-    font-family:  sans-serif;
-}
-
-:root{
-    --green:  rgba(3, 65, 0, 0.957);
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  :root {
+    --green: rgba(3, 65, 0, 0.957);
     --gray: rgba(64, 64, 64, 1);
-    
-}
-
-.fiction-cat{
+  }
+  
+  .fiction-cat{
     width: 80%;
     margin: auto;
     text-align: center;
-}
-
-.row{
+    padding-top: 2em;
+  }
+  
+  .row {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
     justify-content: center;
-    gap: 1em;
-    margin-top: 2em;
-}
-
-
-.available-books p, h3{
- text-align: left;
-}
-
-.available-books p{
-    color:var(--green);
+    margin-top: 1em;
+    padding-bottom: 9em;
+    padding-left: 3em;
+  }
+  
+  .available-books{
+    padding: 1em 1em 3em 0;
+  }
+  
+  .available-books p,
+  h3 {
+    text-align: left;
+  }
+  
+  .available-books p {
+    color: var(--green);
     font-weight: bolder;
-}
-.available-books h3{
- margin-top: 2em;
-}
-
-.available-books button{
+  }
+  
+  .available-books img {
+    position: relative;
+    right: 2em; 
+  }
+  
+  
+  .available-books button {
     margin: 0.5em 8em 0 0;
     outline: none;
     border: none;
@@ -47,14 +55,14 @@
     background: var(--green);
     color: white;
     transition: 300ms ease-in-out;
-
-}
-
-.available-books button:hover{
+    white-space: nowrap;
+  }
+  
+  .available-books button:hover {
     transform: scale(0.95);
-}
-
-.sidebar {
+  }
+  
+  .sidebar {
     height: 100%;
     width: 0;
     position: fixed;
@@ -66,52 +74,123 @@
     transition: 0.5s;
     padding-top: 60px;
     z-index: 2;
-}
-
-.open-btn {
+  }
+  
+  .open-btn {
     position: relative;
-    left: 10em;
+    left: 9.5em;
     top: -1em;
     font-size: 1.2em;
     cursor: pointer;
     color: black;
     padding: 0.5em 1em;
     border: 1px solid white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);   
-}
-
-/* Category name display and home link styling */
-.category{
-    margin-left: 9em;
-    display: flex;
-    gap: 42em;
-    padding:3em;
-}
-
-.category a{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Category name display and home link styling*/
+  .category {
+    margin-left: 8.5em;
+    padding: 3em;
+  }
+  
+  .category a {
     text-decoration: none;
-    color:var(--gray);
+    color: var(--gray);
     font-size: larger;
-}
-
-.category a:hover{
+  }
+  
+  .category a:hover {
     text-decoration: underline;
-}
-
-.category p{
+  }
+  
+  .category p {
     font-size: 1em;
     font-weight: bolder;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.category #sort-by{
-    border: 1px solid white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    padding: 0.5em 1.5em;
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    .category {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+      margin-left: 0.5em;
+    }
+  
+    button .open-btn {
+      position: relative;
+      right: 5em;
+    }
+  
+    .fiction-cat {
+      position: relative;
+      left: 2em;
+    }
+  
+    .row {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      justify-content: center;
+      gap: 0.1em;
+    }
+  
+    .available-books {
+      padding-bottom: 2em;
+    }
+  
+    .available-books img {
+      width: 80%;
+      position: relative;
+      right: 2.5em;
+    }
+  
+    .available-books p,h3{
+      font-size: 1em;
+      text-align: left;
+      position: relative;
+      left: 0.5;
+    }
+  
+    .available-books button{
+      font-size: 0.7em;
+      white-space: nowrap;
+      position: relative;
+      left: 0.1em;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 1024px) {
+  
+      .fiction-cat{
+          align-items: center;
+          justify-content: center;
+          margin-left: 8em;
+       }
     
-}
-
-#sort-by:focus{
-    outline: none;
-}
+      .row {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          align-items: center;
+          justify-content: center;
+          gap: 0.1em;
+       }
+  
+      .available-books {
+         padding-bottom: 2em;
+        
+      }
+  
+      .category{
+          gap: 11em;
+      }
+  
+      .available-books button{
+          white-space: nowrap;
+      }
+  }
+  

@@ -1,14 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --green:  rgba(3, 65, 0, 0.957);
+    --gray: rgba(64, 64, 64, 1);
+}
 .cart-page{
     display: flex;
     flex-direction: row;
     gap: 3em;
     margin: 5em 14em;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
 }
 
 .cart-page table{
     &:first-child{
         width: 50%;
         text-align: justify;  
+
+        
+        tr.row2 td{
+            &:nth-child(3){
+                display: flex;
+            }
+            
+            p{
+                border: 1px solid var(--green);
+                padding:0.2em 0.7em ;
+            }
+        }
+
+        tr.row2 td button{
+            
+            border:1px solid green;
+            padding: 0.2em 0.7em;
+            font-size: 1em;
+            transition: 300ms ease-in;
+            
+        }
+
+        tr.row2 td button:hover{
+            transform: scale(0.95);
+        }
+
+        tr.row3 td .btn-1{
+            border: 2px solid var(--green);
+            outline: none;
+            background: transparent;
+            color:var(--green);
+            padding: 0.6em 2em;
+            white-space: nowrap;
+            font-weight: bold;
+            transition: 300ms ease-in-out;
+        }
+
+        tr.row3 td .btn-2{
+            border: none;
+            outline: none;
+            background: var(--green);
+            color:white;
+            padding: 0.6em 2em;
+            white-space: nowrap;
+            font-weight: bold;
+            margin-left: 1em;
+            transition: 300ms ease-in-out;
+        }
+        
+        tr.row3 td .btn-3{
+            border: none;
+            outline: none;
+            background: var(--green);
+            color:white;
+            padding: 0.6em 1em;
+            white-space: nowrap;
+            font-weight: bold;
+            position: relative;
+            left: 5em;
+            transition: 300ms ease-in-out;
+        }
+        tr.row3 td button:hover{
+            transform: scale(0.95);
+        }
+        
     }
 
     &:last-child{
@@ -27,6 +105,17 @@
              
         }
 
+        tr.row4{
+        
+            &:nth-child(3){
+                td{
+                    &:nth-child(2){
+                        color: var(--green);
+                    }
+                }
+            }
+        }
+
     }
 
     
@@ -41,6 +130,42 @@
    flex-direction: column;
    max-width: 20%;
    position: relative;
-   left: 51em;
+   left: 53em;
    top: -2em;
+   gap: 1em;
+}
+
+.payment-method label{
+    color: var(--green);
+}
+
+
+
+@media (max-width:200px) {
+
+    .cart-page{
+        display: block;
+    }
+    table{
+       display: block;
+       width: 2em;
+        
+    }
+
+    tr{
+        display: flex;
+        flex-direction: column;
+    }
+
+    td{
+        display: flex;
+    }
+    
+
+    /* .cart-page table{
+        
+        display: flex;
+        flex-direction: column;
+        
+    } */
 }
