@@ -66,6 +66,7 @@
     "pages": 280,
     "description": "Set in the 19th century, this historical fiction follows a young journalist as he documents the social upheaval of his time, learning the price of truth and the cost of change."
   },
+  
   {
     "id": 6,
     "image": "/images/gulliver.jpg.jpg",
@@ -104,6 +105,8 @@
     "pages": 360,
     "description": "A beautifully written tale about a woman retracing her grandfather’s steps through war-torn Europe, uncovering the sacrifices he made for love and country."
   },
+  
+  
   {
     "id": 9,
     "image": "/images/gulliver.jpg.jpg",
@@ -116,6 +119,8 @@
     "pages": 310,
     "description": "This novel follows the journey of a writer who starts responding to letters left in an old mailbox, only to find himself deeply connected to a stranger’s untold story."
   },
+  
+  
   {
     "id": 10,
     "image": "/images/gulliver.jpg.jpg",
@@ -127,5 +132,86 @@
     "cover-type": "Hardcover",
     "pages": 280,
     "description": "An atmospheric novel set in a post-war town, exploring themes of hope, resilience, and the bonds of family that endure through time."
+  },
+
+  {
+    "id": 11,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Silent Whispers",
+    "price": 4300,
+    "button": "ADD TO CART",
+    "author": "Michael Hayes",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "A suspenseful tale about a librarian who finds a series of anonymous notes hidden within the pages of classic books, leading to a thrilling literary treasure hunt."
+  },
+  
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The House of Secrets",
+    "price": 4600,
+    "button": "ADD TO CART",
+    "author": "Abigail Foster",
+    "cover-type": "Hardcover",
+    "pages": 340,
+    "description": "A gothic novel about a woman who inherits a centuries-old house with hidden chambers, uncovering a tragic love story buried in its walls."
+  },
+  
+  {
+    "id": 13,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Eternal Autumn",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "Daniel Monroe",
+    "cover-type": "Paperback",
+    "pages": 270,
+    "description": "A novel that paints a vivid portrait of a small town through the eyes of a wandering poet, capturing fleeting moments of beauty and sorrow."
+  },
+  
+  {
+    "id": 14,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Art of Remembering",
+    "price": 3700,
+    "button": "ADD TO CART",
+    "author": "Sophia Caldwell",
+    "cover-type": "Hardcover",
+    "pages": 320,
+    "description": "A reflection on memory, love, and the fragments of the past that shape our present, told through interconnected stories of people searching for lost moments."
+  },
+  
+  
+  {
+    "id": 15,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Falling Leaves",
+    "price": 3800,
+    "button": "ADD TO CART",
+    "author": "Henry Langley",
+    "cover-type": "Paperback",
+    "pages": 280,
+    "description": "A melancholic yet hopeful novel about a man returning to his childhood home after decades, unraveling truths about his family and his own identity."
+  },
+  
+  {
+    "id": 16,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Moonlit Reflections",
+    "price": 4400,
+    "button": "ADD TO CART",
+    "author": "Emily Harrison",
+    "cover-type": "Hardcover",
+    "pages": 350,
+    "description": "A hauntingly beautiful novel about love and longing, set in a coastal town where a painter captures the memories of lost souls through her art."
   }
+
+
 ]

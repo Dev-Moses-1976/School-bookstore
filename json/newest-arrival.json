@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agric",
+    "title": "Sustainable Farming",
+    "price": 5400,
+    "button": "ADD TO CART",
+    "author": "Dr. Emily Carter",
+    "cover-type": "Hardcover",
+    "pages": 380,
+    "description": "A comprehensive guide to modern sustainable farming techniques, covering soil health, organic practices, and innovative agricultural solutions to increase yield while preserving the environment."
+  },
+
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "A Tale of Two Lives",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "James Holloway",
+    "cover-type": "Hardcover",
+    "pages": 400,
+    "description": "A man wakes up one day to find himself living two separate lives in parallel realities. Torn between the two, he must make an impossible choice."
+  },
+
+  {
+    "id": 14,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Principles: Life and Work",
+    "price": "5900",
+    "button": "ADD TO CART",
+    "author": "Ray Dalio",
+    "cover-type": "Hardcover",
+    "pages": 592,
+    "description": "A personal and professional guide from billionaire investor Ray Dalio, sharing the principles that shaped his success in finance and leadership."
+  },
+
+  {
+    "id": 7,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science.",
+    "title": "Code Complete.",
+    "price": 6000,
+    "button": "ADD TO CART",
+    "author": "Steve McConnell",
+    "cover_type": "Hardcover",
+    "pages": 960,
+    "description": "Code Complete is a highly regarded book on software development and best practices. It covers everything from writing clean, maintainable code to debugging and testing techniques. It’s an essential resource for both beginners and experienced developers looking to improve their coding skills."
+  },
+
+  {
+    "id": 2,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agric",
+    "title": "The Future of Agriculture",
+    "price": 4600,
+    "button": "ADD TO CART",
+    "author": "Michael Greenfield",
+    "cover-type": "Paperback",
+    "pages": 320,
+    "description": "This book delves into the advancements in agricultural technology, from precision farming to AI-driven solutions, and explores how farmers can adapt to new challenges in food production."
+  },
+
+  {
+    "id": 15,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Hard Thing About Hard Things",
+    "price": "6000",
+    "button": "ADD TO CART",
+    "author": "Ben Horowitz",
+    "cover-type": "Paperback",
+    "pages": 304,
+    "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
+  },
+
+  {
+    "id": 6,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science.",
+    "title": "Structure and Interpretation of Computer Programs.",
+    "price": 5500,
+    "button": "ADD TO CART",
+    "author": "Harold Abelson, Gerald Jay Sussman",
+    "cover_type": "Paperback",
+    "pages": 657,
+    "description": "This book, also known as SICP, is a classic in computer science education. It provides a deep understanding of fundamental programming concepts using the Scheme language. It emphasizes abstraction, modularity, and metalinguistic analysis, making it a must-read for anyone serious about programming."
+  },
+
+  {
+    "id": 13,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Midnight Letter",
+    "price": 3400,
+    "button": "ADD TO CART",
+    "author": "Victoria Lane",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "A mysterious letter arrives at midnight every year on the same day. Its cryptic message leads a young woman on a journey through time and fate."
+  },
+
+  {
+    "id": 10,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Last Candle",
+    "price": 4100,
+    "button": "ADD TO CART",
+    "author": "Lucinda Morris",
+    "cover-type": "Hardcover",
+    "pages": 280,
+    "description": "An atmospheric novel set in a post-war town, exploring themes of hope, resilience, and the bonds of family that endure through time."
+  },
+
+  {
+    "id": 8,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Non-fiction",
+    "title": "Unlocking Your Potential",
+    "price": 3700,
+    "button": "ADD TO CART",
+    "author": "Emily Thompson",
+    "cover-type": "Paperback",
+    "pages": 310,
+    "description": "This book provides step-by-step guidance on personal growth, self-improvement, and achieving one's dreams. With practical exercises and real-life examples, it helps readers discover and harness their full potential."
+  },
+
+  {
+    "id": 11,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "Silent Whispers",
+    "price": 4300,
+    "button": "ADD TO CART",
+    "author": "Michael Hayes",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "A suspenseful tale about a librarian who finds a series of anonymous notes hidden within the pages of classic books, leading to a thrilling literary treasure hunt."
+  },
+
+  {
+    "id": 9,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Non-fiction",
+    "title": "The Psychology of Success",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "David Clark",
+    "cover-type": "Hardcover",
+    "pages": 290,
+    "description": "A deep dive into the psychological principles behind success. It explores the habits, thought patterns, and behaviors that distinguish high achievers from the rest."
+  }
+]
