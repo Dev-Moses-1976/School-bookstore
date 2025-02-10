@@ -1,10 +1,11 @@
 [
   {
     "id": 1,
-    "image": "https://example.com/images/compilers-principles.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Compilers: Principles, Techniques, and Tools",
-    "price": "6200",
+    "price": 6200,
+    "button": "ADD TO CART",
     "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
     "cover_type": "Hardcover",
     "pages": 1000,
@@ -13,10 +14,11 @@
 
   {
     "id": 2,
-    "image": "https://example.com/images/the-art-of-computer-programming.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "The Art of Computer Programming",
-    "price": "7500",
+    "price": 7500,
+    "button": "ADD TO CART",
     "author": "Donald Knuth",
     "cover_type": "Hardcover",
     "pages": 3168,
@@ -25,7 +27,7 @@
 
   {
     "id": 3,
-    "image": "https://example.com/images/computer-networking.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Networking: A Top-Down Approach",
     "price": 5000,
@@ -38,10 +40,11 @@
 
   {
     "id": 4,
-    "image": "https://example.com/images/refactoring.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Refactoring: Improving the Design of Existing Code",
-    "price": "5300",
+    "price": 5300,
+    "button": "ADD TO CART",
     "author": "Martin Fowler",
     "cover_type": "Hardcover",
     "pages": 448,
@@ -51,10 +54,11 @@
 
   {
     "id": 5,
-    "image": "https://example.com/images/computer-organization.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Organization and Design",
-    "price": "5800",
+    "price": 5800,
+    "button": "ADD TO CART",
     "author": "David A. Patterson, John L. Hennessy",
     "cover_type": "Paperback",
     "pages": 760,
@@ -91,10 +95,11 @@
 
   {
     "id": 8,
-    "image": "https://example.com/images/soft-eng-practitioners.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Software Engineering: A Practitioner's Approach",
-    "price": "5900",
+    "price": 5900,
+    "button": "ADD TO CART",
     "author": "Roger S. Pressman",
     "cover_type": "Paperback",
     "pages": 944,
@@ -103,10 +108,11 @@
 
   {
     "id": 9,
-    "image": "https://example.com/images/soft-eng-practitioners.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Software Engineering: A Practitioner's Approach",
-    "price": "5900",
+    "price": 5900,
+    "button": "ADD TO CART",
     "author": "Roger S. Pressman",
     "cover_type": "Paperback",
     "pages": 944,
@@ -115,14 +121,94 @@
 
   {
     "id": 10,
-    "image": "https://example.com/images/soft-eng-practitioners.jpg",
+    "image": "/images/gulliver.jpg.jpg",
     "category": "Computer Science",
     "title": "Software Engineering: A Practitioner's Approach",
-    "price": "5900",
+    "price": 5900,
+    "button": "ADD TO CART",
     "author": "Roger S. Pressman",
     "cover_type": "Paperback",
     "pages": 944,
     "description": "A comprehensive introduction to software engineering, this book provides practical insights into software design, development, testing, and maintenance. It covers methodologies like Agile and traditional approaches, making it an essential read for both students and professionals in the software development field."
+  },
+
+  {
+    "id": 11,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "Introduction to Algorithms",
+    "price": 6800,
+    "button": "ADD TO CART",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "cover_type": "Hardcover",
+    "pages": 1312,
+    "description": "This book provides a deep dive into algorithms and their applications. It covers a broad range of topics, including sorting, searching, graph algorithms, and computational complexity, making it an essential resource for computer science students."
+  },
+  
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "The Mythical Man-Month: Essays on Software Engineering",
+    "price": 3800,
+    "button": "ADD TO CART",
+    "author": "Frederick P. Brooks Jr.",
+    "cover_type": "Paperback",
+    "pages": 322,
+    "description": "A timeless collection of essays on software project management, the book explores why software projects often run over budget and time. It introduces the concept of the 'mythical man-month' and highlights common software development pitfalls."
+  },
+  
+  {
+    "id": 13,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "You Don't Know JS (book series)",
+    "price": 3200,
+    "button": "ADD TO CART",
+    "author": "Kyle Simpson",
+    "cover_type": "Paperback",
+    "pages": 278,
+    "description": "This book series dives deep into JavaScript, explaining its quirks, hidden features, and best practices. It is perfect for developers who want to truly master JavaScript beyond the basics."
+  },
+  
+  {
+    "id": 14,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "Computer Science Illuminated",
+    "price": 5000,
+    "button": "ADD TO CART",
+    "author": "Nell Dale, John Lewis",
+    "cover_type": "Hardcover",
+    "pages": 700,
+    "description": "This book introduces foundational computer science concepts, including hardware, software, networking, data representation, and programming. It is an excellent resource for beginners exploring the field of computing."
+  },
+  
+  {
+    "id": 15,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "price": 7200,
+    "button": "ADD TO CART",
+    "author": "Stuart Russell, Peter Norvig",
+    "cover_type": "Hardcover",
+    "pages": 1152,
+    "description": "A comprehensive guide to artificial intelligence, covering topics like search algorithms, neural networks, reinforcement learning, and ethical considerations. It is widely used as a university textbook on AI."
+  },
+ 
+  {
+    "id": 16,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+    "price": 6300,
+    "button": "ADD TO CART",
+    "author": "Aurélien Géron",
+    "cover_type": "Paperback",
+    "pages": 856,
+    "description": "This practical guide to machine learning covers key concepts and tools using Python libraries like Scikit-Learn, Keras, and TensorFlow. It provides hands-on exercises to help readers build real-world AI models."
   }
+
 
 ]

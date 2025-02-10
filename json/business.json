@@ -127,6 +127,86 @@
     "cover-type": "Hardcover",
     "pages": 256,
     "description": "Explores how personal behavior influences financial success, emphasizing that managing money is more about psychology than mathematics."
+  },
+
+  {
+    "id": 11,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Start with Why",
+    "price": "5100",
+    "button": "ADD TO CART",
+    "author": "Simon Sinek",
+    "cover-type": "Hardcover",
+    "pages": 256,
+    "description": "A book that emphasizes the importance of defining a strong 'why' in business and leadership to inspire teams and customers alike."
+  },
+  
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The $100 Startup",
+    "price": "4800",
+    "button": "ADD TO CART",
+    "author": "Chris Guillebeau",
+    "cover-type": "Paperback",
+    "pages": 304,
+    "description": "A guide on how to start a profitable business with minimal investment, featuring case studies of entrepreneurs who built successful startups with small budgets."
+  },
+  
+  {
+    "id": 13,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Rework",
+    "price": "4700",
+    "button": "ADD TO CART",
+    "author": "Jason Fried & David Heinemeier Hansson",
+    "cover-type": "Hardcover",
+    "pages": 288,
+    "description": "A fresh take on business that encourages a simple, practical approach to success, challenging traditional corporate structures."
+  },
+  
+  
+  {
+    "id": 14,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "Principles: Life and Work",
+    "price": "5900",
+    "button": "ADD TO CART",
+    "author": "Ray Dalio",
+    "cover-type": "Hardcover",
+    "pages": 592,
+    "description": "A personal and professional guide from billionaire investor Ray Dalio, sharing the principles that shaped his success in finance and leadership."
+  },
+  
+  {
+    "id": 15,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Hard Thing About Hard Things",
+    "price": "6000",
+    "button": "ADD TO CART",
+    "author": "Ben Horowitz",
+    "cover-type": "Paperback",
+    "pages": 304,
+    "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
+  },
+
+  {
+    "id": 16,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The Hard Thing About Hard Things",
+    "price": "6000",
+    "button": "ADD TO CART",
+    "author": "Ben Horowitz",
+    "cover-type": "Paperback",
+    "pages": 304,
+    "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
   }
+
  
 ]

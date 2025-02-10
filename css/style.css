@@ -163,7 +163,7 @@ nav a{
 
 
 .newest-arrival{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
@@ -173,7 +173,7 @@ nav a{
 }
 
 .best-sellers{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 4em;
@@ -220,7 +220,7 @@ nav a{
 /* Fiction Section in the main page */
 
 .fiction{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 4em;
@@ -229,7 +229,7 @@ nav a{
 
 /* COMPUTER SCINCE SECTION IN THE MAIN PAGE */
 .computer-science{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 4em;
@@ -239,17 +239,17 @@ nav a{
 /* BUSINESS SECTION IN THE MAIN PAGE */
 
 .business{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 4em;
 
 }
 
-/* GENERAL SECTION IN THE MAIN PAGE*/
+/* AGRIC SECTION IN THE MAIN PAGE*/
 
-.general{
-    width: 100%;
+.agric-science{
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 4em;
@@ -258,7 +258,7 @@ nav a{
 
 /* ELS SAMPLE IN MAIN PAGE */
 .ELS-first-page{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 4em;
@@ -273,9 +273,12 @@ nav a{
     color:var(--green);
     font-weight: bolder;
 }
-.available-books h3{
- margin-top: 2em;
+
+.available-books img{
+    position: relative;
+    right: 2.2em;
 }
+
 
 .available-books button{
     margin: 0.5em 8em 0 0;
@@ -285,6 +288,7 @@ nav a{
     background: var(--green);
     color: white;
     transition: 300ms ease-in-out;
+    white-space: nowrap;
 
 }
 

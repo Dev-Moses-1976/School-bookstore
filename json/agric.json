@@ -128,5 +128,85 @@
     "cover-type": "Hardcover",
     "pages": 380,
     "description": "A guide to adapting agricultural practices to climate change, with strategies for water conservation, soil resilience, and reducing carbon footprints in farming."
+  },
+
+  {
+    "id": 11,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Hydroponic Farming: Growing Without Soil",
+    "price": 4300,
+    "button": "ADD TO CART",
+    "author": "Lisa Montoya",
+    "cover-type": "Paperback",
+    "pages": 310,
+    "description": "A practical book on hydroponic farming techniques, covering nutrient solutions, lighting requirements, and high-yield crop production methods."
+  },
+  
+  
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Regenerative Agriculture",
+    "price": 4700,
+    "button": "ADD TO CART",
+    "author": "Michael Reed",
+    "cover-type": "Hardcover",
+    "pages": 360,
+    "description": "A book focused on soil regeneration techniques, cover cropping, and no-till farming to improve soil health and restore ecosystems."
+  },
+  
+  {
+    "id": 13,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Organic Poultry Farming",
+    "price": 4100,
+    "button": "ADD TO CART",
+    "author": "Samantha Green",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "A comprehensive guide on raising poultry organically, with insights into nutrition, disease control, and ethical farming practices."
+  },
+  
+  {
+    "id": 14,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "The Business of Farming",
+    "price": 5300,
+    "button": "ADD TO CART",
+    "author": "Richard Collins",
+    "cover-type": "Hardcover",
+    "pages": 400,
+    "description": "An essential book for farmers and agribusiness entrepreneurs covering financial planning, farm management, and marketing strategies."
+  },
+  
+  {
+    "id": 15,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Beekeeping for Profit",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "Andrew Bennett",
+    "cover-type": "Paperback",
+    "pages": 280,
+    "description": "A guide to beekeeping, explaining hive management, honey production, and pollination techniques for sustainable bee farming."
+  },
+  
+  {
+    "id": 16,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Smart Farming with IoT",
+    "price": 5500,
+    "button": "ADD TO CART",
+    "author": "Dr. Olivia Smith",
+    "cover-type": "Hardcover",
+    "pages": 410,
+    "description": "A cutting-edge book on how the Internet of Things (IoT) is transforming agriculture, including smart irrigation, automated machinery, and data-driven decision-making."
   }
+
 ]

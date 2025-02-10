@@ -130,5 +130,85 @@
     "cover-type": "Hardcover",
     "pages": 390,
     "description": "An eerie town where the shadows whisper secrets and the moonlight reveals hidden truths. One detective must uncover the mystery before the town's darkness consumes him."
+  },
+  
+  {
+    "id": 11,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Forgotten Valley",
+    "price": 3300,
+    "button": "ADD TO CART",
+    "author": "Olivia Green",
+    "cover-type": "Paperback",
+    "pages": 310,
+    "description": "A group of explorers stumble upon a hidden valley untouched by time. As they uncover its secrets, they realize some mysteries are better left unsolved."
+  },
+  
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "A Tale of Two Lives",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "James Holloway",
+    "cover-type": "Hardcover",
+    "pages": 400,
+    "description": "A man wakes up one day to find himself living two separate lives in parallel realities. Torn between the two, he must make an impossible choice."
+  },
+  
+  {
+    "id": 13,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Midnight Letter",
+    "price": 3400,
+    "button": "ADD TO CART",
+    "author": "Victoria Lane",
+    "cover-type": "Paperback",
+    "pages": 290,
+    "description": "A mysterious letter arrives at midnight every year on the same day. Its cryptic message leads a young woman on a journey through time and fate."
+  },
+  
+  {
+    "id": 14,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "Beyond the Horizon",
+    "price": 3700,
+    "button": "ADD TO CART",
+    "author": "William Turner",
+    "cover-type": "Hardcover",
+    "pages": 370,
+    "description": "A sailor lost at sea finds himself in a world where the laws of physics do not apply. He must navigate the unknown to return home before he loses himself forever."
+  },
+  
+  {
+    "id": 15,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Crimson Key",
+    "price": 3500,
+    "button": "ADD TO CART",
+    "author": "Elena Foster",
+    "cover-type": "Paperback",
+    "pages": 330,
+    "description": "An ancient key unlocks doors to parallel worlds. A young scholar must choose wisely or risk being trapped in a dimension that does not belong to her."
+  },
+  
+  {
+    "id": 16,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "The Clockmaker's Secret",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "Jonathan Miles",
+    "cover-type": "Hardcover",
+    "pages": 410,
+    "description": "A town where time has stopped, and only one clockmaker knows why. When a curious journalist arrives, she unravels a truth that shakes the fabric of reality."
   }
+
+
 ]

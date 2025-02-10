@@ -1,0 +1,80 @@
+[
+  {
+    "id": 4,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Agriculture",
+    "title": "Modern Crop Science",
+    "price": 5000,
+    "button": "ADD TO CART",
+    "author": "Dr. James Holland",
+    "cover-type": "Hardcover",
+    "pages": 350,
+    "description": "This book explores modern advancements in crop science, including hybrid seed technology, pest resistance, and sustainable farming techniques that enhance yield and productivity."
+  },
+
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Business",
+    "title": "The $100 Startup",
+    "price": "4800",
+    "button": "ADD TO CART",
+    "author": "Chris Guillebeau",
+    "cover-type": "Paperback",
+    "pages": 304,
+    "description": "A guide on how to start a profitable business with minimal investment, featuring case studies of entrepreneurs who built successful startups with small budgets."
+  },
+
+  {
+    "id": 2,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Computer Science",
+    "title": "The Art of Computer Programming",
+    "price": 7500,
+    "button": "ADD TO CART",
+    "author": "Donald Knuth",
+    "cover_type": "Hardcover",
+    "pages": 3168,
+    "description": "This legendary multi-volume work by Donald Knuth is a foundational text in algorithms and computer science. Covering a wide range of topics including combinatorial algorithms, sorting, searching, and mathematical techniques, it remains one of the most comprehensive resources for understanding algorithmic theory and design."
+  },
+
+  {
+    "id": 12,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Fiction",
+    "title": "A Tale of Two Lives",
+    "price": 3900,
+    "button": "ADD TO CART",
+    "author": "James Holloway",
+    "cover-type": "Hardcover",
+    "pages": 400,
+    "description": "A man wakes up one day to find himself living two separate lives in parallel realities. Torn between the two, he must make an impossible choice."
+  },
+
+  {
+    "id": 4,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Literature",
+    "title": "The Silent Echo",
+    "price": 4500,
+    "button": "ADD TO CART",
+    "author": "Isabella Thornton",
+    "cover-type": "Hardcover",
+    "pages": 320,
+    "description": "A poignant novel that explores love, loss, and the lingering echoes of the past. This masterpiece tells the story of a woman uncovering letters from her ancestors, revealing long-hidden family secrets."
+  },
+
+  {
+    "id": 6,
+    "image": "/images/gulliver.jpg.jpg",
+    "category": "Non-fiction",
+    "title": "The Art of Focus",
+    "price": 3800,
+    "button": "ADD TO CART",
+    "author": "Daniel Howard",
+    "cover-type": "Paperback",
+    "pages": 260,
+    "description": "The Art of Focus helps readers eliminate distractions, improve concentration, and maximize productivity. Through engaging stories and practical techniques, it offers insights into achieving deep focus in a noisy world."
+  }
+  
+]
