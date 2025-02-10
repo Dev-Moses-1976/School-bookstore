@@ -277,6 +277,8 @@ nav a{
 .available-books img{
     position: relative;
     right: 2.2em;
+    height: 12em;
+    width:72%;
 }
 
 

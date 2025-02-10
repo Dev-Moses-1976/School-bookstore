@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img2.jpg.jpg",
     "category": "Computer Science",
     "title": "Compilers: Principles, Techniques, and Tools",
     "price": 6200,
@@ -14,7 +14,7 @@
 
   {
     "id": 2,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img1.jpg.jpg",
     "category": "Computer Science",
     "title": "The Art of Computer Programming",
     "price": 7500,
@@ -27,10 +27,11 @@
 
   {
     "id": 3,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img5.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Networking: A Top-Down Approach",
     "price": 5000,
+    "button": "ADD TO CART",
     "author": "James F. Kurose, Keith W. Ross",
     "cover_type": "Paperback",
     "pages": 880,
@@ -40,7 +41,7 @@
 
   {
     "id": 4,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img4.jpg.jpg",
     "category": "Computer Science",
     "title": "Refactoring: Improving the Design of Existing Code",
     "price": 5300,
@@ -54,7 +55,7 @@
 
   {
     "id": 5,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img3.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Organization and Design",
     "price": 5800,
@@ -68,7 +69,7 @@
 
   {
     "id": 6,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img7.jpg.jpg",
     "category": "Computer Science.",
     "title": "Structure and Interpretation of Computer Programs.",
     "price": 5500,
@@ -82,7 +83,7 @@
 
   {
     "id": 7,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img6.jpg.jpg",
     "category": "Computer Science.",
     "title": "Code Complete.",
     "price": 6000,
@@ -95,7 +96,7 @@
 
   {
     "id": 8,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img8.jpg.jpg",
     "category": "Computer Science",
     "title": "Software Engineering: A Practitioner's Approach",
     "price": 5900,
@@ -107,34 +108,36 @@
   },
 
   {
-    "id": 9,
-    "image": "/images/gulliver.jpg.jpg",
+    "id": 2,
+    "image": "/images/computer-books/img9.jpg.jpg",
     "category": "Computer Science",
-    "title": "Software Engineering: A Practitioner's Approach",
-    "price": 5900,
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "price": 5200,
     "button": "ADD TO CART",
-    "author": "Roger S. Pressman",
-    "cover_type": "Paperback",
-    "pages": 944,
-    "description": "A comprehensive introduction to software engineering, this book provides practical insights into software design, development, testing, and maintenance. It covers methodologies like Agile and traditional approaches, making it an essential read for both students and professionals in the software development field."
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "cover_type": "Hardcover",
+    "pages": 395,
+    "description": "This classic book introduces fundamental design patterns that help in structuring object-oriented applications. It provides proven solutions to common software design problems, making it a must-read for developers."
   },
 
+
   {
-    "id": 10,
-    "image": "/images/gulliver.jpg.jpg",
+    "id": 1,
+    "image": "/images/computer-books/img16.jpg.jpg",
     "category": "Computer Science",
-    "title": "Software Engineering: A Practitioner's Approach",
-    "price": 5900,
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "price": 4500,
     "button": "ADD TO CART",
-    "author": "Roger S. Pressman",
+    "author": "Robert C. Martin",
     "cover_type": "Paperback",
-    "pages": 944,
-    "description": "A comprehensive introduction to software engineering, this book provides practical insights into software design, development, testing, and maintenance. It covers methodologies like Agile and traditional approaches, making it an essential read for both students and professionals in the software development field."
+    "pages": 464,
+    "description": "Clean Code offers practical advice on writing readable, maintainable, and efficient code. It explores coding principles, best practices, and real-world examples to help developers improve software quality and collaboration."
   },
+
 
   {
     "id": 11,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img10.jpg.jpg",
     "category": "Computer Science",
     "title": "Introduction to Algorithms",
     "price": 6800,
@@ -147,7 +150,7 @@
   
   {
     "id": 12,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img11.jpg.jpg",
     "category": "Computer Science",
     "title": "The Mythical Man-Month: Essays on Software Engineering",
     "price": 3800,
@@ -160,7 +163,7 @@
   
   {
     "id": 13,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img13.jpg.jpg",
     "category": "Computer Science",
     "title": "You Don't Know JS (book series)",
     "price": 3200,
@@ -173,7 +176,7 @@
   
   {
     "id": 14,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img12.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Science Illuminated",
     "price": 5000,
@@ -186,7 +189,7 @@
   
   {
     "id": 15,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img14.jpg.jpg",
     "category": "Computer Science",
     "title": "Artificial Intelligence: A Modern Approach",
     "price": 7200,
@@ -199,7 +202,7 @@
  
   {
     "id": 16,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img15.jpg.jpg",
     "category": "Computer Science",
     "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
     "price": 6300,

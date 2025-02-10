@@ -135,6 +135,17 @@
    gap: 1em;
 }
 
+.payment-method #options{
+    padding: 0.5em;
+}
+
+.payment-method button{
+    outline: none;
+    border: none;
+    padding: 0.5em;
+    background: var(--green);
+    color: white;
+}
 .payment-method label{
     color: var(--green);
 }
