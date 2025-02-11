@@ -145,6 +145,11 @@
     padding: 0.5em;
     background: var(--green);
     color: white;
+    transition: 300ms ease-in-out;
+}
+
+.payment-method button:hover{
+    transform: scale(0.95);
 }
 .payment-method label{
     color: var(--green);
