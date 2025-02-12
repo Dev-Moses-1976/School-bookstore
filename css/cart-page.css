@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -45,6 +45,15 @@
         }
 
         tr.row2 td button:hover{
+            transform: scale(0.95);
+        }
+
+        tr.row2  .close-btn{
+            border: none;
+            background: white;
+        }
+
+        .close-btn:hover{
             transform: scale(0.95);
         }
 
@@ -130,7 +139,7 @@
    flex-direction: column;
    max-width: 20%;
    position: relative;
-   left: 53em;
+   left: 51em;
    top: -2em;
    gap: 1em;
 }
@@ -153,8 +162,45 @@
 }
 .payment-method label{
     color: var(--green);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+  
+  
+:root {
+    --green: rgba(3, 65, 0, 0.957);
+    --gray: rgba(64, 64, 64, 1);
 }
 
+.first-maincontainer .first-content{
+    display: flex;
+    gap: 2em;
+    position: relative;
+    left: 23em;
+    max-width: 50%;
+}
+
+.first-content p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color:gray;
+}
+
+.first-content .active{
+    color: black;
+}
+
+.first-maincontainer .head-container{
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+    margin-left: 5em;
+}
 
 
 @media (max-width:200px) {
