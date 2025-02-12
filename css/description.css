@@ -19,15 +19,12 @@
     top: 8em;
     left: 23em;
     gap: 3em;
-    max-width: 50%;
-    
-    
+    max-width: 50%; 
 }
 
 .main-container img{
     width: 50%;
-    height:30em;
-   
+    height:30em; 
 }
 
 .main-container .container-1 .category{
@@ -93,4 +90,43 @@
     padding: 1em;  
     border: 1px solid  rgba(225,225,225,0.7);
     font-size: 1em;
+}
+
+.book-info{
+    position: relative;
+    top: 20em;
+    left: 22em;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-bottom: 10em;
+}
+
+.book-info .first-info{
+    display: flex;
+    gap: 4em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(225,225,225,0.8);
+    
+}
+
+.book-info .second-info{
+    display: flex;
+    gap: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(225,225,225,0.8);
+    
+}
+
+.book-info .third-info{
+    display: flex;
+    gap: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(225,225,225,0.8);
+    
+}
+
+.book-info p{
+    margin-left: 20em;
 }
