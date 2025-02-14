@@ -164,6 +164,10 @@
     color: var(--green);
 } */
 
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -177,30 +181,83 @@
     --gray: rgba(64, 64, 64, 1);
 }
 
-.first-maincontainer .first-content{
+.first-content{
     display: flex;
     gap: 2em;
-    position: relative;
-    left: 23em;
+}
+
+.first-maincontainer{
+    display: flex;
+    gap: 2em;
+    margin-left: 2em;
+}
+
+.sub-container1 .head-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.head-container .quantity{
+    margin-left: 1em;
+}
+
+.head-container .price{
+    margin-left: 10em;
+}
+
+.sub-container1 .inside-content{
+    display: flex;
+}
+
+.inside-content .btns{
+    display: flex;
+}
+
+/* .inside-content .product{
+    display: flex;
+    gap: 5em;
+} */
+
+.product .write-up{
     max-width: 50%;
+    position: relative;
+    left: 2em;
 }
 
-.first-content p{
-    font-size: 1.5em;
-    font-weight: 500;
-    color:gray;
+.clicks{
+    display: flex;
 }
 
-.first-content .active{
-    color: black;
-}
-
-.first-maincontainer .head-container{
+.sub-container2 .subtotal{
     display: flex;
     gap: 2em;
-    margin-top: 2em;
-    margin-left: 5em;
 }
+
+.sub-container2 .shipping{
+    display: flex;
+    gap: 1.8em;
+}
+
+.sub-container2  .total{
+    display: flex;
+    gap: 2em;
+}
+
+.payment-method label{
+    margin-top: 1em;
+}
+
+.payment-method{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+/* .payment-method #options{
+    display: flex;
+    flex-direction: column;
+} */
 
 
 @media (max-width:200px) {

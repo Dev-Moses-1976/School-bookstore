@@ -41,6 +41,11 @@ h3 {
   font-weight: bolder;
 }
 
+.available-books a img{
+  height: 12em;
+  width:72%;
+}
+
 .available-books img {
   position: relative;
   right: 2em;

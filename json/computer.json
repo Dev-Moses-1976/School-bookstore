@@ -145,6 +145,7 @@
     "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
     "cover_type": "Hardcover",
     "pages": 1312,
+    "link": "description.html",
     "description": "This book provides a deep dive into algorithms and their applications. It covers a broad range of topics, including sorting, searching, graph algorithms, and computational complexity, making it an essential resource for computer science students."
   },
   
@@ -158,6 +159,7 @@
     "author": "Frederick P. Brooks Jr.",
     "cover_type": "Paperback",
     "pages": 322,
+    "link": "/other-pages/description.html",
     "description": "A timeless collection of essays on software project management, the book explores why software projects often run over budget and time. It introduces the concept of the 'mythical man-month' and highlights common software development pitfalls."
   },
   
