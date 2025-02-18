@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.classList.add("available-books");
 
         // Create HTML elements for each book
+        const linkElement = document.createElement("a")
+        linkElement.href = book.url;
+       
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
 
@@ -38,14 +41,19 @@ document.addEventListener("DOMContentLoaded", function () {
         buttonElement.textContent = book.button;
 
         // Append elements to book container
+        bookContainer.appendChild(linkElement);
         bookContainer.appendChild(imageElement);
         bookContainer.appendChild(categoryElement);
         bookContainer.appendChild(titleElement);
         bookContainer.appendChild(priceElement);
         bookContainer.appendChild(buttonElement);
 
+        //append image inside the link and append the link inside the image container
+        linkElement.appendChild(imageElement);
+       
         // Append book container to main display div
         displayBook.appendChild(bookContainer);
+
       });
     })
     .catch((error) => {
@@ -76,10 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
 
-        const viewLink = document.createElement("a")
-        viewLink.classList.add("show");
-        viewLink.href ="";
-        viewLink.textContent = book.viewLink;
+        // const viewLink = document.createElement("a")
+        // viewLink.classList.add("show");
+        // viewLink.href ="";
+        // viewLink.textContent = book.viewLink;
         
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -103,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.appendChild(titleElement);
         bookContainer.appendChild(priceElement);
         bookContainer.appendChild(buttonElement);
-        bookContainer.appendChild(viewLink);
+        // bookContainer.appendChild(viewLink);
         
         //append image inside the link and append the link inside the image container
         linkElement.appendChild(imageElement);

@@ -44,7 +44,9 @@
   
   .available-books img {
     position: relative;
-    right: 2em; 
+    right: 2em;
+    height: 12em;
+    width:72%;
   }
   
   

@@ -1,11 +1,11 @@
 [ {
     "id": 1,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img1.jpg.jpg",
     "category": "Fiction",
     "title": "The Enchanted Forest",
     "price": 3500,
     "button": "ADD TO CART",
-    "author": "Lena Evergreen",
+    "author": "Isabel Recardo",
     "cover-type": "Hardcover",
     "pages": 320,
     "url": "/other-pages/description.html",
@@ -14,12 +14,12 @@
 
  {
     "id": 2,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img15.jpg.jpg",
     "category": "Fiction",
     "title": "Echoes of Time",
     "price": 4200,
     "button": "ADD TO CART",
-    "author": "Nathan Blake",
+    "author": "Calia Read",
     "cover-type": "Paperback",
     "pages": 280,
     "url": "/other-pages/description.html",
@@ -29,12 +29,12 @@
 
  {
     "id": 3,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img4.jpg.jpg",
     "category": "Fiction",
     "title": "The Hidden Kingdom",
     "price": 3900,
     "button": "ADD TO CART",
-    "author": "Sophia Miller",
+    "author": "Sarah M. Gradit",
     "cover-type": "Hardcover",
     "pages": 350,
     "url": "/other-pages/description.html",
@@ -44,12 +44,12 @@
 
   {
     "id": 4,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img12.jpg.jpg",
     "category": "Fiction",
     "title": "Lost in the Stars",
     "price": 3900,
     "button": "ADD TO CART",
-    "author": "Daniel Rhodes",
+    "author": "Sawyer Charles",
     "cover-type": "Paperback",
     "pages": 310,
     "url": "/other-pages/description.html",
@@ -60,12 +60,12 @@
 
   {
     "id": 5,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img9.jpg.jpg",
     "category": "Fiction",
     "title": "Whispers of the Wind",
     "price": 3200,
     "button": "ADD TO CART",
-    "author": "Lillian Carter",
+    "author": "Jeyna Grace",
     "cover-type": "Paperback",
     "pages": 340,
     "url": "/other-pages/description.html",
@@ -74,9 +74,9 @@
   
   {
     "id": 6,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img11.jpg.jpg",
     "category": "Fiction",
-    "title": "Beneath the Crimson Moon",
+    "title": "Bello Abdubasit",
     "price": 4000,
     "button": "ADD TO CART",
     "author": "Nathaniel Harper",
@@ -88,12 +88,12 @@
   
   {
     "id": 7,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img16.jpg.jpg",
     "category": "Fiction",
     "title": "The Glass Castle",
     "price": 3500,
     "button": "ADD TO CART",
-    "author": "Sophia Bennett",
+    "author": "Jannaette Walls",
     "cover-type": "Paperback",
     "pages": 320,
     "url": "/other-pages/description.html",
@@ -102,12 +102,12 @@
   
   {
     "id": 8,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img10.jpg.jpg",
     "category": "Fiction",
     "title": "Shattered Illusions",
     "price": 3700,
     "button": "ADD TO CART",
-    "author": "Daniel Reed",
+    "author": "Natansh Dubey",
     "cover-type": "Hardcover",
     "pages": 360,
     "url": "/other-pages/description.html",
@@ -116,12 +116,12 @@
   
   {
     "id": 9,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img14.jpg.jpg",
     "category": "Fiction",
     "title": "The Silent Echo",
     "price": 3100,
     "button": "ADD TO CART",
-    "author": "Rebecca Stone",
+    "author": "Helen Paloge",
     "cover-type": "Paperback",
     "pages": 280,
     "url": "/other-pages/description.html",
@@ -130,12 +130,12 @@
   
   {
     "id": 10,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img13.jpg.jpg",
     "category": "Fiction",
     "title": "Moonlit Shadows",
     "price": 3600,
     "button": "ADD TO CART",
-    "author": "Ethan Parker",
+    "author": "Santa Montefiore",
     "cover-type": "Hardcover",
     "pages": 390,
     "url": "/other-pages/description.html",
@@ -144,12 +144,12 @@
   
   {
     "id": 11,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img2.jpg.jpg",
     "category": "Fiction",
     "title": "The Forgotten Valley",
     "price": 3300,
     "button": "ADD TO CART",
-    "author": "Olivia Green",
+    "author": "Karl Eskelund",
     "cover-type": "Paperback",
     "pages": 310,
     "url": "/other-pages/description.html",
@@ -158,12 +158,12 @@
   
   {
     "id": 12,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img3.jpg.jpg",
     "category": "Fiction",
     "title": "A Tale of Two Lives",
     "price": 3900,
     "button": "ADD TO CART",
-    "author": "James Holloway",
+    "author": "Marie S. Walshe",
     "cover-type": "Hardcover",
     "pages": 400,
     "url": "/other-pages/description.html",
@@ -172,12 +172,12 @@
   
   {
     "id": 13,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img5.jpg.jpg",
     "category": "Fiction",
-    "title": "The Midnight Letter",
+    "title": "The Midnight Library",
     "price": 3400,
     "button": "ADD TO CART",
-    "author": "Victoria Lane",
+    "author": "Matt Hagg",
     "cover-type": "Paperback",
     "pages": 290,
     "url": "/other-pages/description.html",
@@ -186,12 +186,12 @@
   
   {
     "id": 14,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img6.jpg.jpg",
     "category": "Fiction",
     "title": "Beyond the Horizon",
     "price": 3700,
     "button": "ADD TO CART",
-    "author": "William Turner",
+    "author": "Ella Carey",
     "cover-type": "Hardcover",
     "pages": 370,
     "url": "/other-pages/description.html",
@@ -200,12 +200,12 @@
   
   {
     "id": 15,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img8.jpg.jpg",
     "category": "Fiction",
     "title": "The Crimson Key",
     "price": 3500,
     "button": "ADD TO CART",
-    "author": "Elena Foster",
+    "author": "Christy Sloat",
     "cover-type": "Paperback",
     "pages": 330,
     "url": "/other-pages/description.html",
@@ -214,12 +214,12 @@
   
   {
     "id": 16,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/fiction-books/img7.jpg.jpg",
     "category": "Fiction",
     "title": "The Clockmaker's Secret",
     "price": 3900,
     "button": "ADD TO CART",
-    "author": "Jonathan Miles",
+    "author": "Jack Benton",
     "cover-type": "Hardcover",
     "pages": 410,
     "url": "/other-pages/description.html",

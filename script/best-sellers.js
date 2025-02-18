@@ -9,7 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
           //created a container here
           const bookContainer = document.createElement("div");
           bookContainer.classList.add("available-books");
-  
+          
+          const linkElement = document.createElement("a")
+          linkElement.href = book.url;
+        
           //created my html elemets for each book here
           const imageElement = document.createElement("img");
           imageElement.src = book.image;
@@ -27,12 +30,16 @@ document.addEventListener("DOMContentLoaded", function () {
           buttonElement.textContent = book.button;
   
           //appended my book elements to the div container created
-  
+          bookContainer.appendChild(linkElement);
           bookContainer.appendChild(imageElement);
           bookContainer.appendChild(categoryElement);
           bookContainer.appendChild(titleElement);
           bookContainer.appendChild(priceElement);
           bookContainer.appendChild(buttonElement);
+
+          //append image inside the link and append the link inside the image container
+          linkElement.appendChild(imageElement);
+       
   
           // appended my container element to the container with id agric-books
           displayBook.appendChild(bookContainer);

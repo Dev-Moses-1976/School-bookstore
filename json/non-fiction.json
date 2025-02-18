@@ -2,12 +2,12 @@
   
  {
     "id": 1,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img1.jpg.jpg",
     "category": "Non-fiction",
     "title": "Mind Over Matter",
     "price": 4400,
     "button": "ADD TO CART",
-    "author": "Lisa Henderson",
+    "author": "Sarah Eron",
     "cover-type": "Paperback",
     "pages": 330,
     "url": "/other-pages/description.html",
@@ -16,12 +16,12 @@
 
   {
     "id": 2,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img2.jpg.jpg",
     "category": "Non-fiction",
     "title": "Survival Tactics",
     "button": "ADD TO CART",
     "price": 3800,
-    "author": "James Holloway",
+    "author": "AI Sevcik",
     "cover-type": "Paperback",
     "pages": 310,
     "url": "/other-pages/description.html",
@@ -30,12 +30,12 @@
 
   {
     "id": 3,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img3.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Power of the Mind",
     "price": 5000,
     "button": "ADD TO CART",
-    "author": "Dr. Sarah Roberts",
+    "author": "Ron Immink",
     "cover-type": "Hardcover",
     "pages": 350,
     "url": "/other-pages/description.html",
@@ -46,12 +46,12 @@
 
   {
     "id": 4,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img5.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Science of Habits",
     "price": 3500,
     "button": "ADD TO CART",
-    "author": "James Carter",
+    "author": "Adarsh Gupta",
     "cover-type": "Paperback",
     "pages": 320,
     "url": "/other-pages/description.html",
@@ -60,12 +60,12 @@
   
   {
     "id": 5,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img4.jpg.jpg",
     "category": "Non-fiction",
     "title": "Unbreakable Mindset",
     "price": 4000,
     "button": "ADD TO CART",
-    "author": "Sophia Adams",
+    "author": "Jay Glazer",
     "cover-type": "Hardcover",
     "pages": 280,
     "url": "/other-pages/description.html",
@@ -74,12 +74,12 @@
   
   {
     "id": 6,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img7.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Art of Focus",
     "price": 3800,
     "button": "ADD TO CART",
-    "author": "Daniel Howard",
+    "author": "Dan Koe",
     "cover-type": "Paperback",
     "pages": 260,
     "url": "/other-pages/description.html",
@@ -88,12 +88,12 @@
   
   {
     "id": 7,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img6.jpg.jpg",
     "category": "Non-fiction",
     "title": "Breaking Barriers",
     "price": 4200,
     "button": "ADD TO CART",
-    "author": "Michael Grey",
+    "author": "Empowered Publishing",
     "cover-type": "Hardcover",
     "pages": 350,
     "url": "/other-pages/description.html",
@@ -102,12 +102,12 @@
   
   {
     "id": 8,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img8.jpg.jpg",
     "category": "Non-fiction",
     "title": "Unlocking Your Potential",
     "price": 3700,
     "button": "ADD TO CART",
-    "author": "Emily Thompson",
+    "author": "Jeff Lerner",
     "cover-type": "Paperback",
     "pages": 310,
     "url": "/other-pages/description.html",
@@ -116,12 +116,12 @@
   
   {
     "id": 9,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img10.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Psychology of Success",
     "price": 3900,
     "button": "ADD TO CART",
-    "author": "David Clark",
+    "author": "Denis Waitley",
     "cover-type": "Hardcover",
     "pages": 290,
     "url": "/other-pages/description.html",
@@ -130,15 +130,15 @@
   
   {
     "id": 10,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img14.jpg.jpg",
     "category": "Non-fiction",
-    "title": "Resilient Thinking",
-    "price": 3600,
+    "title": "Elevate Your Thinking",
+    "price": 4000,
     "button": "ADD TO CART",
-    "author": "Olivia Bennett",
+    "author": "Belinda Colubriale",
     "cover-type": "Paperback",
-    "pages": 275,
+    "pages": 300,
     "url": "/other-pages/description.html",
-    "description": "Resilient Thinking teaches strategies to build mental strength, cope with adversity, and develop a mindset that thrives in the face of challenges."
+    "description": "Elevate Your Thinking is a deep exploration of positive thinking, cognitive biases, and how to develop a mindset that fosters growth and success."
   }
 ]
