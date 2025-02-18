@@ -8,6 +8,7 @@
     "author": "Dr. Emily Carter",
     "cover-type": "Hardcover",
     "pages": 380,
+    "url": "/other-pages/description.html",
     "description": "A comprehensive guide to modern sustainable farming techniques, covering soil health, organic practices, and innovative agricultural solutions to increase yield while preserving the environment."
   },
   
@@ -21,6 +22,7 @@
     "author": "Michael Greenfield",
     "cover-type": "Paperback",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "This book delves into the advancements in agricultural technology, from precision farming to AI-driven solutions, and explores how farmers can adapt to new challenges in food production."
   },
    
@@ -35,6 +37,7 @@
     "author": "Dr. Martha Blake",
     "cover-type": "Hardcover",
     "pages": 340,
+    "url": "/other-pages/description.html",
     "description": "This book teaches practical methods of organic farming, from composting techniques to crop rotation, for sustainable food production."
   },
 
@@ -49,6 +52,7 @@
     "author": "Dr. James Holland",
     "cover-type": "Hardcover",
     "pages": 350,
+    "url": "/other-pages/description.html",
     "description": "This book explores modern advancements in crop science, including hybrid seed technology, pest resistance, and sustainable farming techniques that enhance yield and productivity."
   },
   
@@ -62,6 +66,7 @@
     "author": "Maria Peterson",
     "cover-type": "Paperback",
     "pages": 300,
+    "url": "/other-pages/description.html",
     "description": "A practical guide for farmers and agriculturists on maintaining soil fertility, improving nutrient balance, and ensuring long-term sustainability in farming."
   },
   
@@ -75,6 +80,7 @@
     "author": "Daniel Carter",
     "cover-type": "Hardcover",
     "pages": 370,
+    "url": "/other-pages/description.html",
     "description": "An in-depth look at precision agriculture and how data-driven techniques such as GPS, AI, and sensors are revolutionizing farming practices."
   },
   
@@ -88,6 +94,7 @@
     "author": "Elena Garcia",
     "cover-type": "Paperback",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "This book provides an overview of the science behind plant breeding, focusing on genetic modification, crossbreeding, and techniques used to develop resilient crops."
   },
   
@@ -101,6 +108,7 @@
     "author": "Samuel White",
     "cover-type": "Hardcover",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "A beginner-friendly guide to dairy farming, covering topics such as cattle selection, milk production, disease control, and marketing dairy products."
   },
   
@@ -114,6 +122,7 @@
     "author": "Nina Carter",
     "cover-type": "Paperback",
     "pages": 330,
+    "url": "/other-pages/description.html",
     "description": "This book explores the benefits of integrating trees and shrubs into traditional farming systems, promoting biodiversity, soil conservation, and economic sustainability."
   },
   
@@ -127,6 +136,7 @@
     "author": "Dr. Alan Thompson",
     "cover-type": "Hardcover",
     "pages": 380,
+    "url": "/other-pages/description.html",
     "description": "A guide to adapting agricultural practices to climate change, with strategies for water conservation, soil resilience, and reducing carbon footprints in farming."
   },
 
@@ -140,6 +150,7 @@
     "author": "Lisa Montoya",
     "cover-type": "Paperback",
     "pages": 310,
+    "url": "/other-pages/description.html",
     "description": "A practical book on hydroponic farming techniques, covering nutrient solutions, lighting requirements, and high-yield crop production methods."
   },
   
@@ -154,6 +165,7 @@
     "author": "Michael Reed",
     "cover-type": "Hardcover",
     "pages": 360,
+    "url": "/other-pages/description.html",
     "description": "A book focused on soil regeneration techniques, cover cropping, and no-till farming to improve soil health and restore ecosystems."
   },
   
@@ -167,6 +179,7 @@
     "author": "Samantha Green",
     "cover-type": "Paperback",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "A comprehensive guide on raising poultry organically, with insights into nutrition, disease control, and ethical farming practices."
   },
   
@@ -180,6 +193,7 @@
     "author": "Richard Collins",
     "cover-type": "Hardcover",
     "pages": 400,
+    "url": "/other-pages/description.html",
     "description": "An essential book for farmers and agribusiness entrepreneurs covering financial planning, farm management, and marketing strategies."
   },
   
@@ -193,6 +207,7 @@
     "author": "Andrew Bennett",
     "cover-type": "Paperback",
     "pages": 280,
+    "url": "/other-pages/description.html",
     "description": "A guide to beekeeping, explaining hive management, honey production, and pollination techniques for sustainable bee farming."
   },
   
@@ -206,6 +221,7 @@
     "author": "Dr. Olivia Smith",
     "cover-type": "Hardcover",
     "pages": 410,
+    "url": "/other-pages/description.html",
     "description": "A cutting-edge book on how the Internet of Things (IoT) is transforming agriculture, including smart irrigation, automated machinery, and data-driven decision-making."
   }
 

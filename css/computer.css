@@ -64,6 +64,16 @@ h3 {
   white-space: nowrap;
 }
 
+.available-books .show{
+ position: relative;
+ right: 2em;
+ white-space: nowrap;
+}
+
+.available-books .show a{
+  text-decoration: none;
+
+}
 .available-books button:hover {
   transform: scale(0.95);
 }

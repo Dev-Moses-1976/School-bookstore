@@ -1,88 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CART SECTION</title>
-    <link rel="stylesheet" href="/css/cart-page.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div class="cart-page">
-      <table>
-        <tr class="row1">
-          <th>PRODUCT</th>
-          <th>PRICE</th>
-          <th>QUANTITY</th>
-          <th>SUBTOTAL</th>
-        </tr>
 
-        <tr class="row2">
-          <td>
-            <button class="close-btn">
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </button>
-            Gullivers travel
-          </td>
-          <td>&#8358;2,000.00</td>
-          <td>
-            <button>-</button>
-            <p>2</p>
-            <button>+</button>
-          </td>
-          <td>&#8358;4,000.00</td>
-        </tr>
-
-        <tr class="row3">
-          <td>
-            <button class="btn-1">CONTINUE SHOPPING</button>
-          </td>
-          <td>
-            <button class="btn-2">UPDATE CART</button>
-          </td>
-          <td>
-            <button class="btn-3">SHARE CART</button>
-          </td>
-        </tr>
-      </table>
-
-      <table>
-        <tr class="row4">
-          <th>CART TOTALS</th>
-          <th></th>
-        </tr>
-
-        <tr class="row4">
-          <td>Subtotal</td>
-          <td>&#8358;4,000</td>
-        </tr>
-
-        <tr class="row4">
-          <td>Shipping</td>
-          <td>Calculate shipping</td>
-        </tr>
-
-        <tr class="row4">
-          <td>Total</td>
-          <td>&#8358;4,000</td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="payment-method">
-      <label for="options">Select Payment Method</label>
-      <select id="options" name="options">
-        <option value="BANK TRANSFER">BANK TRANSFER</option>
-        <option value="CARD PAYMENT">CARD PAYMENT</option>
-      </select>
-
-      <button>PROCEED TO CHECKOUT</button>
-    </div>
-  </body>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -91,16 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/css/cart-page.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
+    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
   </head>
 
   <body>
     <div class="first-content">
-      <p class="active">SHOPPING CART</p>
-      <p>CHECKOUT DETAILS</p>
+      <p class="active">SHOPPING CART</p> <iconify-icon icon="basil:caret-right-outline" width="32" height="32" class="iconify-icon"></iconify-icon>
+      <p>CHECKOUT DETAILS</p><iconify-icon icon="basil:caret-right-outline" width="32" height="32" class="iconify-icon"></iconify-icon>
       <p>ORDER COMPLETE</p>
     </div>
     
@@ -117,12 +30,13 @@
         <div class="inside-content">
           <div class="product">
             <button class="close-btn">
-              <i class="fa fa-times" aria-hidden="true"></i>
+              <iconify-icon icon="stash:times-duotone" width="15" height="15" class="iconify-icon"></iconify-icon>
             </button>
+            <img src="/images/computer-books/img13.jpg.jpg" alt="">
             <p class="write-up">Ajayi Crowther: The Triumphs and Travails of a Legend</p>
           </div>
           
-          <p>2000.00</p>
+          <h3 class="amount2k">2000.00</h3>
   
           <div class="btns">
             <button class="btn-1">-</button>
@@ -155,7 +69,7 @@
 
         <div class="shipping">
           <p>Shipping</p>
-          <p>Calculate Shipping</p>
+          <p class="paragraph2">Calculate Shipping</p>
         </div>
 
         <div class="total">
@@ -164,12 +78,12 @@
         </div>
         
         <div class="payment-method">
-          <label for="options">Select Payment Method</label>
+          <label for="options">Select Payment Method :</label>
           <select id="options" name="options">
             <option value="BANK TRANSFER">BANK TRANSFER</option>
             <option value="CARD PAYMENT">CARD PAYMENT</option>
           </select>
-          <button>PROCEED TO CHECKOUT</button>
+          <button>PROCEED TO CHECKOUT</button>  
         </div>
       </div>
      

@@ -9,6 +9,7 @@
     "author": "Dr. Emily Carter",
     "cover-type": "Hardcover",
     "pages": 380,
+    "url": "/other-pages/description.html",
     "description": "A comprehensive guide to modern sustainable farming techniques, covering soil health, organic practices, and innovative agricultural solutions to increase yield while preserving the environment."
   },
 
@@ -22,6 +23,7 @@
     "author": "James Holloway",
     "cover-type": "Hardcover",
     "pages": 400,
+    "url": "/other-pages/description.html",
     "description": "A man wakes up one day to find himself living two separate lives in parallel realities. Torn between the two, he must make an impossible choice."
   },
 
@@ -35,6 +37,7 @@
     "author": "Ray Dalio",
     "cover-type": "Hardcover",
     "pages": 592,
+    "url": "/other-pages/description.html",
     "description": "A personal and professional guide from billionaire investor Ray Dalio, sharing the principles that shaped his success in finance and leadership."
   },
 
@@ -48,6 +51,7 @@
     "author": "Steve McConnell",
     "cover_type": "Hardcover",
     "pages": 960,
+    "url": "/other-pages/description.html",
     "description": "Code Complete is a highly regarded book on software development and best practices. It covers everything from writing clean, maintainable code to debugging and testing techniques. It’s an essential resource for both beginners and experienced developers looking to improve their coding skills."
   },
 
@@ -61,6 +65,7 @@
     "author": "Michael Greenfield",
     "cover-type": "Paperback",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "This book delves into the advancements in agricultural technology, from precision farming to AI-driven solutions, and explores how farmers can adapt to new challenges in food production."
   },
 
@@ -74,6 +79,7 @@
     "author": "Ben Horowitz",
     "cover-type": "Paperback",
     "pages": 304,
+    "url": "/other-pages/description.html",
     "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
   },
 
@@ -87,6 +93,7 @@
     "author": "Harold Abelson, Gerald Jay Sussman",
     "cover_type": "Paperback",
     "pages": 657,
+    "url": "/other-pages/description.html",
     "description": "This book, also known as SICP, is a classic in computer science education. It provides a deep understanding of fundamental programming concepts using the Scheme language. It emphasizes abstraction, modularity, and metalinguistic analysis, making it a must-read for anyone serious about programming."
   },
 
@@ -100,6 +107,7 @@
     "author": "Victoria Lane",
     "cover-type": "Paperback",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "A mysterious letter arrives at midnight every year on the same day. Its cryptic message leads a young woman on a journey through time and fate."
   },
 
@@ -113,6 +121,7 @@
     "author": "Lucinda Morris",
     "cover-type": "Hardcover",
     "pages": 280,
+    "url": "/other-pages/description.html",
     "description": "An atmospheric novel set in a post-war town, exploring themes of hope, resilience, and the bonds of family that endure through time."
   },
 
@@ -126,6 +135,7 @@
     "author": "Emily Thompson",
     "cover-type": "Paperback",
     "pages": 310,
+    "url": "/other-pages/description.html",
     "description": "This book provides step-by-step guidance on personal growth, self-improvement, and achieving one's dreams. With practical exercises and real-life examples, it helps readers discover and harness their full potential."
   },
 
@@ -139,6 +149,7 @@
     "author": "Michael Hayes",
     "cover-type": "Paperback",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "A suspenseful tale about a librarian who finds a series of anonymous notes hidden within the pages of classic books, leading to a thrilling literary treasure hunt."
   },
 
@@ -152,6 +163,7 @@
     "author": "David Clark",
     "cover-type": "Hardcover",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "A deep dive into the psychological principles behind success. It explores the habits, thought patterns, and behaviors that distinguish high achievers from the rest."
   }
 ]

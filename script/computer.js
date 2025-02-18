@@ -71,11 +71,15 @@ document.addEventListener("DOMContentLoaded", function () {
         
         //image container
         const linkElement = document.createElement("a")
-        linkElement.classList.add("img-link");
-        linkElement.href = book.link;
+        linkElement.href = book.url;
         
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
+
+        const viewLink = document.createElement("a")
+        viewLink.classList.add("show");
+        viewLink.href ="";
+        viewLink.textContent = book.viewLink;
         
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -99,13 +103,10 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.appendChild(titleElement);
         bookContainer.appendChild(priceElement);
         bookContainer.appendChild(buttonElement);
-
+        bookContainer.appendChild(viewLink);
         
         //append image inside the link and append the link inside the image container
         linkElement.appendChild(imageElement);
-        // imageContainer.appendChild(linkElement);
-
-        // displayBook.appendChild(imageContainer);
 
         // Append book container to main display div
         displayBook.appendChild(bookContainer);
