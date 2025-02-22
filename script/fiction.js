@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", function () {
         buttonElement.textContent = book.button;
 
         // Appending my elements to the div container created
-        bookContainer.appendChild(linkElement);
         bookContainer.appendChild(imageElement);
         bookContainer.appendChild(categoryElement);
         bookContainer.appendChild(titleElement);
