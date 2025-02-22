@@ -1,7 +1,7 @@
 [ 
   
  {
-    "id": 1,
+    "id": 99,
     "image": "/images/nonFiction-books/img1.jpg.jpg",
     "category": "Non-fiction",
     "title": "Mind Over Matter",
@@ -15,7 +15,7 @@
   },
 
   {
-    "id": 2,
+    "id": 100,
     "image": "/images/nonFiction-books/img2.jpg.jpg",
     "category": "Non-fiction",
     "title": "Survival Tactics",
@@ -29,7 +29,7 @@
   },
 
   {
-    "id": 3,
+    "id": 101,
     "image":  "/images/nonFiction-books/img3.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Power of the Mind",
@@ -45,7 +45,7 @@
 
 
   {
-    "id": 4,
+    "id": 102,
     "image":  "/images/nonFiction-books/img5.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Science of Habits",
@@ -59,7 +59,7 @@
   },
   
   {
-    "id": 5,
+    "id": 103,
     "image":  "/images/nonFiction-books/img4.jpg.jpg",
     "category": "Non-fiction",
     "title": "Unbreakable Mindset",
@@ -73,7 +73,7 @@
   },
   
   {
-    "id": 6,
+    "id": 104,
     "image": "/images/nonFiction-books/img7.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Art of Focus",
@@ -87,7 +87,7 @@
   },
   
   {
-    "id": 7,
+    "id": 105,
     "image": "/images/nonFiction-books/img6.jpg.jpg",
     "category": "Non-fiction",
     "title": "Breaking Barriers",
@@ -101,7 +101,7 @@
   },
   
   {
-    "id": 8,
+    "id": 106,
     "image":  "/images/nonFiction-books/img8.jpg.jpg",
     "category": "Non-fiction",
     "title": "Unlocking Your Potential",
@@ -115,7 +115,7 @@
   },
   
   {
-    "id": 9,
+    "id": 107,
     "image":  "/images/nonFiction-books/img10.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Psychology of Success",
@@ -129,7 +129,7 @@
   },
   
   {
-    "id": 10,
+    "id": 108,
     "image": "/images/nonFiction-books/img14.jpg.jpg",
     "category": "Non-fiction",
     "title": "Elevate Your Thinking",

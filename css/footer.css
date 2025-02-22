@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* .bottom-content{
+    display: flex;
+    flex-direction: row;
+} */
+
+.bottom-content .about p{
+    max-width: 24%;
+}
+
+.quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.images img{
+    width:14%;
+}

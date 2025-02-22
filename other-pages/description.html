@@ -7,57 +7,115 @@
     <link rel="stylesheet" href="/css/description.css" />
   </head>
   <body>
-    <div class="main-container">
-      <img src="/images/computer-books/img13.jpg.jpg" />
+    <div id="book-details">
+      <script>
+        // Function to get query parameters
+        function getQueryParam(param) {
+          const urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(param);
+          console.log(urlParams);
+        }
 
-      <div class="container-1">
-        <div class="category">
-          <a href="">Home</a> /
-          <p>Computer Science</p>
-        </div>
+        // Get book ID from URL
+        const bookId = getQueryParam("id");
 
-        <div class="title-writeup">
-          <h1>You Don't Know JS (book series)</h1>
-          <h1>&#8358;2000</h1>
-        </div>
+        // function
+      
+        if (bookId >=  1 && bookId <= 16){
+          fetch(`/json/agric.json`);
+        }else if(bookId >= 17 && bookId <= 22){
+          fetch(`/json/best-sellers.json`);
+        }else if(bookId >= 23 && bookId <= 38){
+          fetch(`/json/business.json`);
+        }else if(bookId >= 39 && bookId <= 54){
+          fetch(`/json/computer.json`);
+        }else if (bookId >= 55 && bookId <= 70){
+          fetch(`/json/fiction.json`);
+        }else if (bookId >= 71 && bookId <= 86){
+          fetch(`/json/literature.json`);
+        }else if (bookId >= 87 && bookId <= 98){
+          fetch(`/json/newest-arrival.json`);
+        }else{
+          fetch(`/json/non-fiction.json`);
+        };
 
-        <div class="description">
-          <p>
-            This book series dives deep into JavaScript, explaining its quirks,
-            hidden features, and best practices. It is perfect for developers
-            who want to truly master JavaScript beyond the basics.
-          </p>
-        </div>
+        // Fetch book details from JSON
+        promise.all([
 
-        <div class="btns">
-          <div class="btn1">
-            <button>-</button>
-            <p>1</p>
-            <button>+</button>
+          fetch(`/json/agric.json`).then(res => res.json()),
+          fetch(`/json/best-sellers.json`).then(res => res.json()),
+          fetch(`/json/business.json`).then(res => res.json()),
+          fetch(`/json/computer.json`).then(res => res.json()),
+          fetch(`/json/fiction.json`).then(res => res.json()),
+          fetch(`/json/literature.json`).then(res => res.json()),
+          fetch(`/json/newest-arrival.json`).then(res => res.json()),
+          fetch(`/json/non-fiction.json`).then(res => res.json())
+        ])
+         .then(([agric, bestsellers,business, computer, fiction, literature, newest-arrival, non-ficiton]))=>{
+          book-details.()
+         }
+          // .then((response) => response.json())
+          .then((books) => {
+            console.log(books);
+            let data = books.find((data) => data.id == bookId);
+            document.getElementById("book-details").innerHTML = `
+         <div class="main-container">
+         <img src=${data.image} />
+
+         <div class="container-1">
+          <div class="category">
+            <a href="">Home</a> /
+            <p>${data.category}</p>
           </div>
 
-          <div class="btn2">
-            <button>ADD TO CART</button>
+          <div class="title-writeup">
+            <h1>${data.title}</h1>
+            <h1>${data.price}</h1>
+          </div>
+
+          <div class="description">
+            <p>
+              
+              ${data.description}
+            </p>
+          </div>
+
+          <div class="btns">
+            <div class="btn1">
+              <button>-</button>
+              <p>1</p>
+              <button>+</button>
+            </div>
+
+            <div class="btn2">
+              <button>${data.button}</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="book-info">
-      <div class="first-info">
-        <h4>AUTHOR</h4>
-        <p>Kyle Simpson</p>
-      </div>
+      <div class="book-info">
+        <div class="first-info">
+          <h4>AUTHOR</h4>
+          <p>${data.author}</p>
+        </div>
 
-      <div class="second-info">
-        <h4>COVER</h4>
-        <p>Paperback</p>
-      </div>
+        <div class="second-info">
+          <h4>COVER</h4>
+          <p>${data.cover_type}</p>
+        </div>
 
-      <div class="third-info">
-        <h4>PAGES</h4>
-        <p>278</p>
+        <div class="third-info">
+          <h4>PAGES</h4>
+          <p>${data.pages}</p>
+        </div>
       </div>
+                `;
+          })
+          .catch((error) =>
+            console.error("Error fetching book details:", error)
+          );
+      </script>
     </div>
   </body>
 </html>

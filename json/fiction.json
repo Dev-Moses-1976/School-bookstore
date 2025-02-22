@@ -1,5 +1,5 @@
 [ {
-    "id": 1,
+    "id": 55,
     "image": "/images/fiction-books/img1.jpg.jpg",
     "category": "Fiction",
     "title": "The Enchanted Forest",
@@ -13,7 +13,7 @@
   },
 
  {
-    "id": 2,
+    "id": 56,
     "image": "/images/fiction-books/img15.jpg.jpg",
     "category": "Fiction",
     "title": "Echoes of Time",
@@ -28,7 +28,7 @@
 
 
  {
-    "id": 3,
+    "id": 57,
     "image": "/images/fiction-books/img4.jpg.jpg",
     "category": "Fiction",
     "title": "The Hidden Kingdom",
@@ -43,7 +43,7 @@
 
 
   {
-    "id": 4,
+    "id": 58,
     "image": "/images/fiction-books/img12.jpg.jpg",
     "category": "Fiction",
     "title": "Lost in the Stars",
@@ -59,7 +59,7 @@
 
 
   {
-    "id": 5,
+    "id": 59,
     "image": "/images/fiction-books/img9.jpg.jpg",
     "category": "Fiction",
     "title": "Whispers of the Wind",
@@ -73,7 +73,7 @@
   },
   
   {
-    "id": 6,
+    "id": 60,
     "image": "/images/fiction-books/img11.jpg.jpg",
     "category": "Fiction",
     "title": "Bello Abdubasit",
@@ -87,7 +87,7 @@
   },
   
   {
-    "id": 7,
+    "id": 61,
     "image": "/images/fiction-books/img16.jpg.jpg",
     "category": "Fiction",
     "title": "The Glass Castle",
@@ -101,7 +101,7 @@
   },
   
   {
-    "id": 8,
+    "id": 62,
     "image": "/images/fiction-books/img10.jpg.jpg",
     "category": "Fiction",
     "title": "Shattered Illusions",
@@ -115,7 +115,7 @@
   },
   
   {
-    "id": 9,
+    "id": 63,
     "image": "/images/fiction-books/img14.jpg.jpg",
     "category": "Fiction",
     "title": "The Silent Echo",
@@ -129,7 +129,7 @@
   },
   
   {
-    "id": 10,
+    "id": 64,
     "image": "/images/fiction-books/img13.jpg.jpg",
     "category": "Fiction",
     "title": "Moonlit Shadows",
@@ -143,7 +143,7 @@
   },
   
   {
-    "id": 11,
+    "id": 65,
     "image": "/images/fiction-books/img2.jpg.jpg",
     "category": "Fiction",
     "title": "The Forgotten Valley",
@@ -157,7 +157,7 @@
   },
   
   {
-    "id": 12,
+    "id": 66,
     "image": "/images/fiction-books/img3.jpg.jpg",
     "category": "Fiction",
     "title": "A Tale of Two Lives",
@@ -171,7 +171,7 @@
   },
   
   {
-    "id": 13,
+    "id": 67,
     "image": "/images/fiction-books/img5.jpg.jpg",
     "category": "Fiction",
     "title": "The Midnight Library",
@@ -185,7 +185,7 @@
   },
   
   {
-    "id": 14,
+    "id": 68,
     "image": "/images/fiction-books/img6.jpg.jpg",
     "category": "Fiction",
     "title": "Beyond the Horizon",
@@ -199,7 +199,7 @@
   },
   
   {
-    "id": 15,
+    "id": 69,
     "image": "/images/fiction-books/img8.jpg.jpg",
     "category": "Fiction",
     "title": "The Crimson Key",
@@ -213,7 +213,7 @@
   },
   
   {
-    "id": 16,
+    "id": 70,
     "image": "/images/fiction-books/img7.jpg.jpg",
     "category": "Fiction",
     "title": "The Clockmaker's Secret",

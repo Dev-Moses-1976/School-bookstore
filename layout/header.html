@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/search-bar.css">
+    <link rel="stylesheet" href="/css/header.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -23,7 +24,10 @@
       <div class="second-content">
         <div class="part1">
           <img src="/images/logo.jpg.jpg" />
-          <input type="text" placeholder="Enter book title or Author" />
+          <input type="text"  id="searchBar" placeholder="Enter book title or Author" />
+          <div id="dropdown" class="hidden">
+            <div id="bookList"></div>
+          </div>
         </div>
 
         <div class="part2">
@@ -50,28 +54,6 @@
       </nav>
     </header>
 
-    <footer>
-      <div class="about">
-        <h1>ABOUT BOOKDEN</h1>
-        <p>
-          BookDen website was born out of the growing need to simplify and
-          automate bookstore activities, ensuring students can purchase books
-          with ease. Traditional bookstores often face challenges such as
-          overcrowding, long queues, and limited accessibility, leaving students
-          struggling to acquire the materials they need without sacrificing
-          valuable time. Recognizing this, the idea of a web-based system
-          emerged as a solution to make book purchases more feasible for
-          students. This platform offers a streamlined experience, allowing
-          users to browse, select, and purchase textbooks online. With features
-          like real-time inventory updates, secure payment options, and
-          convenient delivery or pickup methods, the website transforms the way
-          students access academic resources.
-        </p>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-regular fa-envelope"></i>
-      </div>
-    </footer>
+    <script src="/script/search-bar.js"></script>
   </body>
 </html>
