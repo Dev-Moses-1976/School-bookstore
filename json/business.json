@@ -8,6 +8,7 @@
     "author": "Linda Carter",
     "cover-type": "Hardcover",
     "pages": 400,
+    "url": "/other-pages/description.html",
     "description": "A step-by-step guide for aspiring entrepreneurs, covering everything from idea generation to scaling a successful business. Filled with case studies and actionable strategies, this book is a must-have for business-minded individuals."
   },
 
@@ -21,6 +22,7 @@
     "author": "David Spencer",
     "cover-type": "Paperback",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "This book provides insights into the art of negotiation, teaching readers how to confidently close deals, handle conflicts, and build strong professional relationships."
   },
 
@@ -34,6 +36,7 @@
     "author": "John Maxwell",
     "cover-type": "Hardcover",
     "pages": 380,
+    "url": "/other-pages/description.html",
     "description": "An essential guide on effective leadership strategies, including communication, vision setting, and inspiring teams to achieve their highest potential."
   },
 
@@ -48,6 +51,7 @@
     "author": "Eric Ries",
     "cover-type": "Hardcover",
     "pages": 336,
+    "url": "/other-pages/description.html",
     "description": "The Lean Startup presents a systematic, scientific approach for startups to test ideas, iterate quickly, and create successful businesses without wasting time and resources."
   },
  
@@ -61,6 +65,7 @@
     "author": "Jim Collins",
     "cover-type": "Paperback",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "A deep dive into why some companies become great while others fail, backed by years of research and case studies from industry leaders."
   },
  
@@ -74,6 +79,7 @@
     "author": "Peter Thiel",
     "cover-type": "Hardcover",
     "pages": 224,
+    "url": "/other-pages/description.html",
     "description": "A unique perspective on how to create groundbreaking startups and innovate in ways that truly push industries forward, written by PayPal’s co-founder."
   },
  
@@ -87,6 +93,7 @@
     "author": "Timothy Ferriss",
     "cover-type": "Paperback",
     "pages": 308,
+    "url": "/other-pages/description.html",
     "description": "Tim Ferriss challenges traditional work-life balance with methods to work less, automate income, and live a more fulfilling life through smart business strategies."
   },
  
@@ -100,6 +107,7 @@
     "author": "James Clear",
     "cover-type": "Hardcover",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "A practical guide on how small habits can lead to massive personal and professional growth, backed by psychology and real-world examples."
   },
  
@@ -113,6 +121,7 @@
     "author": "W. Chan Kim & Renée Mauborgne",
     "cover-type": "Paperback",
     "pages": 400,
+    "url": "/other-pages/description.html",
     "description": "A strategic framework to create uncontested market spaces and render competition irrelevant by offering unique value to customers."
   },
  
@@ -126,6 +135,7 @@
     "author": "Morgan Housel",
     "cover-type": "Hardcover",
     "pages": 256,
+    "url": "/other-pages/description.html",
     "description": "Explores how personal behavior influences financial success, emphasizing that managing money is more about psychology than mathematics."
   },
 
@@ -139,6 +149,7 @@
     "author": "Simon Sinek",
     "cover-type": "Hardcover",
     "pages": 256,
+    "url": "/other-pages/description.html",
     "description": "A book that emphasizes the importance of defining a strong 'why' in business and leadership to inspire teams and customers alike."
   },
   
@@ -152,6 +163,7 @@
     "author": "Chris Guillebeau",
     "cover-type": "Paperback",
     "pages": 304,
+    "url": "/other-pages/description.html",
     "description": "A guide on how to start a profitable business with minimal investment, featuring case studies of entrepreneurs who built successful startups with small budgets."
   },
   
@@ -165,6 +177,7 @@
     "author": "Jason Fried & David Heinemeier Hansson",
     "cover-type": "Hardcover",
     "pages": 288,
+    "url": "/other-pages/description.html",
     "description": "A fresh take on business that encourages a simple, practical approach to success, challenging traditional corporate structures."
   },
   
@@ -179,6 +192,7 @@
     "author": "Ray Dalio",
     "cover-type": "Hardcover",
     "pages": 592,
+    "url": "/other-pages/description.html",
     "description": "A personal and professional guide from billionaire investor Ray Dalio, sharing the principles that shaped his success in finance and leadership."
   },
   
@@ -192,6 +206,7 @@
     "author": "Ben Horowitz",
     "cover-type": "Paperback",
     "pages": 304,
+    "url": "/other-pages/description.html",
     "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
   },
 
@@ -205,8 +220,7 @@
     "author": "Ben Horowitz",
     "cover-type": "Paperback",
     "pages": 304,
+    "url": "/other-pages/description.html",
     "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
   }
-
- 
 ]

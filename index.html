@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing-page</title>
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
-  <body>
-    <section class="landing-page">
-      
-      <h1>Discover your<br><span>Next Great Read<br></span>here</h1>
-      
-      <button>
-        <p>Buy Now</p>
-      </button>
-    </section>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing-page</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .cart {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    #cart-items div {
+      margin: 10px 0;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="landing-page">
+    <h1>
+      Discover your<br /><span>Next Great Read<br /></span>here
+    </h1>
+
+    <button>
+      <p>Buy Now</p>
+    </button>
+  </section>
+  <!-- cart -->
+  <section class="cart">
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+  </section>
   <!-- Newest Arrival Section -->
   <section class="newest-arrival">
     <h1>NEWEST ARRIVAL</h1>
@@ -228,12 +248,14 @@
   </section>
 
   <section class="quote">
-    <p>Learning is a lifelong journey that empowers individuals to grow, adapt,
-      and thrive in an ever-changing world. It is not just confined to classrooms or
-      textbooks—it happens every day, through experiences, challenges, and interactions.
+    <p>
+      Learning is a lifelong journey that empowers individuals to grow, adapt,
+      and thrive in an ever-changing world. It is not just confined to
+      classrooms or textbooks—it happens every day, through experiences,
+      challenges, and interactions.
     </p>
 
-    <img src="images/library.jpg.jpg" alt="Library-image">
+    <img src="images/library.jpg.jpg" alt="Library-image" />
   </section>
 
   <!-- COMPUTER SCIENCE SECTION -->
@@ -242,7 +264,10 @@
     <h1>COMPUTER SCIENCE</h1>
     <div class="main-row" id="maincomputerPage">
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <a href="" class="image-link">
+          <img src="images/gulliver.jpg.jpg" />
+        </a>
+
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -347,13 +372,14 @@
   </section>
 
   <section class="quote">
-    <p>Learning is a lifelong journey that empowers individuals to grow, adapt,
-      and thrive in an ever-changing world. It is not just confined to classrooms or
-      textbooks—it happens every day, through experiences, challenges, and interactions.
+    <p>
+      Learning is a lifelong journey that empowers individuals to grow, adapt,
+      and thrive in an ever-changing world. It is not just confined to
+      classrooms or textbooks—it happens every day, through experiences,
+      challenges, and interactions.
     </p>
 
-    <img src="images/library.jpg.jpg" alt="Library-image">
-
+    <img src="images/library.jpg.jpg" alt="Library-image" />
   </section>
 
   <!-- AGRIC COURSES SECTION-->
@@ -473,6 +499,38 @@
   <script src="/script/literature.js"></script>
   <script src="/script/newest-arrival.js"></script>
   <script src="/script/best-sellers.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cartItems = [];
+
+      function addToCart(product) {
+        cartItems.push(product);
+        updateCartDisplay();
+      }
+
+      function updateCartDisplay() {
+        const cartItemsElement = document.getElementById('cart-items');
+        cartItemsElement.innerHTML = ''; // Clear current cart items
+
+        cartItems.forEach(item => {
+          const itemElement = document.createElement('div');
+          itemElement.textContent = `${item.name} - ${item.price}`;
+          cartItemsElement.appendChild(itemElement);
+        });
+      }
+
+      document.querySelectorAll('.available-books button').forEach(button => {
+        button.addEventListener('click', function () {
+          const book = this.closest('.available-books');
+          const product = {
+            name: book.querySelector('p:nth-of-type(2)').textContent,
+            price: book.querySelector('h3').textContent
+          };
+          addToCart(product);
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>

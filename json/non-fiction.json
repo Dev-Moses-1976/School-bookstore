@@ -2,40 +2,43 @@
   
  {
     "id": 1,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img1.jpg.jpg",
     "category": "Non-fiction",
     "title": "Mind Over Matter",
     "price": 4400,
     "button": "ADD TO CART",
-    "author": "Lisa Henderson",
+    "author": "Sarah Eron",
     "cover-type": "Paperback",
     "pages": 330,
+    "url": "/other-pages/description.html",
     "description": "An exploration of the power of positive thinking, mindset shifts, and resilience in overcoming life's greatest challenges."
   },
 
   {
     "id": 2,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img2.jpg.jpg",
     "category": "Non-fiction",
     "title": "Survival Tactics",
     "button": "ADD TO CART",
     "price": 3800,
-    "author": "James Holloway",
+    "author": "AI Sevcik",
     "cover-type": "Paperback",
     "pages": 310,
+    "url": "/other-pages/description.html",
     "description": "A practical guide on how to survive in extreme conditions, from natural disasters to unexpected crises. This book provides valuable insights on preparedness, resilience, and making smart decisions under pressure."
   },
 
   {
     "id": 3,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img3.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Power of the Mind",
     "price": 5000,
     "button": "ADD TO CART",
-    "author": "Dr. Sarah Roberts",
+    "author": "Ron Immink",
     "cover-type": "Hardcover",
     "pages": 350,
+    "url": "/other-pages/description.html",
     "description": "This book explores the incredible capabilities of the human brain and how to unlock its full potential. Through neuroscience, psychology, and real-life case studies, it teaches readers how to harness their minds for success."
   },
 
@@ -43,92 +46,99 @@
 
   {
     "id": 4,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img5.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Science of Habits",
     "price": 3500,
     "button": "ADD TO CART",
-    "author": "James Carter",
+    "author": "Adarsh Gupta",
     "cover-type": "Paperback",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "The Science of Habits explores the psychology behind habit formation, breaking bad habits, and building positive routines for success. Drawing from scientific research, the book provides practical strategies for achieving long-term change."
   },
   
   {
     "id": 5,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img4.jpg.jpg",
     "category": "Non-fiction",
     "title": "Unbreakable Mindset",
     "price": 4000,
     "button": "ADD TO CART",
-    "author": "Sophia Adams",
+    "author": "Jay Glazer",
     "cover-type": "Hardcover",
     "pages": 280,
+    "url": "/other-pages/description.html",
     "description": "Unbreakable Mindset is a motivational guide to mental toughness. It teaches readers how to develop resilience, stay focused under pressure, and turn setbacks into opportunities for growth."
   },
   
   {
     "id": 6,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img7.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Art of Focus",
     "price": 3800,
     "button": "ADD TO CART",
-    "author": "Daniel Howard",
+    "author": "Dan Koe",
     "cover-type": "Paperback",
     "pages": 260,
+    "url": "/other-pages/description.html",
     "description": "The Art of Focus helps readers eliminate distractions, improve concentration, and maximize productivity. Through engaging stories and practical techniques, it offers insights into achieving deep focus in a noisy world."
   },
   
   {
     "id": 7,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img6.jpg.jpg",
     "category": "Non-fiction",
     "title": "Breaking Barriers",
     "price": 4200,
     "button": "ADD TO CART",
-    "author": "Michael Grey",
+    "author": "Empowered Publishing",
     "cover-type": "Hardcover",
     "pages": 350,
+    "url": "/other-pages/description.html",
     "description": "Breaking Barriers shares inspiring stories of individuals who overcame challenges to achieve greatness. It provides valuable lessons on perseverance, courage, and the mindset needed to push beyond limitations."
   },
   
   {
     "id": 8,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img8.jpg.jpg",
     "category": "Non-fiction",
     "title": "Unlocking Your Potential",
     "price": 3700,
     "button": "ADD TO CART",
-    "author": "Emily Thompson",
+    "author": "Jeff Lerner",
     "cover-type": "Paperback",
     "pages": 310,
+    "url": "/other-pages/description.html",
     "description": "This book provides step-by-step guidance on personal growth, self-improvement, and achieving one's dreams. With practical exercises and real-life examples, it helps readers discover and harness their full potential."
   },
   
   {
     "id": 9,
-    "image": "/images/gulliver.jpg.jpg",
+    "image":  "/images/nonFiction-books/img10.jpg.jpg",
     "category": "Non-fiction",
     "title": "The Psychology of Success",
     "price": 3900,
     "button": "ADD TO CART",
-    "author": "David Clark",
+    "author": "Denis Waitley",
     "cover-type": "Hardcover",
     "pages": 290,
+    "url": "/other-pages/description.html",
     "description": "A deep dive into the psychological principles behind success. It explores the habits, thought patterns, and behaviors that distinguish high achievers from the rest."
   },
   
   {
     "id": 10,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/nonFiction-books/img14.jpg.jpg",
     "category": "Non-fiction",
-    "title": "Resilient Thinking",
-    "price": 3600,
+    "title": "Elevate Your Thinking",
+    "price": 4000,
     "button": "ADD TO CART",
-    "author": "Olivia Bennett",
+    "author": "Belinda Colubriale",
     "cover-type": "Paperback",
-    "pages": 275,
-    "description": "Resilient Thinking teaches strategies to build mental strength, cope with adversity, and develop a mindset that thrives in the face of challenges."
+    "pages": 300,
+    "url": "/other-pages/description.html",
+    "description": "Elevate Your Thinking is a deep exploration of positive thinking, cognitive biases, and how to develop a mindset that fosters growth and success."
   }
 ]

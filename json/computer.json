@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img2.jpg.jpg",
     "category": "Computer Science",
     "title": "Compilers: Principles, Techniques, and Tools",
     "price": 6200,
@@ -9,12 +9,13 @@
     "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
     "cover_type": "Hardcover",
     "pages": 1000,
+    "url": "/other-pages/description.html",
     "description": "Often referred to as the 'Dragon Book,' this is the definitive guide to compiler construction. It covers lexical analysis, syntax analysis, code optimization, and more. It is an essential resource for students and professionals interested in programming language design and implementation."
   },
 
   {
     "id": 2,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img1.jpg.jpg",
     "category": "Computer Science",
     "title": "The Art of Computer Programming",
     "price": 7500,
@@ -22,25 +23,28 @@
     "author": "Donald Knuth",
     "cover_type": "Hardcover",
     "pages": 3168,
+    "url": "/other-pages/description.html",
     "description": "This legendary multi-volume work by Donald Knuth is a foundational text in algorithms and computer science. Covering a wide range of topics including combinatorial algorithms, sorting, searching, and mathematical techniques, it remains one of the most comprehensive resources for understanding algorithmic theory and design."
   },
 
   {
     "id": 3,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img5.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Networking: A Top-Down Approach",
     "price": 5000,
+    "button": "ADD TO CART",
     "author": "James F. Kurose, Keith W. Ross",
     "cover_type": "Paperback",
     "pages": 880,
+    "url": "/other-pages/description.html",
     "description": "This book takes a top-down approach to computer networking, beginning with applications and moving down to the physical layer. It provides a detailed understanding of networking concepts such as HTTP, TCP/IP, and network security, making it a valuable resource for students and professionals."
   },
 
 
   {
     "id": 4,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img4.jpg.jpg",
     "category": "Computer Science",
     "title": "Refactoring: Improving the Design of Existing Code",
     "price": 5300,
@@ -48,13 +52,14 @@
     "author": "Martin Fowler",
     "cover_type": "Hardcover",
     "pages": 448,
+    "url": "/other-pages/description.html",
     "description": "Refactoring is a must-read for developers who want to improve their existing code. It provides practical techniques for restructuring code to make it more readable, maintainable, and scalable. The book includes real-world examples and best practices used in modern software development."
   },
 
 
   {
     "id": 5,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img3.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Organization and Design",
     "price": 5800,
@@ -62,13 +67,14 @@
     "author": "David A. Patterson, John L. Hennessy",
     "cover_type": "Paperback",
     "pages": 760,
+    "url": "/other-pages/description.html",
     "description": "This book explores computer architecture, covering essential concepts such as instruction sets, pipelining, and memory hierarchies. It balances theory with practical implementation details, making it a great resource for students studying computer systems and hardware design."
   },
 
 
   {
     "id": 6,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img7.jpg.jpg",
     "category": "Computer Science.",
     "title": "Structure and Interpretation of Computer Programs.",
     "price": 5500,
@@ -76,13 +82,14 @@
     "author": "Harold Abelson, Gerald Jay Sussman",
     "cover_type": "Paperback",
     "pages": 657,
+    "url": "/other-pages/description.html",
     "description": "This book, also known as SICP, is a classic in computer science education. It provides a deep understanding of fundamental programming concepts using the Scheme language. It emphasizes abstraction, modularity, and metalinguistic analysis, making it a must-read for anyone serious about programming."
   },
 
 
   {
     "id": 7,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img6.jpg.jpg",
     "category": "Computer Science.",
     "title": "Code Complete.",
     "price": 6000,
@@ -90,12 +97,13 @@
     "author": "Steve McConnell",
     "cover_type": "Hardcover",
     "pages": 960,
+    "url": "/other-pages/description.html",
     "description": "Code Complete is a highly regarded book on software development and best practices. It covers everything from writing clean, maintainable code to debugging and testing techniques. It’s an essential resource for both beginners and experienced developers looking to improve their coding skills."
   },
 
   {
     "id": 8,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img8.jpg.jpg",
     "category": "Computer Science",
     "title": "Software Engineering: A Practitioner's Approach",
     "price": 5900,
@@ -103,38 +111,43 @@
     "author": "Roger S. Pressman",
     "cover_type": "Paperback",
     "pages": 944,
+    "url": "/other-pages/description.html",
     "description": "A comprehensive introduction to software engineering, this book provides practical insights into software design, development, testing, and maintenance. It covers methodologies like Agile and traditional approaches, making it an essential read for both students and professionals in the software development field."
   },
 
   {
-    "id": 9,
-    "image": "/images/gulliver.jpg.jpg",
+    "id": 2,
+    "image": "/images/computer-books/img9.jpg.jpg",
     "category": "Computer Science",
-    "title": "Software Engineering: A Practitioner's Approach",
-    "price": 5900,
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "price": 5200,
     "button": "ADD TO CART",
-    "author": "Roger S. Pressman",
-    "cover_type": "Paperback",
-    "pages": 944,
-    "description": "A comprehensive introduction to software engineering, this book provides practical insights into software design, development, testing, and maintenance. It covers methodologies like Agile and traditional approaches, making it an essential read for both students and professionals in the software development field."
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "cover_type": "Hardcover",
+    "pages": 395,
+    "url": "/other-pages/description.html",
+    "description": "This classic book introduces fundamental design patterns that help in structuring object-oriented applications. It provides proven solutions to common software design problems, making it a must-read for developers."
   },
 
+
   {
-    "id": 10,
-    "image": "/images/gulliver.jpg.jpg",
+    "id": 1,
+    "image": "/images/computer-books/img16.jpg.jpg",
     "category": "Computer Science",
-    "title": "Software Engineering: A Practitioner's Approach",
-    "price": 5900,
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "price": 4500,
     "button": "ADD TO CART",
-    "author": "Roger S. Pressman",
+    "author": "Robert C. Martin",
     "cover_type": "Paperback",
-    "pages": 944,
-    "description": "A comprehensive introduction to software engineering, this book provides practical insights into software design, development, testing, and maintenance. It covers methodologies like Agile and traditional approaches, making it an essential read for both students and professionals in the software development field."
+    "pages": 464,
+    "url": "/other-pages/description.html",
+    "description": "Clean Code offers practical advice on writing readable, maintainable, and efficient code. It explores coding principles, best practices, and real-world examples to help developers improve software quality and collaboration."
   },
+
 
   {
     "id": 11,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img10.jpg.jpg",
     "category": "Computer Science",
     "title": "Introduction to Algorithms",
     "price": 6800,
@@ -142,12 +155,14 @@
     "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
     "cover_type": "Hardcover",
     "pages": 1312,
+    "url": "/other-pages/description.html",
+    "viewLink": "VIEW NOW",
     "description": "This book provides a deep dive into algorithms and their applications. It covers a broad range of topics, including sorting, searching, graph algorithms, and computational complexity, making it an essential resource for computer science students."
   },
   
   {
     "id": 12,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img11.jpg.jpg",
     "category": "Computer Science",
     "title": "The Mythical Man-Month: Essays on Software Engineering",
     "price": 3800,
@@ -155,12 +170,13 @@
     "author": "Frederick P. Brooks Jr.",
     "cover_type": "Paperback",
     "pages": 322,
+    "url": "/other-pages/description.html",
     "description": "A timeless collection of essays on software project management, the book explores why software projects often run over budget and time. It introduces the concept of the 'mythical man-month' and highlights common software development pitfalls."
   },
   
   {
     "id": 13,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img13.jpg.jpg",
     "category": "Computer Science",
     "title": "You Don't Know JS (book series)",
     "price": 3200,
@@ -168,12 +184,13 @@
     "author": "Kyle Simpson",
     "cover_type": "Paperback",
     "pages": 278,
+    "url": "/other-pages/description.html",
     "description": "This book series dives deep into JavaScript, explaining its quirks, hidden features, and best practices. It is perfect for developers who want to truly master JavaScript beyond the basics."
   },
   
   {
     "id": 14,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img12.jpg.jpg",
     "category": "Computer Science",
     "title": "Computer Science Illuminated",
     "price": 5000,
@@ -181,12 +198,13 @@
     "author": "Nell Dale, John Lewis",
     "cover_type": "Hardcover",
     "pages": 700,
+    "url": "/other-pages/description.html",
     "description": "This book introduces foundational computer science concepts, including hardware, software, networking, data representation, and programming. It is an excellent resource for beginners exploring the field of computing."
   },
   
   {
     "id": 15,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img14.jpg.jpg",
     "category": "Computer Science",
     "title": "Artificial Intelligence: A Modern Approach",
     "price": 7200,
@@ -194,12 +212,13 @@
     "author": "Stuart Russell, Peter Norvig",
     "cover_type": "Hardcover",
     "pages": 1152,
+    "url": "/other-pages/description.html",
     "description": "A comprehensive guide to artificial intelligence, covering topics like search algorithms, neural networks, reinforcement learning, and ethical considerations. It is widely used as a university textbook on AI."
   },
  
   {
     "id": 16,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "/images/computer-books/img15.jpg.jpg",
     "category": "Computer Science",
     "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
     "price": 6300,
@@ -207,6 +226,7 @@
     "author": "Aurélien Géron",
     "cover_type": "Paperback",
     "pages": 856,
+    "url": "/other-pages/description.html",
     "description": "This practical guide to machine learning covers key concepts and tools using Python libraries like Scikit-Learn, Keras, and TensorFlow. It provides hands-on exercises to help readers build real-world AI models."
   }
 

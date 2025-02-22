@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --green: rgba(3, 65, 0, 0.957);
+    --gray: rgba(64, 64, 64, 1);
+    --white: white;
+}
+
+
+.main-container{
+    display: flex;
+    position: relative;
+    position: relative;
+    top: 8em;
+    left: 23em;
+    gap: 3em;
+    max-width: 50%; 
+}
+
+.main-container img{
+    width: 50%;
+    height:30em; 
+}
+
+.main-container .container-1 .category{
+    display: flex;
+    gap: 0.5em;
+}
+
+.category a,p{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.container-1 .title-writeup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    gap: 2em;
+}
+
+.main-container .container-1 .description{
+    max-width: 100%;
+    margin-top: 0.5em;
+}
+
+.main-container .btns{
+    display: flex;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+.btns .btn2 button{
+    border: none;
+    padding: 1em 2em;
+    margin-top: 0.3em;
+    background: var(--green);
+    color: var(--white);
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.btns .btn2 button:hover{ 
+    transform: scale(0.95);
+}
+
+.btn1{
+    display: flex;
+}
+
+.btn1 button{
+    border:1px solid  rgba(225,225,225,0.7);
+    background: rgba(225,225,225,0.4);
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: 300ms ease-in-out;
+}
+
+.btn1 button:hover{
+    transform: scale(0.95);
+}
+
+.btn1 p{
+    background: rgba(225,225,225,0.4);
+    padding: 1em;  
+    border: 1px solid  rgba(225,225,225,0.7);
+    font-size: 1em;
+}
+
+.book-info{
+    position: relative;
+    top: 20em;
+    left: 22em;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-bottom: 10em;
+}
+
+.book-info .first-info{
+    display: flex;
+    gap: 4em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(225,225,225,0.8);
+    
+}
+
+.book-info .second-info{
+    display: flex;
+    gap: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(225,225,225,0.8);
+    
+}
+
+.book-info .third-info{
+    display: flex;
+    gap: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(225,225,225,0.8);
+    
+}
+
+.book-info p{
+    margin-left: 20em;
+}

@@ -9,6 +9,7 @@
     "author": "Dr. James Holland",
     "cover-type": "Hardcover",
     "pages": 350,
+    "url": "/other-pages/description.html",
     "description": "This book explores modern advancements in crop science, including hybrid seed technology, pest resistance, and sustainable farming techniques that enhance yield and productivity."
   },
 
@@ -22,6 +23,7 @@
     "author": "Chris Guillebeau",
     "cover-type": "Paperback",
     "pages": 304,
+    "url": "/other-pages/description.html",
     "description": "A guide on how to start a profitable business with minimal investment, featuring case studies of entrepreneurs who built successful startups with small budgets."
   },
 
@@ -35,6 +37,7 @@
     "author": "Donald Knuth",
     "cover_type": "Hardcover",
     "pages": 3168,
+    "url": "/other-pages/description.html",
     "description": "This legendary multi-volume work by Donald Knuth is a foundational text in algorithms and computer science. Covering a wide range of topics including combinatorial algorithms, sorting, searching, and mathematical techniques, it remains one of the most comprehensive resources for understanding algorithmic theory and design."
   },
 
@@ -48,6 +51,7 @@
     "author": "James Holloway",
     "cover-type": "Hardcover",
     "pages": 400,
+    "url": "/other-pages/description.html",
     "description": "A man wakes up one day to find himself living two separate lives in parallel realities. Torn between the two, he must make an impossible choice."
   },
 
@@ -61,6 +65,7 @@
     "author": "Isabella Thornton",
     "cover-type": "Hardcover",
     "pages": 320,
+    "url": "/other-pages/description.html",
     "description": "A poignant novel that explores love, loss, and the lingering echoes of the past. This masterpiece tells the story of a woman uncovering letters from her ancestors, revealing long-hidden family secrets."
   },
 
@@ -74,6 +79,7 @@
     "author": "Daniel Howard",
     "cover-type": "Paperback",
     "pages": 260,
+    "url": "/other-pages/description.html",
     "description": "The Art of Focus helps readers eliminate distractions, improve concentration, and maximize productivity. Through engaging stories and practical techniques, it offers insights into achieving deep focus in a noisy world."
   }
   
