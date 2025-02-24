@@ -5,28 +5,28 @@ document.addEventListener('DOMContentLoaded', () => {
     let books = [];
 
     // Determine the correct JSON file based on bookId
-    let jsonFile = "";
-    if (bookId >= 1 && bookId <= 16) {
-      jsonFile = "/json/agric.json";
-    } else if (bookId >= 17 && bookId <= 22) {
-      jsonFile = "/json/best-sellers.json";
-    } else if (bookId >= 23 && bookId <= 38) {
-      jsonFile = "/json/business.json";
-    } else if (bookId >= 39 && bookId <= 54) {
-      jsonFile = "/json/computer.json";
-    } else if (bookId >= 55 && bookId <= 70) {
-      jsonFile = "/json/fiction.json";
-    } else if (bookId >= 71 && bookId <= 86) {
-      jsonFile = "/json/literature.json";
-    } else if (bookId >= 87 && bookId <= 98) {
-      jsonFile = "/json/newest-arrival.json";
-    } else {
-      jsonFile = "/json/non-fiction.json";
-    }
+    // let jsonFile = "";
+    // if (bookId >= 1 && bookId <= 16) {
+    //   jsonFile = "/json/agric.json";
+    // } else if (bookId >= 17 && bookId <= 22) {
+    //   jsonFile = "/json/best-sellers.json";
+    // } else if (bookId >= 23 && bookId <= 38) {
+    //   jsonFile = "/json/business.json";
+    // } else if (bookId >= 39 && bookId <= 54) {
+    //   jsonFile = "/json/computer.json";
+    // } else if (bookId >= 55 && bookId <= 70) {
+    //   jsonFile = "/json/fiction.json";
+    // } else if (bookId >= 71 && bookId <= 86) {
+    //   jsonFile = "/json/literature.json";
+    // } else if (bookId >= 87 && bookId <= 98) {
+    //   jsonFile = "/json/newest-arrival.json";
+    // } else {
+    //   jsonFile = "/json/non-fiction.json";
+    // }
 
 
     // Fetch books from JSON file
-    fetch(jsonFile)
+    fetch("/json/agric.json")
         .then(response => response.json())
         .then(data => {
             books = data;

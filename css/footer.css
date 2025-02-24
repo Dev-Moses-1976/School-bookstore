@@ -5,20 +5,83 @@
     font-family: sans-serif;
 }
 
-/* .bottom-content{
+:root{
+    --green:rgba(3, 65, 0, 0.957);
+    --gray: rgba(64, 64, 64, 1);
+    --white:#fff;
+}
+
+.bottom-content{
     display: flex;
     flex-direction: row;
-} */
+    gap: 0.5em;
+    position: relative;
+    top: 35em;
+    padding: 1em 13em 5em;
+    max-width: 100%;
+    left: -1em;
+    background: var(--green);
+}
+
+.bottom-content .about {
+    position: relative;
+    padding-top:4em;
+}
+
+.about h2{
+    color: var(--white);
+}
 
 .bottom-content .about p{
-    max-width: 24%;
+    width: 40%;
+    color: var(--white);
+    padding-top:2em ; 
 }
 
 .quick-links{
+    position: absolute;
     display: flex;
     flex-direction: column;
+    left: 45em;
+    top: 5em;
+    gap: 1em;
 }
 
-.images img{
-    width:14%;
+.quick-links a{
+    text-decoration: none;
+    color: var(--white); 
+    gap: 1em;
 }
+
+.quick-links .links{
+    padding-top: 2em;
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.quick-links h3{
+ color: var(--white);
+}
+
+.about .logos{
+    display: flex;
+    flex-direction: row;   
+    position: relative;
+}
+
+.logos #unnLogo{
+    position:absolute;
+    left: 56em;
+    top: 4em;
+    width: 13em;
+}
+
+.logos #bookDenLogo{
+    position: absolute;
+    bottom: 18em;
+    right: 18em;
+    width: 7em;
+}
+
+
