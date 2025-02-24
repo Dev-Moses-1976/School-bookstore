@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .cart-page {
+            padding: 20px;
+        }
+
+        #cart-page-items div {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .total {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .checkout-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .checkout-button:hover {
+            background-color: #0056b3;
+        }
+
+        .cart-page a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cart-page">
+        <h1>Your Cart</h1>
+        <div id="cart-page-items"></div>
+        <div class="total">Total: <span id="cart-total">&#8358;0.00</span></div>
+        <a href="index.html">Continue Shopping</a>
+        <button class="checkout-button">Proceed to Checkout</button>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Retrieve cart items from localStorage
+            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+            const cartPageItemsElement = document.getElementById('cart-page-items');
+            const cartTotalElement = document.getElementById('cart-total');
+
+            // Function to update the cart display
+            function updateCartDisplay() {
+                // Clear the current cart items
+                cartPageItemsElement.innerHTML = '';
+
+                // Calculate the total price
+                let total = 0;
+
+                // Add each item to the cart display
+                cartItems.forEach((item, index) => {
+                    const itemElement = document.createElement('div');
+                    itemElement.textContent = `${item.name} - ${item.price}`;
+                    cartPageItemsElement.appendChild(itemElement);
+
+                    // Extract the price and add to the total
+                    const price = parseFloat(item.price.replace(/[^0-9.-]+/g, ""));
+                    total += price;
+                });
+
+                // Update the total price
+                cartTotalElement.textContent = `₦${total.toFixed(2)}`;
+            }
+
+            // Initialize the cart display when the page loads
+            updateCartDisplay();
+        });
+    </script>
+</body>
+
+</html>
