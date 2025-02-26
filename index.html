@@ -33,8 +33,10 @@
   </section>
   <!-- cart -->
   <section class="cart">
-    <h1>Your Cart</h1>
-    <div id="cart-items"></div>
+    <a href="cart.html" id="cart-link">
+      <h1>Your Cart <span id="cart-count">0</span></h1>
+    </a>
+    <!-- <div id="cart-items"></div> -->
   </section>
   <!-- Newest Arrival Section -->
   <section class="newest-arrival">
@@ -499,38 +501,7 @@
   <script src="/script/literature.js"></script>
   <script src="/script/newest-arrival.js"></script>
   <script src="/script/best-sellers.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const cartItems = [];
-
-      function addToCart(product) {
-        cartItems.push(product);
-        updateCartDisplay();
-      }
-
-      function updateCartDisplay() {
-        const cartItemsElement = document.getElementById('cart-items');
-        cartItemsElement.innerHTML = ''; // Clear current cart items
-
-        cartItems.forEach(item => {
-          const itemElement = document.createElement('div');
-          itemElement.textContent = `${item.name} - ${item.price}`;
-          cartItemsElement.appendChild(itemElement);
-        });
-      }
-
-      document.querySelectorAll('.available-books button').forEach(button => {
-        button.addEventListener('click', function () {
-          const book = this.closest('.available-books');
-          const product = {
-            name: book.querySelector('p:nth-of-type(2)').textContent,
-            price: book.querySelector('h3').textContent
-          };
-          addToCart(product);
-        });
-      });
-    });
-  </script>
+  <script src="script/cart.js"></script>
 </body>
 
 </html>
