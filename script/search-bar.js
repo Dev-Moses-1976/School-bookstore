@@ -1,87 +1,66 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const searchBar = document.getElementById('searchBar');
-    const bookList = document.getElementById('bookList');
-    const dropdown = document.getElementById('dropdown');
-    let books = [];
+// List of JSON files to fetch from
+const jsonFiles = ["/json/literature.json", "/json/fiction.json", "/json/business.json", "/json/agric.json", "/json/non-fiction.json","/json/computer.json"];
 
-    // Determine the correct JSON file based on bookId
-    // let jsonFile = "";
-    // if (bookId >= 1 && bookId <= 16) {
-    //   jsonFile = "/json/agric.json";
-    // } else if (bookId >= 17 && bookId <= 22) {
-    //   jsonFile = "/json/best-sellers.json";
-    // } else if (bookId >= 23 && bookId <= 38) {
-    //   jsonFile = "/json/business.json";
-    // } else if (bookId >= 39 && bookId <= 54) {
-    //   jsonFile = "/json/computer.json";
-    // } else if (bookId >= 55 && bookId <= 70) {
-    //   jsonFile = "/json/fiction.json";
-    // } else if (bookId >= 71 && bookId <= 86) {
-    //   jsonFile = "/json/literature.json";
-    // } else if (bookId >= 87 && bookId <= 98) {
-    //   jsonFile = "/json/newest-arrival.json";
-    // } else {
-    //   jsonFile = "/json/non-fiction.json";
-    // }
+let allBooks = []; // Store all book data
 
+// Fetch book data from all JSON files
+async function loadBookData() {
+    try {
+        const promises = jsonFiles.map(file => fetch(file).then(res => res.json()));
+        const results = await Promise.all(promises);
+        allBooks = results.flat(); // Merge all books into one array
+    } catch (error) {
+        console.error("Error loading book data:", error);
+    }
+}
 
-    // Fetch books from JSON file
-    fetch("/json/agric.json")
-        .then(response => response.json())
-        .then(data => {
-            books = data;
-        })
-        .catch(error => console.error('Error loading books:', error));
+// Function to filter books based on search input
+function filterBooks(query) {
+    return allBooks.filter(book =>
+        book.title.toLowerCase().includes(query) ||
+        book.author.toLowerCase().includes(query) ||
+        book.category.toLowerCase().includes(query)
+    );
+}
 
-    // Function to display books
-    function displayBooks(filteredBooks) {
-        bookList.innerHTML = ""; // Clear previous results
-        if (filteredBooks.length === 0) {
-            dropdown.classList.add('hidden'); // Hide dropdown if no matches
-            return;
-        }
+// Function to display dropdown results
+function showDropdownResults(results) {
+    const dropdown = document.getElementById("dropdown");
+    dropdown.innerHTML = ""; // Clear previous results
 
-        dropdown.classList.remove('hidden'); // Show dropdown
-        filteredBooks.forEach(book => {
-            const bookItem = document.createElement('div');
-            bookItem.classList.add('book');
-            bookItem.innerHTML = `
-                <strong>${book.title}</strong> <br>
-                <small>Author: ${book.author}</small> <br>
-                <small>Category: ${book.category}</small>
-            `;
-            bookItem.addEventListener('click', () => {
-                searchBar.value = book.title;
-                dropdown.classList.add('hidden'); // Hide dropdown on selection
-            });
-            bookList.appendChild(bookItem);
-
-            bookItem.onclick = () => {
-                window.location.href = `${book.url}?id=${book.id}`;
-            };
-        });
+    if (results.length === 0) {
+        dropdown.style.display = "none"; // Hide dropdown if no results
+        return;
     }
 
-    // Search Functionality
-    searchBar.addEventListener('keyup', () => {
-        let filter = searchBar.value.toLowerCase();
-        if (filter === "") {
-            dropdown.classList.add('hidden'); // Hide dropdown if input is empty
-            return;
-        }
-
-        let filteredBooks = books.filter(book =>
-            book.title.toLowerCase().includes(filter) ||
-            book.author.toLowerCase().includes(filter) ||
-            book.category.toLowerCase().includes(filter)
-        );
-        displayBooks(filteredBooks);
+    results.forEach(book => {
+        const item = document.createElement("div");
+        item.classList.add("dropdown-item");
+        item.textContent = `${book.title} - ${book.author} (${book.category})`;
+        item.onclick = () => {
+            document.getElementById("searchBar").value = book.title; // Set value on click
+            dropdown.style.display = "none";
+        };
+        
+        item.onclick =  () => {
+            window.location.href = `${book.url}?id=${book.id}`;
+        };
+        dropdown.appendChild(item);
     });
 
-    // Hide dropdown when clicking outside
-    document.addEventListener('click', (event) => {
-        if (!searchBar.contains(event.target) && !dropdown.contains(event.target)) {
-            dropdown.classList.add('hidden');
-        }
-    });
+    dropdown.style.display = "block"; // Show dropdown
+}
+
+// Event listener for search input
+document.getElementById("searchBar").addEventListener("input", function () {
+    const query = this.value.trim().toLowerCase();
+    if (query.length > 0) {
+        const results = filterBooks(query);
+        showDropdownResults(results);
+    } else {
+        document.getElementById("dropdown").style.display = "none";
+    }
 });
+
+// Load book data when the page loads
+document.addEventListener("DOMContentLoaded", loadBookData);

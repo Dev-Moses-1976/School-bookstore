@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/search-bar.css">
-    <link rel="stylesheet" href="/css/header.css"/>
+    <link rel="stylesheet" href="/css/search-bar.css" />
+    <link rel="stylesheet" href="/css/header.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -23,16 +23,24 @@
 
       <div class="second-content">
         <div class="part1">
-          <img src="/images/logo.jpg.jpg" />
-          <input type="text"  id="searchBar" placeholder="Enter book title or Author" />
-          <div id="dropdown" class="hidden">
-            <div id="bookList"></div>
+          <img src="/images/unn.jpg.png" alt="unn logo" id="unn-logo">
+          <img src="/images/logo.jpg.jpg" alt="bookden logo" id="bookden"/>
+          
+          <div id="searchContainer">
+            <input
+              type="text"
+              id="searchBar"
+              placeholder="Search books by title, author, or category..." 
+              
+            />
+            <div id="dropdown"></div>
           </div>
         </div>
 
         <div class="part2">
           <button>LOGIN</button>
           <p>| CART / &#8358;4,000.00</p>
+          <i class="fa-solid fa-cart-shopping"></i>
         </div>
       </div>
 
@@ -43,13 +51,19 @@
           <div class="dropdown-content">
             <a href="">Agric Science</a>
             <a href="">Computer Science</a>
-            <a href="">Economics</a>
             <a href="">English and Lit. Studies</a>
-            <a href="">Electrical Engineering</a>
           </div>
         </div>
-        <a href="">SHOP</a>
-        <a href="">AGENTS</a>
+        
+        <div class="shops">
+          <a href="">SHOP</a>
+          <div class="dropdown-content2">
+            <a href="">Fiction</a>
+            <a href="">Non-fiction</a>
+            <a href="">Business</a>
+          </div>
+
+        </div>
         <a href="">REQUEST FOR A BOOK</a>
       </nav>
     </header>
