@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/css/search-bar.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link
       rel="stylesheet"
@@ -22,13 +23,24 @@
 
       <div class="second-content">
         <div class="part1">
-          <img src="/images/logo.jpg.jpg" />
-          <input type="text" placeholder="Enter book title or Author" />
+          <img src="/images/unn.jpg.png" alt="unn logo" id="unn-logo">
+          <img src="/images/logo.jpg.jpg" alt="bookden logo" id="bookden"/>
+          
+          <div id="searchContainer">
+            <input
+              type="text"
+              id="searchBar"
+              placeholder="Search books by title, author, or category..." 
+              
+            />
+            <div id="dropdown"></div>
+          </div>
         </div>
 
         <div class="part2">
           <button>LOGIN</button>
           <p>| CART / &#8358;4,000.00</p>
+          <i class="fa-solid fa-cart-shopping"></i>
         </div>
       </div>
 
@@ -39,39 +51,23 @@
           <div class="dropdown-content">
             <a href="">Agric Science</a>
             <a href="">Computer Science</a>
-            <a href="">Economics</a>
             <a href="">English and Lit. Studies</a>
-            <a href="">Electrical Engineering</a>
           </div>
         </div>
-        <a href="">SHOP</a>
-        <a href="">AGENTS</a>
+        
+        <div class="shops">
+          <a href="">SHOP</a>
+          <div class="dropdown-content2">
+            <a href="">Fiction</a>
+            <a href="">Non-fiction</a>
+            <a href="">Business</a>
+          </div>
+
+        </div>
         <a href="">REQUEST FOR A BOOK</a>
       </nav>
     </header>
 
-    <footer>
-      <div class="about">
-        <h1>ABOUT BOOKDEN</h1>
-        <p>
-          BookDen website was born out of the growing need to simplify and
-          automate bookstore activities, ensuring students can purchase books
-          with ease. Traditional bookstores often face challenges such as
-          overcrowding, long queues, and limited accessibility, leaving students
-          struggling to acquire the materials they need without sacrificing
-          valuable time. Recognizing this, the idea of a web-based system
-          emerged as a solution to make book purchases more feasible for
-          students. This platform offers a streamlined experience, allowing
-          users to browse, select, and purchase textbooks online. With features
-          like real-time inventory updates, secure payment options, and
-          convenient delivery or pickup methods, the website transforms the way
-          students access academic resources.
-        </p>
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-regular fa-envelope"></i>
-      </div>
-    </footer>
+    <script src="/script/search-bar.js"></script>
   </body>
 </html>

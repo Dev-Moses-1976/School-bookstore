@@ -37,6 +37,10 @@
     color: var(--gray);
 }
 
+.category a:hover{
+    transform: scale(0.95);
+}
+
 .container-1 .title-writeup{
     display: flex;
     flex-direction: column;

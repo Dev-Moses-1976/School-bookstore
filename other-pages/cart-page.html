@@ -1,93 +1,165 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/cart-page.css" />
-    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
-  </head>
 
-  <body>
-    <div class="first-content">
-      <p class="active">SHOPPING CART</p> <iconify-icon icon="basil:caret-right-outline" width="32" height="32" class="iconify-icon"></iconify-icon>
-      <p>CHECKOUT DETAILS</p><iconify-icon icon="basil:caret-right-outline" width="32" height="32" class="iconify-icon"></iconify-icon>
-      <p>ORDER COMPLETE</p>
-    </div>
-    
-    <div class="first-maincontainer">
-      <div class="sub-container1">
-  
-        <div class="head-container">
-          <h4>PRODUCT</h4>
-          <h4 class="price">PRICE</h4>
-          <h4 class="quantity">QUANTITY</h4>
-          <h4>SUBTOTAL</h4>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="../css/cart-page.css" />
+  <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+</head>
+
+<body>
+  <div class="first-content">
+    <p class="active">SHOPPING CART</p>
+    <iconify-icon icon="basil:caret-right-outline" width="32" height="32" class="iconify-icon"></iconify-icon>
+    <p>CHECKOUT DETAILS</p>
+    <iconify-icon icon="basil:caret-right-outline" width="32" height="32" class="iconify-icon"></iconify-icon>
+    <p>ORDER COMPLETE</p>
+  </div>
+
+  <div class="first-maincontainer">
+    <div class="sub-container1">
+      <div class="head-container">
+        <h4>PRODUCT</h4>
+        <h4 class="price">PRICE</h4>
+        <h4 class="quantity">QUANTITY</h4>
+        <h4>SUBTOTAL</h4>
+      </div>
+
+      <div id="cart-page-items"></div>
+
+      <div class="clicks">
+        <div class="btn1">
+          <button onclick="window.location.href='../index.html'">CONTINUE SHOPPING</button>
         </div>
-  
-        <div class="inside-content">
-          <div class="product">
-            <button class="close-btn">
-              <iconify-icon icon="stash:times-duotone" width="15" height="15" class="iconify-icon"></iconify-icon>
-            </button>
-            <img src="/images/computer-books/img13.jpg.jpg" alt="">
-            <p class="write-up">Ajayi Crowther: The Triumphs and Travails of a Legend</p>
-          </div>
-          
-          <h3 class="amount2k">2000.00</h3>
-  
-          <div class="btns">
-            <button class="btn-1">-</button>
-            <p>2</p>
-            <button class="btn-2">+</button>
-          </div>
-  
-          <h3>4000.00</h3>
+        <div class="btn2">
+          <button onclick="updateCart()">UPDATE CART</button>
         </div>
-  
-        <div class="clicks">
-          <div class="btn1">
-            <button>CONTINUE SHOPPING</button>
-          </div>
-          <div class="btn2">
-            <button>UPDATE CART</button>
-          </div>
-          <div class="btn3">
-            <button>SHARE CART</button>
-          </div>
+        <div class="btn3">
+          <button>SHARE CART</button>
         </div>
       </div>
-      
-      <div class="sub-container2">
-        <h4>CART TOTALS</h4>
-        <div class="subtotal">
-          <p>Subtotal</p>
-          <h4>4,000.00</h4>
-        </div>
-
-        <div class="shipping">
-          <p>Shipping</p>
-          <p class="paragraph2">Calculate Shipping</p>
-        </div>
-
-        <div class="total">
-          <p>Total</p>
-          <h4>4,000.00</h4>
-        </div>
-        
-        <div class="payment-method">
-          <label for="options">Select Payment Method :</label>
-          <select id="options" name="options">
-            <option value="BANK TRANSFER">BANK TRANSFER</option>
-            <option value="CARD PAYMENT">CARD PAYMENT</option>
-          </select>
-          <button>PROCEED TO CHECKOUT</button>  
-        </div>
-      </div>
-     
-
     </div>
-  </body>
+
+    <div class="sub-container2">
+      <h4>CART TOTALS</h4>
+      <div class="subtotal">
+        <p>Subtotal</p>
+        <h4 id="cart-subtotal">₦0.00</h4>
+      </div>
+
+      <div class="shipping">
+        <p>Shipping</p>
+        <p class="paragraph2">Calculate Shipping</p>
+      </div>
+
+      <div class="total">
+        <p>Total</p>
+        <h4 id="cart-total">₦0.00</h4>
+      </div>
+
+      <div class="payment-method">
+        <label for="options">Select Payment Method :</label>
+        <select id="options" name="options">
+          <option value="BANK TRANSFER">BANK TRANSFER</option>
+          <option value="CARD PAYMENT">CARD PAYMENT</option>
+        </select>
+        <button onclick="proceedToCheckout()">PROCEED TO CHECKOUT</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Retrieve cart items from localStorage
+      const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+      const cartPageItemsElement = document.getElementById('cart-page-items');
+      const cartSubtotalElement = document.getElementById('cart-subtotal');
+      const cartTotalElement = document.getElementById('cart-total');
+
+      // Function to update the cart display
+      function updateCartDisplay() {
+        // Clear the current cart items
+        cartPageItemsElement.innerHTML = '';
+
+        // Calculate the total price
+        let total = 0;
+
+        // Add each item to the cart display
+        cartItems.forEach((item, index) => {
+          const itemElement = document.createElement('div');
+          itemElement.className = 'inside-content';
+
+          itemElement.innerHTML = `
+            <div class="product">
+              <button class="close-btn" onclick="removeItem(${index})">
+                <iconify-icon icon="stash:times-duotone" width="15" height="15" class="iconify-icon"></iconify-icon>
+              </button>
+              <img src="${item.image || '/images/computer-books/img13.jpg.jpg'}" alt="${item.name}">
+              <p class="write-up">${item.name}</p>
+            </div>
+            <h3 class="amount2k">${item.price}</h3>
+            <div class="btns">
+              <button class="btn-1" onclick="decreaseQuantity(${index})">-</button>
+              <p>${item.quantity || 1}</p>
+              <button class="btn-2" onclick="increaseQuantity(${index})">+</button>
+            </div>
+            <h3>${(parseFloat(item.price.replace(/[^0-9.-]+/g, "")) * (item.quantity || 1)).toFixed(2)}</h3>
+          `;
+
+          cartPageItemsElement.appendChild(itemElement);
+
+          // Extract the price and add to the total
+          const price = parseFloat(item.price.replace(/[^0-9.-]+/g, ""));
+          total += price * (item.quantity || 1);
+        });
+
+        // Update the subtotal and total price
+        cartSubtotalElement.textContent = `₦${total.toFixed(2)}`;
+        cartTotalElement.textContent = `₦${total.toFixed(2)}`;
+      }
+
+      // Function to remove an item from the cart
+      function removeItem(index) {
+        const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        cartItems.splice(index, 1);
+        localStorage.setItem('cartItems', JSON.stringify(cartItems));
+        updateCartDisplay();
+      }
+
+      // Function to increase item quantity
+      function increaseQuantity(index) {
+        const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        cartItems[index].quantity = (cartItems[index].quantity || 1) + 1;
+        localStorage.setItem('cartItems', JSON.stringify(cartItems));
+        updateCartDisplay();
+      }
+
+      // Function to decrease item quantity
+      function decreaseQuantity(index) {
+        const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        if (cartItems[index].quantity > 1) {
+          cartItems[index].quantity -= 1;
+          localStorage.setItem('cartItems', JSON.stringify(cartItems));
+          updateCartDisplay();
+        }
+      }
+
+      // Function to update the cart
+      function updateCart() {
+        alert('Cart updated!');
+      }
+
+      // Function to proceed to checkout
+      function proceedToCheckout() {
+        alert('Proceeding to checkout...');
+      }
+
+      // Initialize the cart display when the page loads
+      updateCartDisplay();
+    });
+  </script>
+</body>
+
 </html>

@@ -10,12 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
 
-        const linkElement = document.createElement("a");
-        linkElement.href = book.url;
+        // const linkElement = document.createElement("a");
+        // linkElement.href = book.url;
 
         //created my HTML elements here
         const imageElement = document.createElement("img");
         imageElement.src = book.image;
+        imageElement.onclick = () => {
+          window.location.href = `${book.url}?id=${book.id}`;
+       };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -33,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         buttonElement.textContent = book.button;
 
         // Appending my elements to the div container created
-        bookContainer.appendChild(linkElement);
+        // bookContainer.appendChild(linkElement);
         bookContainer.appendChild(imageElement);
         bookContainer.appendChild(categoryElement);
         bookContainer.appendChild(titleElement);
@@ -41,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.appendChild(buttonElement);
 
         //append image inside the link and append the link inside the image container
-        linkElement.appendChild(imageElement);
+        // linkElement.appendChild(imageElement);
 
         //Appending my container to my main container with id fiction-books
         displayBook.appendChild(bookContainer);

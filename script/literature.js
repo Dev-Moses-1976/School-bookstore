@@ -18,12 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
         
-        const linkElement = document.createElement("a")
-        linkElement.href = book.url;
+        // const linkElement = document.createElement("a")
+        // linkElement.href = book.url;
         
         // Create HTML elements for each book
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
+        imageElement.onclick = () => {
+          window.location.href = `${book.url}?id=${book.id}`;
+       };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -39,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         buttonElement.textContent = book.button;
 
         // Append elements to book container
-        bookContainer.appendChild(linkElement);
+        // bookContainer.appendChild(linkElement);
         bookContainer.appendChild(imageElement);
         bookContainer.appendChild(categoryElement);
         bookContainer.appendChild(titleElement);
@@ -47,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.appendChild(buttonElement);
 
         //append image inside the link and append the link inside the image container
-        linkElement.appendChild(imageElement);
+        // linkElement.appendChild(imageElement);
 
         // Append book container to main display div
         displayBook.appendChild(bookContainer);
@@ -71,12 +74,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
         
-        const linkElement = document.createElement("a")
-        linkElement.href = book.url;
+        // const linkElement = document.createElement("a")
+        // linkElement.href = book.url;
         
         // Create HTML elements for each book
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
+        imageElement.onclick = () => {
+          window.location.href = `${book.url}?id=${book.id}`;
+       };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -92,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         buttonElement.textContent = book.button;
 
         // Append elements to book container
-        bookContainer.appendChild(linkElement);
+        // bookContainer.appendChild(linkElement);
         bookContainer.appendChild(imageElement);
         bookContainer.appendChild(categoryElement);
         bookContainer.appendChild(titleElement);
@@ -100,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.appendChild(buttonElement);
 
         //append image inside the link and append the link inside the image container
-        linkElement.appendChild(imageElement);
+        // linkElement.appendChild(imageElement);
 
         // Append book container to main display div
         displayBook.appendChild(bookContainer);

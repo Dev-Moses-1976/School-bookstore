@@ -11,108 +11,17 @@
     
 }
 
+/* #header-page .second-content .part2{
+  margin-right: 40em;
+} */
+
 html,body{
     width: 100%;
-    max-width: 120em;
     height: 100vh;
     overflow-x: auto;
 }
 
 
-/* Header styling */
-.first-content{
-    background:var(--green) ;
-    display: flex;
-    gap: 25em;
-    margin-top: 0.5em;
-    color: white;
-    padding: 0.8em 0 0.8em 8em;
-  
-}
-
-.first-content p{
-    position: relative;
-    top: 0.6em;
-}
-
-/* FOR THE SECOND PART WHERE WE HAVE OUR LOGO */
-
-.second-content{
-    display: flex;
-    position: relative;
-    left: 8em;
-    gap: 30em;
-}
-.second-content .part1{
-    display: flex;
-}
-
-.second-content img{
-    width: 10em;
-    height: 10em;
-}
-
-.second-content input{
-    position: relative;
-    top: 2em;
-    left: 2em;
-    height: 2em;
-    width: 22em;
-    border: 1px solid gray;
-    outline: none;
-    border-radius: 1.5em;
-    padding: 1em;
-}
-
-.second-content .part2{
-    display: flex;
-    position: relative;
-    top: 2em;
-    color: gray;
-    gap: 0.5em;
-    
-}
-
-    
-.part2 p{
-    color: var(--gray);
-    font-size: 0.9em;
-    font-weight: 700;
-
-}
-
-.part2 button{
-    border: 1px solid var(--gray);
-    height: 2.5em;
-    padding: 0.5em 1em;
-    outline: none;
-    border-radius: 1.6em;
-    transition: 300ms ease-in-out;
-    color: var(--gray);
-    font-size: 0.7em;
-    font-weight: 700;
-}
-
-.part2 button:hover{
-    transform: scale(1.1);
-}
-
-nav{
-    display: flex;
-    gap: 1em;
-    position: relative;
-    top: -5em;
-    left: 20em
-    
-    
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-    font-size: 0.8em;
-    font-weight: 500;
-}
 /* Landing page section */
 .landing-page{
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255,255,255,0.8), rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url('/images/shelf1.jpg.jpg');
@@ -120,6 +29,7 @@ nav a{
     background-repeat: no-repeat;
     height: 90vh;
     width: 100%; 
+    margin-top: 4em;
 
     h1{
         position: relative;
@@ -191,7 +101,7 @@ nav a{
 
 .quote img{
    position: relative;
-   left: 9.45em;
+   left: 10.5em;
    width: 40%;
     
 }
