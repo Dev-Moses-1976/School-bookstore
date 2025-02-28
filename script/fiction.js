@@ -1,10 +1,34 @@
-function openSidebar() {
-  document.getElementById("sidebar").style.width = "15em";
-}
+// function openSidebar() {
+//   document.getElementById("sidebar").style.width = "15em";
+// }
 
-function closeSidebar() {
-  document.getElementById("sidebar").style.width = "0px";
-}
+// function closeSidebar() {
+//   document.getElementById("sidebar").style.width = "0px";
+// }
+
+
+const openBtn = document.querySelector('.open-btn');
+const closeBtn = document.querySelector('.close-btn');
+const sidebar = document.querySelector('.sidebar');
+const overlay = document.createElement('div');
+overlay.className = 'overlay';
+document.body.appendChild(overlay);
+
+openBtn.addEventListener('click', () => {
+  sidebar.style.width = '250px'; // Adjust width as needed
+  document.body.classList.add('sidebar-open');
+});
+
+closeBtn.addEventListener('click', () => {
+  sidebar.style.width = '0';
+  document.body.classList.remove('sidebar-open');
+});
+
+overlay.addEventListener('click', () => {
+  sidebar.style.width = '0';
+  document.body.classList.remove('sidebar-open');
+});
+
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch("/json/fiction.json")
@@ -90,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
+      
 
         // Appending my elements to the div container created
         bookContainer.appendChild(imageElement);
@@ -102,11 +127,13 @@ document.addEventListener("DOMContentLoaded", function () {
         displayBook.appendChild(bookContainer);
       });
     })
-    .catch((error) => {
+    .catch((error) =>  {
+      
       document.getElementById("mainpageFiction").textContent =
-        "Error: " + error.message;
+      "Error: " + error.message;
     });
 });
+
 
 
 

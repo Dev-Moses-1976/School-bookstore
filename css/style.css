@@ -33,7 +33,7 @@ html,body{
 
     h1{
         position: relative;
-        top: 1em;
+        top: 2em;
         left: 1em;
         font-size: 5em;
         max-width: 50%;
@@ -49,11 +49,11 @@ html,body{
     button{
         outline: none;
         border: none;
-        padding: 3em 14em;
+        padding: 2em 7em;
         background: var(--green);
         max-width: 50%;
         position: relative;
-        top: 13em;
+        top: 17em;
         right: 2em;
         border-radius: 1.6em;
         color: white;
@@ -63,6 +63,11 @@ html,body{
     
     button p{
         font-size: 5em;
+    }
+
+    button a{
+        text-decoration: none;
+        color: white;
     }
 
     button:hover{

@@ -1,176 +1,384 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    font-family:  sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-
-:root{
-    --green:  rgba(3, 65, 0, 0.957);
-    --gray: rgba(64, 64, 64, 1);
-    
+:root {
+  --green: rgba(3, 65, 0, 0.957);
+  --gray: rgba(64, 64, 64, 1);
+  --white: white;
 }
 
-html,body{
-    width: 100%;
-    max-width: 120em;
-    height: 100vh;
-    overflow-x: auto;
+html,
+body {
+  width: 100%;
+  max-width: 120em;
+  height: 100vh;
+  overflow-x: auto;
 }
-
 
 /* Header styling */
-.first-content{
-    background:var(--green) ;
-    display: flex;
-    gap: 25em;
-    margin-top: 0.5em;
-    color: white;
-    padding: 0.8em 0 0.8em 8em;
-  
+.first-content {
+  background: var(--green);
+  display: flex;
+  gap: 25em;
+  margin-top: 0.5em;
+  color: white;
+  padding: 0.8em 0 0.8em 8em;
 }
 
-.first-content p{
-    position: relative;
-    top: 0.6em;
-    left: 26em;
+.first-content p {
+  position: relative;
+  top: 0.6em;
+  left: 26em;
 }
 
 /* FOR THE SECOND PART WHERE WE HAVE OUR LOGO */
 
-.second-content{
-    display: flex;
-    gap: 40em;
-    margin-left: 8em;
-    
+.second-content {
+  display: flex;
+  gap: 40em;
+  margin-left: 8em;
 }
 
-.second-content  #searchContainer input{
-    position: relative;
-    bottom: 13em;
-    left: 27em;
-    height: 2em;
-    width: 22em;
-    border: 1px solid gray;
-    outline: none;
-    border-radius: 1.5em;
-    padding: 1em;
+.second-content #searchContainer input {
+  position: relative;
+  bottom: 13em;
+  left: 27em;
+  height: 2em;
+  width: 22em;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 1.5em;
+  padding: 1em;
 }
 
-.second-content .part1 #unn-logo{
-    position: relative;
-    bottom: 2em;
-    width: 13em;
-    height: 8em;
+.second-content .part1 #unn-logo {
+  position: relative;
+  bottom: 2em;
+  width: 13em;
+  height: 8em;
 }
 
-.second-content .part2{
-    display: flex;
-    position: relative;
-    top: 2em;
-    color: gray;
-    gap: 0.5em;
-    
+.second-content .part2 {
+  display: flex;
+  position: relative;
+  top: 2em;
+  color: gray;
+  gap: 0.5em;
 }
 
-.second-content img{
-    width: 12em;
-    height: 12em;
+.second-content img {
+  width: 12em;
+  height: 12em;
 }
 
-.part2 button{
-    border: 1px solid var(--gray);
-    height: 2.5em;
-    padding: 0.5em 1em;
-    outline: none;
-    border-radius: 1.6em;
-    transition: 300ms ease-in-out;
-    color: var(--gray);
-    font-size: 0.7em;
-    font-weight: 700;
+.part2 button {
+  border: 1px solid var(--gray);
+  height: 2.5em;
+  padding: 0.5em 1em;
+  outline: none;
+  border-radius: 1.6em;
+  transition: 300ms ease-in-out;
+  color: var(--gray);
+  font-size: 0.7em;
+  font-weight: 700;
 }
 
-.part2 button:hover{
-    transform: scale(1.1);
+.part2 button:hover {
+  transform: scale(1.1);
 }
 
-header nav{
-    display: flex;
-    margin-left:37em;
-    margin-top:-14em ;
-   
+header nav {
+  display: flex;
+  margin-left: 37em;
+  margin-top: -14em;
 }
 
-nav a{
-    padding-left: 1.5em;
-    text-decoration: none;
-    color: black;
-    transition: 300ms ease-in-out;
+nav a {
+  padding-left: 1.5em;
+  text-decoration: none;
+  color: black;
+  transition: 300ms ease-in-out;
 }
 
-nav a:hover{
-    transform: scale(0.95);
+nav a:hover {
+  transform: scale(0.95);
 }
 
-nav .shops{
-   display: block;
+nav .shops {
+  display: block;
 }
 
-.shops .dropdown-content2{
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    background: white;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    z-index: 1; 
-    margin-left: 0.5em;
-
+.shops .dropdown-content2 {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 0.5em;
 }
 
-.dropdown-content2 a{
+.dropdown-content2 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
-  border-bottom: 1px solid rgba(225,225,225,0.9);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.9);
   transition: 300ms ease-in-out;
 }
 
-.dropdown-content2 a:hover{
-    transform: scale(0.95);
+.dropdown-content2 a:hover {
+  transform: scale(0.95);
 }
-.shops:hover .dropdown-content2{
-    display: block;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    background: white;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    z-index: 1; 
-    margin-left: 0.5em;
+.shops:hover .dropdown-content2 {
+  display: block;
 }
 
-.dropdown-content a{
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 0.5em;
+}
+
+.dropdown-content a {
   /* float: none; */
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
-  border-bottom: 1px solid rgba(225,225,225,0.9);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.9);
   transition: 300ms ease-in-out;
 }
 
-.dropdown-content a:hover{
-    transform: scale(0.95);
+.dropdown-content a:hover {
+  transform: scale(0.95);
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu-btn{
+  display: none;
+}
+
+.sidebar{
+  display: none;
+}
+
+
+
+@media (max-width: 600px) {
+  .first-content {
+    display: none;
+  }
+
+  .second-content #searchContainer {
+    display: none;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .second-content .part2 #cart-icon {
+   margin-right: -20em;
+  }
+
+  .second-content .part2 button,
+  p {
+    display: none;
+  }
+
+  .second-content .part1 .images {
+    display: flex;
+    position: relative;
+    top: 2em;
+    right: 5em;
+  }
+
+  .part1 .images #unn-logo {
+    height: 6.5em;
+    font-size: 0.6em;
+    left: 2em;
+  }
+
+  .images #bookden {
+    font-size: 0.6em;
+    position: relative;
+    bottom: 4em;
+  }
+
+  .menu-btn {
+    font-size: 1.5em;
+    position: relative;
+    top: 2em;
+    left: 1em;
+    position: fixed;
     display: block;
+  }
+
+  /* sidebar button */
+
+  .sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: -300px; /* Initially hidden */
+    background-color:  rgba(3, 65, 0, 0.881);;
+    color: #fff;
+    overflow-x: hidden;
+    transition: left 0.5s ease-in-out;
+    padding-top: 5em;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .sidebar.active {
+    left: 0; /* Show sidebar */
+  }
+
+  /* Overlay to close sidebar */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  .overlay.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .sidebar nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .sidebar nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 2em;
+    position: relative;
+    top: 1em;
+    
+
+  }
+
+  .sidebar input {
+    padding: 1em 0.1em;
+    border-radius: 1em;
+    border: 1px solid white;
+    outline: none;
+    background: transparent;
+    padding-left: 2em;
+    color: white;
+    width:80%;
+    margin-left: 2em;
+  }
+
+  .sidebar nav a:hover {
+    transform: scale(0.95);
+  }
+
+  .sidebar .shops .dropdown-content2 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background:var(--green);
+    z-index: 1; 
+    margin-left: 0.5em;
+  }
+
+  .sidebar .dropdown-content2 a {
+    color: var(--white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid rgba(225,225,225,0.9);
+    transition: 300ms ease-in-out;
+  }
+
+  .sidebar .dropdown-content2 a:hover {
+    transform: scale(0.95);
+  }
+
+  .sidebar .shops:hover .dropdown-content2 {
+    display: block;
+  }
+
+  .sidebar .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background: var(--green);
+    z-index: 1;
+    margin-left: 0.5em;
+  }
+
+  .sidebar .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.9);
+    transition: 300ms ease-in-out;
+  }
+
+  .sidebar .dropdown-content a:hover {
+    transform: scale(0.95);
+  }
+
+  .sidebar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Hamburger button */
+  .menu-btn {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: var(--green);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1100;
+  }
+
+  /* Close button */
+  .close-btn {
+    /* font-size: 1.5em;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    color: white; */
+    display: none;
+  }
 }
