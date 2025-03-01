@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container img{
+    width: 80%;
+    height: 90vh;
+    margin-left: 10%;
+    margin-top: 5em;
+}
+
+.container .write-up{
+   position: relative;
+   top: 2em;
+   left: 10em;
+   width: 80%;
+   padding-bottom: 5em;
+
+   p{
+    font-size: 1.5em;
+   }
+
+}

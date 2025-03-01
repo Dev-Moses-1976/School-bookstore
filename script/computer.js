@@ -1,3 +1,14 @@
+// function to open sidebar
+function openSidebar() {
+  document.getElementById("sidebar").style.width = "15em";
+}
+
+function closeSidebar() {
+  document.getElementById("sidebar").style.width = "0px";
+}
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
   fetch("/json/computer.json")
     .then((response) => response.json())
@@ -112,9 +123,7 @@ function loadComponent(elementId) {
   let file = "";
 
   // Determine which file to load based on the element ID
-  if (elementId === "header-page") {
-    file = "/layout/header.html"; // Load the header file
-  } else if (elementId === "footer-page") {
+  if (elementId === "footer-page") {
     file = "/layout/footer.html"; // Load the footer file
   } else {
     console.error("Unknown element ID:", elementId);
@@ -132,17 +141,9 @@ function loadComponent(elementId) {
 
 // Load header and footer dynamically
 document.addEventListener("DOMContentLoaded", () => {
-  loadComponent("header-page"); // Load header
   loadComponent("footer-page"); // Load footer
 });
 
 
 
-// function to open sidebar
-function openSidebar() {
-  document.getElementById("sidebar").style.width = "15em";
-}
 
-function closeSidebar() {
-  document.getElementById("sidebar").style.width = "0px";
-}
