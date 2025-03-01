@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("/json/best-sellers.json")
+    fetch("../json/best-sellers.json")
       .then((response) => response.json())
       .then((data) => {
         const displayBook = document.getElementById("mainpageBest");

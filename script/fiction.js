@@ -7,27 +7,8 @@
 // }
 
 
-const openBtn = document.querySelector('.open-btn');
-const closeBtn = document.querySelector('.close-btn');
-const sidebar = document.querySelector('.sidebar');
-const overlay = document.createElement('div');
-overlay.className = 'overlay';
-document.body.appendChild(overlay);
 
-openBtn.addEventListener('click', () => {
-  sidebar.style.width = '250px'; // Adjust width as needed
-  document.body.classList.add('sidebar-open');
-});
 
-closeBtn.addEventListener('click', () => {
-  sidebar.style.width = '0';
-  document.body.classList.remove('sidebar-open');
-});
-
-overlay.addEventListener('click', () => {
-  sidebar.style.width = '0';
-  document.body.classList.remove('sidebar-open');
-});
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -143,7 +124,7 @@ function loadComponent(elementId) {
 
   // Determine which file to load based on the element ID
   if (elementId === "footer-page") {
-    file = "/layout/footer.html"; // Load the footer file
+    file = "../layout/footer.html"; // Load the footer file
   } else {
     console.error("Unknown element ID:", elementId);
     return;

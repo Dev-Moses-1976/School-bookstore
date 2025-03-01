@@ -24,7 +24,7 @@ html,body{
 
 /* Landing page section */
 .landing-page{
-    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255,255,255,0.8), rgba(255,255,255,0.8), rgba(255,255,255,0.5)), url('/images/shelf1.jpg.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255,255,255,0.8), rgba(255,255,255,0.8), rgba(255,255,255,0.5)),url('../images/shelf1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;

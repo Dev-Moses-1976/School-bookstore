@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing-page</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/search-bar.css" />
 
   <style>
     .cart {
@@ -24,10 +26,62 @@
 
 
 <body>
-  <header id="header-page">
+  <header>
+    <div class="first-content">
+      <article>
+        WELCOME TO BOOKDEN BOOKSTORE<br />In collaboration with University of
+        Nigeria Nsukka
+      </article>
+      <p>07084068248</p>
+    </div>
 
+    <div class="second-content">
+      <div class="part1">
+        <div class="images">
+          <img src="images/unn.png" alt="unn logo" id="unn-logo" />
+          <img src="images/logo.jpg" alt="bookden logo" id="bookden" />
+        </div>
+
+        <div id="searchContainer">
+          <input
+            type="text"
+            id="searchBar"
+            placeholder="Search books by title, author, or category..."
+          />
+          <div id="dropdown"></div>
+        </div>
+      </div>
+
+      <div class="part2">
+        <button>LOGIN</button>
+        <p>| CART / &#8358;4,000.00</p>
+        <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+      </div>
+    </div>
+
+    <nav>
+      <a href="">ABOUT US</a>
+      <div class="dropdown">
+        <a href="/other-pages/agric.html"> DEPARTMENTS </a>
+        <div class="dropdown-content">
+          <a href="/other-pages/agric.html">Agric Science</a>
+          <a href="/other-pages/computer.html">Computer Science</a>
+          <a href="/other-pages/literature.html">English and Lit. Studies</a>
+        </div>
+      </div>
+
+      <div class="shops">
+        <a href="/other-pages/business.html">SHOP</a>
+        <div class="dropdown-content2">
+          <a href="/other-pages/fiction.html">Fiction</a>
+          <a href="/other-pages/non-fiction.html">Non-fiction</a>
+          <a href="/other-pages/business.html">Business</a>
+        </div>
+      </div>
+      <a href="">REQUEST FOR A BOOK</a>
+    </nav>
   </header>
-
+  
   <!-- landing page section -->
   <section class="landing-page">
     <h1>
@@ -49,101 +103,9 @@
   <section class="newest-arrival">
     <h1>NEWEST ARRIVAL</h1>
     <div class="main-row" id="mainpageArrival">
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
+    
       </div>
 
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
     </div>
   </section>
 
@@ -151,53 +113,6 @@
   <section class="best-sellers">
     <h1>BEST SELLING BOOKS</h1>
     <div class="main-row" id="mainpageBest">
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
-
-      <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
-        <p>Fiction</p>
-        <p>Gulliver's Travel</p>
-        <h3>&#8358;2000.00</h3>
-        <button>ADD TO CART</button>
-      </div>
     </div>
   </section>
 
@@ -207,7 +122,7 @@
     <h1>FICTION</h1>
     <div class="main-row" id="mainpageFiction">
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -215,7 +130,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -223,7 +138,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -231,7 +146,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -239,7 +154,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -247,7 +162,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -264,7 +179,7 @@
       challenges, and interactions.
     </p>
 
-    <img src="images/library.jpg.jpg" alt="Library-image" />
+    <img src="images/library.jpg" alt="Library-image" />
   </section>
 
   <!-- COMPUTER SCIENCE SECTION -->
@@ -274,7 +189,7 @@
     <div class="main-row" id="maincomputerPage">
       <div class="available-books">
         <a href="" class="image-link">
-          <img src="images/gulliver.jpg.jpg" />
+          <img src="images/gulliver.jpg" />
         </a>
 
         <p>Fiction</p>
@@ -284,7 +199,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -292,7 +207,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -300,7 +215,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -308,7 +223,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -316,7 +231,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -331,7 +246,7 @@
     <h1>BUSINESS</h1>
     <div class="main-row" id="mainbusinessPage">
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -339,7 +254,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -347,7 +262,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -355,7 +270,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -363,7 +278,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -371,7 +286,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -388,7 +303,7 @@
       challenges, and interactions.
     </p>
 
-    <img src="images/library.jpg.jpg" alt="Library-image" />
+    <img src="images/library.jpg" alt="Library-image" />
   </section>
 
   <!-- AGRIC COURSES SECTION-->
@@ -397,7 +312,7 @@
     <h1>AGRIC SCIENCE</h1>
     <div class="main-row" id="mainpageAgric">
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -405,7 +320,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -413,7 +328,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -421,7 +336,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -429,7 +344,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -437,7 +352,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -452,7 +367,7 @@
     <h1>ENGLISH AND LITERARY STUDIES</h1>
     <div class="main-row" id="mainpageLiterature">
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -460,7 +375,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -468,7 +383,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -476,7 +391,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -484,7 +399,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -492,7 +407,7 @@
       </div>
 
       <div class="available-books">
-        <img src="images/gulliver.jpg.jpg" />
+        <img src="images/gulliver.jpg" />
         <p>Fiction</p>
         <p>Gulliver's Travel</p>
         <h3>&#8358;2000.00</h3>
@@ -501,15 +416,15 @@
     </div>
   </section>
 
-  <script src="/script/agric.js"></script>
-  <script src="/script/business.js"></script>
-  <script src="/script/computer.js"></script>
-  <script src="/script/fiction.js"></script>
-  <script src="/script/literature.js"></script>
-  <script src="/script/newest-arrival.js"></script>
-  <script src="/script/best-sellers.js"></script>
-  <script src="/script/main-page.js"></script>
-  <script src="/script/search-bar.js"></script>
+  <script src="script/agric.js"></script>
+  <script src="script/business.js"></script>
+  <script src="script/computer.js"></script>
+  <script src="script/fiction.js"></script>
+  <script src="script/literature.js"></script>
+  <script src="script/newest-arrival.js"></script>
+  <script src="script/best-sellers.js"></script>
+  <script src="script/main-page.js"></script>
+  <script src="script/search-bar.js"></script>
   <script src="script/cart.js"></script>
 </body>
 
