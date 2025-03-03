@@ -42,7 +42,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    left: 45em;
+    left: 52em;
     top: 5em;
     gap: 1em;
 }
@@ -72,14 +72,14 @@
 
 .logos #unnLogo{
     position:absolute;
-    left: 56em;
+    left: 66em;
     top: 4em;
     width: 13em;
 }
 
 .logos #bookDenLogo{
     position: absolute;
-    bottom: 18em;
+    bottom: 16em;
     right: 18em;
     width: 7em;
 }

@@ -1,7 +1,7 @@
 [
     {
     "id": 71,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img72.jpg",
     "category": "Literature",
     "title": "Shadows and Light",
     "price": 4500,
@@ -15,7 +15,7 @@
   
   {
     "id": 72,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img73.jpg",
     "category": "Literature",
     "title": "The Last Poet",
     "price": 3700,
@@ -29,7 +29,7 @@
  
     {
     "id": 73,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img74.jpg",
     "category": "Literature",
     "title": "Echoes of the Past",
     "price": 4100,
@@ -46,7 +46,7 @@
 
  {
     "id": 74,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img71.jpg",
     "category": "Literature",
     "title": "The Silent Echo",
     "price": 4500,
@@ -60,7 +60,7 @@
   
   {
     "id": 75,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img75.jpg",
     "category": "Literature",
     "title": "Winds of Change",
     "price": 3800,
@@ -74,9 +74,9 @@
   
   {
     "id": 76,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img76.jpg",
     "category": "Literature",
-    "title": "Beneath the Willow Tree",
+    "title": "Beneath the Hollow Tree",
     "price": 4200,
     "button": "ADD TO CART",
     "author": "Margaret Rowe",
@@ -88,7 +88,7 @@
 
   {
     "id": 77,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img80.jpg",
     "category": "Literature",
     "title": "The Forgotten Verses",
     "price": 4000,
@@ -102,7 +102,7 @@
   
   {
     "id": 78,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img77.jpg",
     "category": "Literature",
     "title": "Fading Footsteps",
     "price": 4700,
@@ -117,7 +117,7 @@
   
   {
     "id": 79,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img78.jpg",
     "category": "Literature",
     "title": "Letters to the Unknown",
     "price": 3900,
@@ -132,7 +132,7 @@
   
   {
     "id": 80,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img79.jpg",
     "category": "Literature",
     "title": "The Last Candle",
     "price": 4100,
@@ -146,7 +146,7 @@
 
   {
     "id": 81,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img84.jpg",
     "category": "Literature",
     "title": "Silent Whispers",
     "price": 4300,
@@ -160,7 +160,7 @@
   
   {
     "id": 82,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img81.jpg",
     "category": "Literature",
     "title": "The House of Secrets",
     "price": 4600,
@@ -174,7 +174,7 @@
   
   {
     "id": 83,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img82.jpg",
     "category": "Literature",
     "title": "Eternal Autumn",
     "price": 3900,
@@ -188,7 +188,7 @@
   
   {
     "id": 84,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img86.jpg",
     "category": "Literature",
     "title": "The Art of Remembering",
     "price": 3700,
@@ -203,7 +203,7 @@
   
   {
     "id": 85,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img83.jpg",
     "category": "Literature",
     "title": "Falling Leaves",
     "price": 3800,
@@ -217,7 +217,7 @@
   
   {
     "id": 86,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/literature-books/img85.jpg",
     "category": "Literature",
     "title": "Moonlit Reflections",
     "price": 4400,

@@ -63,7 +63,7 @@ h3 {
   transform: scale(0.95);
 }
 
-.sidebar {
+/* .sidebar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -114,11 +114,14 @@ h3 {
   padding: 0.5em 1em;
   border: 1px solid white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+} */
 
 /* Category name display and home link styling*/
 .category {
-  margin-left: 8.5em;
+  position: relative;
+  top: 3em;
+  margin-left: 11em;
+  padding: 3em;
   padding: 3em;
 }
 

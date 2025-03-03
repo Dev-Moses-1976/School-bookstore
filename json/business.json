@@ -1,11 +1,11 @@
 [ {
     "id": 23,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img23.jpg",
     "category": "Business",
     "title": "The Entrepreneur’s Handbook",
     "price": 6000,
     "button": "ADD TO CART",
-    "author": "Linda Carter",
+    "author": "Mark Lowe",
     "cover-type": "Hardcover",
     "pages": 400,
     "url": "/other-pages/description.html",
@@ -14,12 +14,12 @@
 
    {
     "id": 24,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img24.jpg",
     "category": "Business",
     "title": "Mastering Negotiation",
     "price": 5200,
     "button": "ADD TO CART",
-    "author": "David Spencer",
+    "author": "Marco Bardiccchia",
     "cover-type": "Paperback",
     "pages": 290,
     "url": "/other-pages/description.html",
@@ -28,12 +28,12 @@
 
    {
     "id": 25,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img25.jpg",
     "category": "Business",
     "title": "The Art of Leadership",
     "price": 5600,
     "button": "ADD TO CART",
-    "author": "John Maxwell",
+    "author": "George Manning",
     "cover-type": "Hardcover",
     "pages": 380,
     "url": "/other-pages/description.html",
@@ -43,7 +43,7 @@
 
   {
     "id": 26,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img26.jpg",
     "category": "Business",
     "title": "The Lean Startup",
     "price": 6000,
@@ -57,7 +57,7 @@
  
   {
     "id": 27,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img27.jpg",
     "category": "Business",
     "title": "Good to Great",
     "price": 5500,
@@ -71,7 +71,7 @@
  
   {
     "id": 28,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img29.jpg",
     "category": "Business",
     "title": "Zero to One",
     "price": 5000,
@@ -85,7 +85,7 @@
  
   {
     "id": 29,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img28.jpg",
     "category": "Business",
     "title": "The 4-Hour Workweek",
     "price": 5200,
@@ -99,7 +99,7 @@
  
   {
     "id": 30,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img30.jpg",
     "category": "Business",
     "title": "Atomic Habits",
     "price": 5300,
@@ -113,7 +113,7 @@
  
   {
     "id": 31,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img31.jpg",
     "category": "Business",
     "title": "Blue Ocean Strategy",
     "price": 5800,
@@ -127,7 +127,7 @@
  
   {
     "id": 32,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img32.jpg",
     "category": "Business",
     "title": "The Psychology of Money",
     "price": 4900,
@@ -141,7 +141,7 @@
 
   {
     "id": 33,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img33.jpg",
     "category": "Business",
     "title": "Start with Why",
     "price": "5100",
@@ -155,7 +155,7 @@
   
   {
     "id": 34,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img34.jpg",
     "category": "Business",
     "title": "The $100 Startup",
     "price": "4800",
@@ -169,7 +169,7 @@
   
   {
     "id": 35,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img35.jpg",
     "category": "Business",
     "title": "Rework",
     "price": "4700",
@@ -184,7 +184,7 @@
   
   {
     "id": 36,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img36.jpg",
     "category": "Business",
     "title": "Principles: Life and Work",
     "price": "5900",
@@ -198,7 +198,7 @@
   
   {
     "id": 37,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img37.jpg",
     "category": "Business",
     "title": "The Hard Thing About Hard Things",
     "price": "6000",
@@ -212,15 +212,15 @@
 
   {
     "id": 38,
-    "image": "/images/gulliver.jpg.jpg",
+    "image": "../images/business-books/img38.jpg",
     "category": "Business",
-    "title": "The Hard Thing About Hard Things",
+    "title": "The Innovator's Dilemma",
     "price": "6000",
     "button": "ADD TO CART",
-    "author": "Ben Horowitz",
+    "author": "Clayton M. Christensen",
     "cover-type": "Paperback",
     "pages": 304,
-    "url": "/other-pages/description.html",
-    "description": "A brutally honest look at the challenges of running a startup, offering insights from a successful Silicon Valley entrepreneur."
+    "url": "../other-pages/description.html",
+    "description": "A book that looks at the struggles and challenges faced by innovators."
   }
 ]

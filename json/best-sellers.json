@@ -1,7 +1,7 @@
 [
   {
     "id": 17,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/agric-books/img4.jpg",
     "category": "Agriculture",
     "title": "Modern Crop Science",
     "price": 5000,
@@ -15,7 +15,7 @@
 
   {
     "id": 18,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/business-books/img34.jpg",
     "category": "Business",
     "title": "The $100 Startup",
     "price": "4800",
@@ -29,7 +29,7 @@
 
   {
     "id": 19,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/computer-books/img1.jpg",
     "category": "Computer Science",
     "title": "The Art of Computer Programming",
     "price": 7500,
@@ -43,7 +43,7 @@
 
   {
     "id": 20,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/fiction-books/img3.jpg",
     "category": "Fiction",
     "title": "A Tale of Two Lives",
     "price": 3900,
@@ -57,7 +57,7 @@
 
   {
     "id": 21,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/literature-books/img71.jpg",
     "category": "Literature",
     "title": "The Silent Echo",
     "price": 4500,
@@ -71,7 +71,7 @@
 
   {
     "id": 22,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/nonFiction-books/img7.jpg",
     "category": "Non-fiction",
     "title": "The Art of Focus",
     "price": 3800,

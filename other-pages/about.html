@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/search-bar.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+  </head>
+  <body>
+    <header>
+      <div class="first-content">
+        <article>
+          WELCOME TO BOOKDEN BOOKSTORE<br />In collaboration with University of
+          Nigeria Nsukka
+        </article>
+        <p>07084068248</p>
+      </div>
+
+      <div class="second-content">
+        <div class="part1">
+          <div class="images">
+            <img src="../images/unn.png" alt="unn logo" id="unn-logo" />
+            <img src="../images/logo.jpg" alt="bookden logo" id="bookden" />
+          </div>
+
+          <div id="searchContainer">
+            <input
+              type="text"
+              id="searchBar"
+              placeholder="Search books by title, author, or category..."
+            />
+            <div id="dropdown"></div>
+          </div>
+        </div>
+
+        <div class="part2">
+          <button>LOGIN</button>
+          <p>| CART / &#8358;4,000.00</p>
+          <a
+            href="other-pages/cart-page.html"
+            style="position: relative; display: inline-block"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2 12h13l2-7H6"></path>
+            </svg>
+            <span
+              id="cart-badge"
+              style="
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: green;
+                color: white;
+                font-size: 12px;
+                width: 18px;
+                height: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                font-weight: bold;
+                visibility: hidden;
+              "
+            >
+              0
+            </span>
+          </a>
+
+          <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+        </div>
+      </div>
+
+      <nav>
+        <a href="../other-pages/about.html">ABOUT US</a>
+        <div class="dropdown">
+          <a href="../other-pages/agric.html"> DEPARTMENTS </a>
+          <div class="dropdown-content">
+            <a href="../other-pages/agric.html">Agric Science</a>
+            <a href="../other-pages/computer.html">Computer Science</a>
+            <a href="../other-pages/literature.html"
+              >English and Lit. Studies</a
+            >
+          </div>
+        </div>
+
+        <div class="shops">
+          <a href="../other-pages/business.html">SHOP</a>
+          <div class="dropdown-content2">
+            <a href="../other-pages/fiction.html">Fiction</a>
+            <a href="../other-pages/non-fiction.html">Non-fiction</a>
+            <a href="../other-pages/business.html">Business</a>
+          </div>
+        </div>
+        <a href="">REQUEST FOR A BOOK</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <img src="../images/shelf1.jpg" alt="shelf image" />
+
+      <div class="write-up">
+        <p>
+          Bookden website was born out of the growing need to simplify and
+          automate bookstore activities, ensuring students can purchase books
+          with ease. <br /><br />Traditional bookstores often face challenges
+          such as overcrowding, long queues, and limited accessibility, leaving
+          students struggling to acquire the materials they need without
+          sacrificing valuable time. <br /><br />
+          Recognizing this, the idea of a web-based system emerged as a solution
+          to make book purchases more feasible for students.This platform offers
+          a streamlined experience, allowing users to browse, select, and
+          purchase textbooks online.<br /><br />With features like real-time
+          inventory updates, filter functionality and avialability of book
+          description, the website transforms the way students access academic
+          resources.
+        </p>
+      </div>
+    </div>
+
+    <footer id="footer-page"></footer>
+
+    <script src="/script/about.js"></script>
+
+    <script src="/script/search-bar.js"></script>
+  </body>
+</html>

@@ -65,63 +65,12 @@
     transform: scale(0.95);
   }
   
-  .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: var(--green);
-    color:var(--white);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    z-index: 2;
-  }
-
-  .sidebar .close-btn{
-    margin-left: 15em;
-    padding: 0.3em 0.5em;
-    font-weight: bold;
-    border: none;
-    outline: none;
-  }
-  .sidebar ul{
-    padding: 1em 0em 0em;
-  }
-
-  .sidebar ul li{
-    list-style: none;
-    padding: 1em;
-    border-bottom: 1px solid rgba(255,255,255, 0.2);
-  }
-  
-  .sidebar ul li a{
-    text-decoration: none;
-    color:var(--white);
-  }
-
-  .sidebar ul li a:hover{
-    transform: scale(0.95);
-  }
-
-
-  
-  .open-btn {
-    position: relative;
-    left: 9.5em;
-    top: -1em;
-    font-size: 1.2em;
-    cursor: pointer;
-    color: black;
-    padding: 0.5em 1em;
-    border: 1px solid var(--white);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+ 
   /* Category name display and home link styling*/
   .category {
-    margin-left: 8.5em;
+    position: relative;
+    top: 3em;
+    margin-left: 11em;
     padding: 3em;
   }
   

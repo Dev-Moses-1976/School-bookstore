@@ -1,7 +1,7 @@
 [
   {
     "id": 39,
-    "image": "/images/computer-books/img2.jpg.jpg",
+    "image": "../images/computer-books/img2.jpg",
     "category": "Computer Science",
     "title": "Compilers: Principles, Techniques, and Tools",
     "price": 6200,
@@ -15,7 +15,7 @@
 
   {
     "id": 40,
-    "image": "/images/computer-books/img1.jpg.jpg",
+    "image": "../images/computer-books/img1.jpg",
     "category": "Computer Science",
     "title": "The Art of Computer Programming",
     "price": 7500,
@@ -29,7 +29,7 @@
 
   {
     "id": 41,
-    "image": "/images/computer-books/img5.jpg.jpg",
+    "image": "../images/computer-books/img5.jpg",
     "category": "Computer Science",
     "title": "Computer Networking: A Top-Down Approach",
     "price": 5000,
@@ -44,7 +44,7 @@
 
   {
     "id": 42,
-    "image": "/images/computer-books/img4.jpg.jpg",
+    "image": "../images/computer-books/img4.jpg",
     "category": "Computer Science",
     "title": "Refactoring: Improving the Design of Existing Code",
     "price": 5300,
@@ -59,7 +59,7 @@
 
   {
     "id": 43,
-    "image": "/images/computer-books/img3.jpg.jpg",
+    "image": "../images/computer-books/img3.jpg",
     "category": "Computer Science",
     "title": "Computer Organization and Design",
     "price": 5800,
@@ -74,7 +74,7 @@
 
   {
     "id": 44,
-    "image": "/images/computer-books/img7.jpg.jpg",
+    "image": "../images/computer-books/img7.jpg",
     "category": "Computer Science.",
     "title": "Structure and Interpretation of Computer Programs.",
     "price": 5500,
@@ -89,7 +89,7 @@
 
   {
     "id": 45,
-    "image": "/images/computer-books/img6.jpg.jpg",
+    "image": "../images/computer-books/img6.jpg",
     "category": "Computer Science.",
     "title": "Code Complete.",
     "price": 6000,
@@ -103,7 +103,7 @@
 
   {
     "id": 46,
-    "image": "/images/computer-books/img8.jpg.jpg",
+    "image": "../images/computer-books/img8.jpg",
     "category": "Computer Science",
     "title": "Software Engineering: A Practitioner's Approach",
     "price": 5900,
@@ -117,7 +117,7 @@
 
   {
     "id": 47,
-    "image": "/images/computer-books/img9.jpg.jpg",
+    "image": "../images/computer-books/img9.jpg",
     "category": "Computer Science",
     "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
     "price": 5200,
@@ -132,7 +132,7 @@
 
   {
     "id": 48,
-    "image": "/images/computer-books/img16.jpg.jpg",
+    "image": "../images/computer-books/img16.jpg",
     "category": "Computer Science",
     "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
     "price": 4500,
@@ -147,7 +147,7 @@
 
   {
     "id": 49,
-    "image": "/images/computer-books/img10.jpg.jpg",
+    "image": "../images/computer-books/img10.jpg",
     "category": "Computer Science",
     "title": "Introduction to Algorithms",
     "price": 6800,
@@ -162,7 +162,7 @@
   
   {
     "id": 50,
-    "image": "/images/computer-books/img11.jpg.jpg",
+    "image": "../images/computer-books/img11.jpg",
     "category": "Computer Science",
     "title": "The Mythical Man-Month: Essays on Software Engineering",
     "price": 3800,
@@ -176,7 +176,7 @@
   
   {
     "id": 51,
-    "image": "/images/computer-books/img13.jpg.jpg",
+    "image": "../images/computer-books/img13.jpg",
     "category": "Computer Science",
     "title": "You Don't Know JS (book series)",
     "price": 3200,
@@ -190,7 +190,7 @@
   
   {
     "id": 52,
-    "image": "/images/computer-books/img12.jpg.jpg",
+    "image": "../images/computer-books/img12.jpg",
     "category": "Computer Science",
     "title": "Computer Science Illuminated",
     "price": 5000,
@@ -204,7 +204,7 @@
   
   {
     "id": 53,
-    "image": "/images/computer-books/img14.jpg.jpg",
+    "image": "../images/computer-books/img14.jpg",
     "category": "Computer Science",
     "title": "Artificial Intelligence: A Modern Approach",
     "price": 7200,
@@ -218,7 +218,7 @@
  
   {
     "id": 54,
-    "image": "/images/computer-books/img15.jpg.jpg",
+    "image": "../images/computer-books/img15.jpg",
     "category": "Computer Science",
     "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
     "price": 6300,

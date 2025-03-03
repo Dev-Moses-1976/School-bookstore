@@ -1,12 +1,12 @@
 [ {
     "id": 55,
-    "image": "/images/fiction-books/img1.jpg.jpg",
+    "image": "../images/fiction-books/img1.jpg",
     "category": "Fiction",
     "title": "The Enchanted Forest",
     "price": 3500,
     "button": "ADD TO CART",
     "author": "Isabel Recardo",
-    "cover-type": "Hardcover",
+    "cover-type": "Hardcover", 
     "pages": 320,
     "url": "/other-pages/description.html",
     "description": "A magical tale about a young girl who stumbles upon an enchanted forest filled with talking animals and hidden mysteries. As she embarks on a journey to uncover the forest's secrets, she discovers her true strength and destiny."
@@ -14,7 +14,7 @@
 
  {
     "id": 56,
-    "image": "/images/fiction-books/img15.jpg.jpg",
+    "image": "../images/fiction-books/img15.jpg",
     "category": "Fiction",
     "title": "Echoes of Time",
     "price": 4200,
@@ -29,7 +29,7 @@
 
  {
     "id": 57,
-    "image": "/images/fiction-books/img4.jpg.jpg",
+    "image": "../images/fiction-books/img4.jpg",
     "category": "Fiction",
     "title": "The Hidden Kingdom",
     "price": 3900,
@@ -44,7 +44,7 @@
 
   {
     "id": 58,
-    "image": "/images/fiction-books/img12.jpg.jpg",
+    "image": "../images/fiction-books/img12.jpg",
     "category": "Fiction",
     "title": "Lost in the Stars",
     "price": 3900,
@@ -60,7 +60,7 @@
 
   {
     "id": 59,
-    "image": "/images/fiction-books/img9.jpg.jpg",
+    "image": "../images/fiction-books/img9.jpg",
     "category": "Fiction",
     "title": "Whispers of the Wind",
     "price": 3200,
@@ -74,9 +74,9 @@
   
   {
     "id": 60,
-    "image": "/images/fiction-books/img11.jpg.jpg",
+    "image": "../images/fiction-books/img11.jpg",
     "category": "Fiction",
-    "title": "Bello Abdubasit",
+    "title": "Benearth the Crimson Moon",
     "price": 4000,
     "button": "ADD TO CART",
     "author": "Nathaniel Harper",
@@ -88,7 +88,7 @@
   
   {
     "id": 61,
-    "image": "/images/fiction-books/img16.jpg.jpg",
+    "image": "../images/fiction-books/img16.jpg",
     "category": "Fiction",
     "title": "The Glass Castle",
     "price": 3500,
@@ -102,7 +102,7 @@
   
   {
     "id": 62,
-    "image": "/images/fiction-books/img10.jpg.jpg",
+    "image": "../images/fiction-books/img10.jpg",
     "category": "Fiction",
     "title": "Shattered Illusions",
     "price": 3700,
@@ -116,7 +116,7 @@
   
   {
     "id": 63,
-    "image": "/images/fiction-books/img14.jpg.jpg",
+    "image": "../images/fiction-books/img14.jpg",
     "category": "Fiction",
     "title": "The Silent Echo",
     "price": 3100,
@@ -130,7 +130,7 @@
   
   {
     "id": 64,
-    "image": "/images/fiction-books/img13.jpg.jpg",
+    "image": "../images/fiction-books/img13.jpg",
     "category": "Fiction",
     "title": "Moonlit Shadows",
     "price": 3600,
@@ -144,7 +144,7 @@
   
   {
     "id": 65,
-    "image": "/images/fiction-books/img2.jpg.jpg",
+    "image": "../images/fiction-books/img2.jpg",
     "category": "Fiction",
     "title": "The Forgotten Valley",
     "price": 3300,
@@ -158,7 +158,7 @@
   
   {
     "id": 66,
-    "image": "/images/fiction-books/img3.jpg.jpg",
+    "image": "../images/fiction-books/img3.jpg",
     "category": "Fiction",
     "title": "A Tale of Two Lives",
     "price": 3900,
@@ -172,7 +172,7 @@
   
   {
     "id": 67,
-    "image": "/images/fiction-books/img5.jpg.jpg",
+    "image": "../images/fiction-books/img5.jpg",
     "category": "Fiction",
     "title": "The Midnight Library",
     "price": 3400,
@@ -186,7 +186,7 @@
   
   {
     "id": 68,
-    "image": "/images/fiction-books/img6.jpg.jpg",
+    "image": "../images/fiction-books/img6.jpg",
     "category": "Fiction",
     "title": "Beyond the Horizon",
     "price": 3700,
@@ -200,7 +200,7 @@
   
   {
     "id": 69,
-    "image": "/images/fiction-books/img8.jpg.jpg",
+    "image": "../images/fiction-books/img8.jpg",
     "category": "Fiction",
     "title": "The Crimson Key",
     "price": 3500,
@@ -214,7 +214,7 @@
   
   {
     "id": 70,
-    "image": "/images/fiction-books/img7.jpg.jpg",
+    "image": "../images/fiction-books/img7.jpg",
     "category": "Fiction",
     "title": "The Clockmaker's Secret",
     "price": 3900,

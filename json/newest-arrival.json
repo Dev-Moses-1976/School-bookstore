@@ -1,7 +1,7 @@
 [
   {
     "id": 87,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/agric-books/img1.jpg",
     "category": "Agric",
     "title": "Sustainable Farming",
     "price": 5400,
@@ -15,7 +15,7 @@
 
   {
     "id": 88,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/fiction-books/img3.jpg",
     "category": "Fiction",
     "title": "A Tale of Two Lives",
     "price": 3900,
@@ -29,7 +29,7 @@
 
   {
     "id": 89,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/business-books/img36.jpg",
     "category": "Business",
     "title": "Principles: Life and Work",
     "price": "5900",
@@ -43,7 +43,7 @@
 
   {
     "id": 90,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/computer-books/img6.jpg",
     "category": "Computer Science.",
     "title": "Code Complete.",
     "price": 6000,
@@ -57,7 +57,7 @@
 
   {
     "id": 91,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/agric-books/img2.jpg",
     "category": "Agric",
     "title": "The Future of Agriculture",
     "price": 4600,
@@ -71,7 +71,7 @@
 
   {
     "id": 92,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/business-books/img37.jpg",
     "category": "Business",
     "title": "The Hard Thing About Hard Things",
     "price": "6000",
@@ -85,7 +85,7 @@
 
   {
     "id": 93,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/computer-books/img7.jpg",
     "category": "Computer Science.",
     "title": "Structure and Interpretation of Computer Programs.",
     "price": 5500,
@@ -99,9 +99,9 @@
 
   {
     "id": 94,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/fiction-books/img5.jpg",
     "category": "Fiction",
-    "title": "The Midnight Letter",
+    "title": "The Midnight Library",
     "price": 3400,
     "button": "ADD TO CART",
     "author": "Victoria Lane",
@@ -113,7 +113,7 @@
 
   {
     "id": 95,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/literature-books/img79.jpg",
     "category": "Literature",
     "title": "The Last Candle",
     "price": 4100,
@@ -127,7 +127,7 @@
 
   {
     "id": 96,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/nonFiction-books/img8.jpg",
     "category": "Non-fiction",
     "title": "Unlocking Your Potential",
     "price": 3700,
@@ -141,7 +141,7 @@
 
   {
     "id": 97,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/literature-books/img84.jpg",
     "category": "Literature",
     "title": "Silent Whispers",
     "price": 4300,
@@ -155,7 +155,7 @@
 
   {
     "id": 98,
-    "image": "../images/gulliver.jpg",
+    "image": "../images/nonFiction-books/img10.jpg",
     "category": "Non-fiction",
     "title": "The Psychology of Success",
     "price": 3900,

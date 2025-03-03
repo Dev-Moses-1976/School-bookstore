@@ -2,7 +2,7 @@
   
  {
     "id": 99,
-    "image": "/images/nonFiction-books/img1.jpg.jpg",
+    "image": "../images/nonFiction-books/img1.jpg",
     "category": "Non-fiction",
     "title": "Mind Over Matter",
     "price": 4400,
@@ -16,7 +16,7 @@
 
   {
     "id": 100,
-    "image": "/images/nonFiction-books/img2.jpg.jpg",
+    "image": "../images/nonFiction-books/img2.jpg",
     "category": "Non-fiction",
     "title": "Survival Tactics",
     "button": "ADD TO CART",
@@ -30,7 +30,7 @@
 
   {
     "id": 101,
-    "image":  "/images/nonFiction-books/img3.jpg.jpg",
+    "image":  "../images/nonFiction-books/img3.jpg",
     "category": "Non-fiction",
     "title": "The Power of the Mind",
     "price": 5000,
@@ -46,7 +46,7 @@
 
   {
     "id": 102,
-    "image":  "/images/nonFiction-books/img5.jpg.jpg",
+    "image":  "../images/nonFiction-books/img5.jpg",
     "category": "Non-fiction",
     "title": "The Science of Habits",
     "price": 3500,
@@ -60,7 +60,7 @@
   
   {
     "id": 103,
-    "image":  "/images/nonFiction-books/img4.jpg.jpg",
+    "image":  "../images/nonFiction-books/img4.jpg",
     "category": "Non-fiction",
     "title": "Unbreakable Mindset",
     "price": 4000,
@@ -74,7 +74,7 @@
   
   {
     "id": 104,
-    "image": "/images/nonFiction-books/img7.jpg.jpg",
+    "image": "../images/nonFiction-books/img7.jpg",
     "category": "Non-fiction",
     "title": "The Art of Focus",
     "price": 3800,
@@ -88,7 +88,7 @@
   
   {
     "id": 105,
-    "image": "/images/nonFiction-books/img6.jpg.jpg",
+    "image": "../images/nonFiction-books/img6.jpg",
     "category": "Non-fiction",
     "title": "Breaking Barriers",
     "price": 4200,
@@ -102,7 +102,7 @@
   
   {
     "id": 106,
-    "image":  "/images/nonFiction-books/img8.jpg.jpg",
+    "image":  "../images/nonFiction-books/img8.jpg",
     "category": "Non-fiction",
     "title": "Unlocking Your Potential",
     "price": 3700,
@@ -116,7 +116,7 @@
   
   {
     "id": 107,
-    "image":  "/images/nonFiction-books/img10.jpg.jpg",
+    "image":  "../images/nonFiction-books/img10.jpg",
     "category": "Non-fiction",
     "title": "The Psychology of Success",
     "price": 3900,
@@ -130,7 +130,7 @@
   
   {
     "id": 108,
-    "image": "/images/nonFiction-books/img14.jpg.jpg",
+    "image": "../images/nonFiction-books/img14.jpg",
     "category": "Non-fiction",
     "title": "Elevate Your Thinking",
     "price": 4000,

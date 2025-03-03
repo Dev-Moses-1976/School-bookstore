@@ -2,7 +2,7 @@
     "id": 1,
     "image": "/images/agric-books/img1.jpg",
     "category": "Agric",
-    "title": "Sustainable Farming",
+    "title": "Sustainable Agriculture",
     "price": 5400,
     "button": "ADD TO CART",
     "author": "Dr. Emily Carter",
@@ -100,21 +100,21 @@
   
   {
     "id": 8,
-    "image": "/images/agric-books/img8.jpg",
+    "image": "/images/agric-books/img12.jpg",
     "category": "Agriculture",
-    "title": "Dairy Farming for Beginners",
+    "title": "Organic Poultry Farming",
     "price": 4000,
     "button": "ADD TO CART",
-    "author": "Samuel White",
+    "author": "Samantha Green",
     "cover-type": "Hardcover",
     "pages": 290,
     "url": "/other-pages/description.html",
-    "description": "A beginner-friendly guide to dairy farming, covering topics such as cattle selection, milk production, disease control, and marketing dairy products."
+    "description":  "A comprehensive guide on raising poultry organically, with insights into nutrition, disease control, and ethical farming practices."
   },
   
   {
     "id": 9,
-    "image": "/images/agric-books/img9.jpg",
+    "image": "/images/agric-books/img8.jpg",
     "category": "Agriculture",
     "title": "Agroforestry: A Sustainable Approach",
     "price": 4600,
@@ -128,7 +128,7 @@
   
   {
     "id": 10,
-    "image": "/images/agric-books/img10.jpg",
+    "image": "/images/agric-books/img9.jpg",
     "category": "Agriculture",
     "title": "Climate-Smart Agriculture",
     "price": 5100,
@@ -142,7 +142,7 @@
 
   {
     "id": 11,
-    "image": "/images/agric-books/img11.jpg",
+    "image": "/images/agric-books/img10.jpg",
     "category": "Agriculture",
     "title": "Hydroponic Farming: Growing Without Soil",
     "price": 4300,
@@ -157,7 +157,7 @@
   
   {
     "id": 12,
-    "image": "/images/agric-books/img12.jpg",
+    "image": "/images/agric-books/img11.jpg",
     "category": "Agriculture",
     "title": "Regenerative Agriculture",
     "price": 4700,
@@ -171,7 +171,7 @@
   
   {
     "id": 13,
-    "image": "/images/agric-books/img13.jpg",
+    "image": "/images/agric-books/img12.jpg",
     "category": "Agriculture",
     "title": "Organic Poultry Farming",
     "price": 4100,
@@ -185,7 +185,7 @@
   
   {
     "id": 14,
-    "image": "/images/agric-books/img14.jpg",
+    "image": "/images/agric-books/img13.jpg",
     "category": "Agriculture",
     "title": "The Business of Farming",
     "price": 5300,
@@ -199,7 +199,7 @@
   
   {
     "id": 15,
-    "image": "/images/agric-books/img15.jpg",
+    "image": "/images/agric-books/img14.jpg",
     "category": "Agriculture",
     "title": "Beekeeping for Profit",
     "price": 3900,
@@ -213,7 +213,7 @@
   
   {
     "id": 16,
-    "image": "/images/agric-books/img16.jpg",
+    "image": "/images/agric-books/img15.jpg",
     "category": "Agriculture",
     "title": "Smart Farming with IoT",
     "price": 5500,

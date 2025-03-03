@@ -55,6 +55,33 @@
       <div class="part2">
         <button>LOGIN</button>
         <p>| CART / &#8358;4,000.00</p>
+        <a href="other-pages/cart-page.html" style="position: relative; display: inline-block;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2 12h13l2-7H6"></path>
+          </svg>
+          <span id="cart-badge" style="
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: green;
+            color: white;
+            font-size: 12px;
+            width: 18px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+            visibility: hidden;">
+            0
+          </span>
+        </a>
+        
+        
+
         <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
       </div>
     </div>
@@ -87,10 +114,11 @@
     <h1>
       Discover your<br /><span>Next Great Read<br /></span>here
     </h1>
-
+    
     <button>
-      <p><a href="/other-pages/agric.html">Buy Now</a></p>
+      <p><a href="../other-pages/agric.html">Buy Now</a></p>
     </button>
+    <img src="/images/man.png" alt="man-image">
   </section>
   <!-- cart -->
   <section class="cart">
