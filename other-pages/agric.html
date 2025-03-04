@@ -7,6 +7,21 @@
   <link rel="stylesheet" href="/css/agric.css">
   <link rel="stylesheet" href="/css/header.css">
   <title>agric</title>
+
+  <style>
+    .cart {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    #cart-items div {
+      margin: 10px 0;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+
 </head>
 <body>
   <header>
@@ -36,10 +51,13 @@
       </div>
 
       <div class="part2">
-        <button>LOGIN</button>
+        <a href="other-pages/login.html">
+          <button>LOGIN</button>
+        </a>
         <p>| CART / &#8358;4,000.00</p>
-        <a href="other-pages/cart-page.html" style="position: relative; display: inline-block;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <a href="/other-pages/cart-page.html" style="position: relative; display: inline-block; color:gray;">
+          <div class="cart-round"><p class="cartp" id="cart-count"></p></div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="55" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="9" cy="21" r="1"></circle>
             <circle cx="20" cy="21" r="1"></circle>
             <path d="M1 1h4l2 12h13l2-7H6"></path>
@@ -92,6 +110,7 @@
     </nav>
   </header>
   
+  
 
   <div class="category">
     <p><a href="../index.html">Home / </a>AGRIC.</p>
@@ -121,5 +140,6 @@
 
   <script src="/script/agric.js"></script>
   <script src="/script/search-bar.js"></script>
+  <script src="/script/cart.js"></script>
 </body>
 </html>

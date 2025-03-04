@@ -7,7 +7,7 @@ function closeSidebar() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/json/agric.json")
+  fetch("../json/agric.json")
     .then((response) => response.json())
     .then((data) => {
       const displayBook = document.getElementById("agric-books");
@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
         //created a container here
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
-        
+
         //created my html elemets for each book here
         const imageElement = document.createElement("img");
         imageElement.src = book.image;
         imageElement.onclick = () => {
           window.location.href = `${book.url}?id=${book.id}`;
-       };
+        };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -32,13 +32,18 @@ document.addEventListener("DOMContentLoaded", function () {
         titleElement.textContent = book.title;
 
         const priceElement = document.createElement("h3");
-        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-        
+        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })}`;
+
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
-        buttonElement.onclick = () => {
-          console.log(123);
-        };
+
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
 
         //appended my book elements to the div container created
         bookContainer.appendChild(imageElement);
@@ -46,19 +51,18 @@ document.addEventListener("DOMContentLoaded", function () {
         bookContainer.appendChild(titleElement);
         bookContainer.appendChild(priceElement);
         bookContainer.appendChild(buttonElement);
-        
+
         // appended my container element to the container with id agric-books
         displayBook.appendChild(bookContainer);
       });
     })
-    .catch((error)=>{
-      document.getElementById("agric-books").textContent = "Error: " + error.message; 
+    .catch((error) => {
+      document.getElementById("agric-books").textContent =
+        "Error: " + error.message;
     });
 });
 
-
-
-  // ================================== home page =================================
+// ================================== home page =================================
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch("/json/agric.json")
@@ -71,12 +75,12 @@ document.addEventListener("DOMContentLoaded", function () {
         //created a container here
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
-        
+
         //created my html elemets for each book here
         const imageElement = document.createElement("img");
-        imageElement.src = book.image; 
+        imageElement.src = book.image;
         imageElement.onclick = () => {
-           window.location.href = `${book.url}?id=${book.id}`;
+          window.location.href = `${book.url}?id=${book.id}`;
         };
 
         const categoryElement = document.createElement("p");
@@ -86,10 +90,18 @@ document.addEventListener("DOMContentLoaded", function () {
         titleElement.textContent = book.title;
 
         const priceElement = document.createElement("h3");
-        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-        
+        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })}`;
+
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
+
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
 
         //appended my book elements to the div container created
         // bookContainer.appendChild(linkElement);
@@ -103,8 +115,9 @@ document.addEventListener("DOMContentLoaded", function () {
         displayBook.appendChild(bookContainer);
       });
     })
-    .catch((error)=>{
-      document.getElementById("mainpageAgric").textContent = "Error: " + error.message; 
+    .catch((error) => {
+      document.getElementById("mainpageAgric").textContent =
+        "Error: " + error.message;
     });
 });
 
@@ -163,5 +176,11 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("footer-page"); // Load footer
 });
 
-
-
+// 🛒 **Add to Cart Function**
+function addToCart(name, price) {
+  let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  cartItems.push({ name, price });
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  console.log(`${name} added to cart`);
+  updateCartDisplay();
+}

@@ -10,6 +10,10 @@
   --gray: rgba(64, 64, 64, 1);
 }
 
+.book-request{
+  margin-top: 20em;
+}
+
 .book-request form {
   display: flex;
   flex-direction: column;

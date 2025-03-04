@@ -51,8 +51,14 @@
               "<p>Book not found.</p>";
             return;
           }
+          // function to increase price to the quauntity
+          // let numb = 1
+          // if (increaseCart > 0) {
+          //    numb = increaseCart
+          //   console.log(numb)
+          // }
 
-          // Display book details
+          // Display  book details
           document.getElementById("book-details").innerHTML = `
                     <div class="main-container">
                         <img src="${data.image}" alt="Book Cover">
@@ -63,7 +69,7 @@
                             </div>
                             <div class="title-writeup">
                                 <h1>${data.title}</h1>
-                                <h1>&#8358;${data.price}</h1>
+                                <h1>&#8358;${data.price * increaseCart }</h1>
                             </div>
                             <div class="description">
                                 <p>${data.description}</p>
@@ -100,11 +106,12 @@
 
 
      //FUNCTION TO INCREASE AND REDUCE CART
-     let increaseCart = 0; // Initialize cart count globally
+     let increaseCart = 1; // Initialize cart count globally
 
       function cartIncrement() {
         increaseCart++; // Increase count
-        document.getElementById("demo").innerHTML = increaseCart; // Update UI
+        document.getElementById("demo").innerHTML = increaseCart; // Update UIin
+        let numb = increaseCart
       }
 
       function cartDecrement() {

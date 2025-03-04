@@ -7,26 +7,26 @@ function closeSidebar() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/json/literature.json")
+  fetch("../json/literature.json")
     .then((response) => response.json())
     .then((data) => {
       const displayBook = document.getElementById("literatureBooks");
       displayBook.innerHTML = ""; // Clear previous content
 
-      data.slice(0,10).forEach((book) => {
+      data.slice(0, 10).forEach((book) => {
         // Create a container for each book
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
-        
+
         // const linkElement = document.createElement("a")
         // linkElement.href = book.url;
-        
+
         // Create HTML elements for each book
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
         imageElement.onclick = () => {
           window.location.href = `${book.url}?id=${book.id}`;
-       };
+        };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -35,11 +35,18 @@ document.addEventListener("DOMContentLoaded", function () {
         titleElement.textContent = book.title;
 
         const priceElement = document.createElement("h3");
-        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", {minimumFractionDigits: 2, maximumFractionDigits: 2,
+        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
         })}`;
 
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
+
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
 
         // Append elements to book container
         // bookContainer.appendChild(linkElement);
@@ -57,32 +64,32 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     })
     .catch((error) => {
-      document.getElementById("literatureBooks").textContent = "Error: " + error.message;
+      document.getElementById("literatureBooks").textContent =
+        "Error: " + error.message;
     });
 });
 
-
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/json/literature.json")
+  fetch("../json/literature.json")
     .then((response) => response.json())
     .then((data) => {
       const displayBook = document.getElementById("mainpageLiterature");
       displayBook.innerHTML = ""; // Clear previous content
 
-      data.slice(10,16).forEach((book) => {
+      data.slice(10, 16).forEach((book) => {
         // Create a container for each book
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
-        
+
         // const linkElement = document.createElement("a")
         // linkElement.href = book.url;
-        
+
         // Create HTML elements for each book
         const imageElement = document.createElement("img");
         imageElement.src = book.image; // Use 'image' field
         imageElement.onclick = () => {
           window.location.href = `${book.url}?id=${book.id}`;
-       };
+        };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -91,11 +98,18 @@ document.addEventListener("DOMContentLoaded", function () {
         titleElement.textContent = book.title;
 
         const priceElement = document.createElement("h3");
-        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", {minimumFractionDigits: 2, maximumFractionDigits: 2,
+        priceElement.textContent = `₦${book.price.toLocaleString("en-NG", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
         })}`;
 
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
+
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
 
         // Append elements to book container
         // bookContainer.appendChild(linkElement);
@@ -113,10 +127,19 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     })
     .catch((error) => {
-      document.getElementById("mainpageLiterature").textContent = "Error: " + error.message;
+      document.getElementById("mainpageLiterature").textContent =
+        "Error: " + error.message;
     });
 });
 
+// 🛒 **Add to Cart Function**
+function addToCart(name, price) {
+  let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  cartItems.push({ name, price });
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  console.log(`${name} added to cart`);
+  updateCartDisplay();
+}
 
 // Function to load an HTML file based on the element's ID
 function loadComponent(elementId) {
@@ -143,7 +166,3 @@ function loadComponent(elementId) {
 document.addEventListener("DOMContentLoaded", () => {
   loadComponent("footer-page"); // Load footer
 });
-
-
-
-

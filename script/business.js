@@ -7,7 +7,7 @@ function closeSidebar() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/json/business.json")
+  fetch("../json/business.json")
     .then((response) => response.json())
     .then((data) => {
       const displayBook = document.getElementById("businessBooks");
@@ -40,6 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
 
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
+
         // Appending my elements to the div container created
         bookContainer.appendChild(imageElement);
         bookContainer.appendChild(categoryElement);
@@ -58,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/json/business.json")
+  fetch("../json/business.json")
     .then((response) => response.json())
     .then((data) => {
       const displayBook = document.getElementById("mainbusinessPage");
@@ -89,6 +94,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
+
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
 
         // Appending my elements to the div container created
         bookContainer.appendChild(imageElement);
@@ -133,6 +143,14 @@ document.addEventListener("DOMContentLoaded", () => {
   loadComponent("footer-page"); // Load footer
 });
 
+// 🛒 **Add to Cart Function**
+function addToCart(name, price) {
+  let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  cartItems.push({ name, price });
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  console.log(`${name} added to cart`);
+  updateCartDisplay();
+}
 
 
 

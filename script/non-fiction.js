@@ -7,7 +7,7 @@ function closeSidebar() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/json/non-fiction.json")
+  fetch("../json/non-fiction.json")
     .then((response) => response.json())
     .then((data) => {
       const displayBook = document.getElementById("nonFictionBooks");
@@ -17,16 +17,16 @@ document.addEventListener("DOMContentLoaded", function () {
         // created my container element here
         const bookContainer = document.createElement("div");
         bookContainer.classList.add("available-books");
-        
+
         // const linkElement = document.createElement("a")
         // linkElement.href = book.url;
-        
+
         //created my HTML elements here
         const imageElement = document.createElement("img");
         imageElement.src = book.image;
         imageElement.onclick = () => {
           window.location.href = `${book.url}?id=${book.id}`;
-       };
+        };
 
         const categoryElement = document.createElement("p");
         categoryElement.textContent = book.category;
@@ -42,6 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const buttonElement = document.createElement("button");
         buttonElement.textContent = book.button;
+
+        // 🛒 **Attach Event Listener to "Add to Cart" Button**
+        buttonElement.addEventListener("click", function () {
+          addToCart(titleElement.textContent, priceElement.textContent);
+        });
 
         // Appending my elements to the div container created
         // bookContainer.appendChild(linkElement);
@@ -63,6 +68,15 @@ document.addEventListener("DOMContentLoaded", function () {
         "Error: " + error.message;
     });
 });
+
+// 🛒 **Add to Cart Function**
+function addToCart(name, price) {
+  let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  cartItems.push({ name, price });
+  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  console.log(`${name} added to cart`);
+  updateCartDisplay();
+}
 
 // Function to load an HTML file based on the element's ID
 function loadComponent(elementId) {
@@ -89,10 +103,3 @@ function loadComponent(elementId) {
 document.addEventListener("DOMContentLoaded", () => {
   loadComponent("footer-page"); // Load footer
 });
-
-
-
-
-
-
-

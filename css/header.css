@@ -20,6 +20,10 @@ body {
 }
 
 /* Header styling */
+
+/* header{
+  position: sticky;
+} */
 .first-content {
   background: var(--green);
   display: flex;
